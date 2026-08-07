@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: finviz-dashboard
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.3
+      - key: CACHE_TTL_SECONDS
+        value: '3600'
+      - key: MAX_PAGES
+        value: '12'
+  - type: cron
+    name: finviz-refresh
+    runtime: python
+    schedule: '15 14 * * 1-5'
+    buildCommand: pip install -r requirements.txt
+    startCommand: python worker.py
+    envVars:
+      - key: CACHE_TTL_SECONDS
+        value: '0'
+      - key: MAX_PAGES
+        value: '12'
