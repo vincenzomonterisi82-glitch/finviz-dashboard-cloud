@@ -1,6 +1,7 @@
 import os, sqlite3, time, random
 from datetime import datetime, timezone
 import requests
+import yfinance as yf
 from bs4 import BeautifulSoup
 DB_PATH=os.getenv('DB_PATH','finviz.db'); TTL=int(os.getenv('CACHE_TTL_SECONDS','3600')); MAX_PAGES=int(os.getenv('MAX_PAGES','12')); FILTERS=os.getenv('FINVIZ_FILTERS','cap_midover,geo_usa,sh_avgvol_o1000,sh_opt_option,sh_price_u30,ta_sma20_pa,ta_sma50_pa,ta_sma100_pa')
 def db():
@@ -19,6 +20,19 @@ def fetch():
    if len(cells)>=11 and cells[0].isdigit(): out[cells[1]]={'ticker':cells[1],'company':cells[2],'sector':cells[3],'industry':cells[4],'country':cells[5],'market_cap':cells[6],'pe':cells[7],'price':cells[8],'change':cells[9],'volume':cells[10],'sma_status':'N/D','trend_6m':'N/D'}
   time.sleep(random.uniform(2,4))
  return list(out.values())
+def enrich(rows):
+ for row in rows:
+  try:
+   close=yf.download(row['ticker'],period='1y',interval='1d',auto_adjust=True,progress=False,threads=False)['Close']
+   if hasattr(close,'columns'): close=close.iloc[:,0]
+   close=close.dropna()
+   if len(close)<130: continue
+   current=float(close.iloc[-1]); values=[float(close.rolling(n).mean().iloc[-1]) for n in (20,50,100)]
+   above=sum(current>x for x in values); row['sma_status']=f'Sopra {above}/3' if above>=2 else f'Sotto {3-above}/3'
+   old=float(close.iloc[-126]); row['trend_6m']='HIGH' if current>old else 'LOW'; row['price']=f'{current:.2f}'
+  except Exception: pass
+  time.sleep(0.25)
+ return rows
 def refresh_database(force=False):
  c=db(); meta={x['key']:x['value'] for x in c.execute('SELECT key,value FROM meta')}; now=datetime.now(timezone.utc)
  if not force and meta.get('updated_at'):
@@ -26,7 +40,7 @@ def refresh_database(force=False):
    if (now-datetime.fromisoformat(meta['updated_at'])).total_seconds()<TTL: return read(c,'cache')
   except ValueError: pass
  try:
-  rows=fetch(); stamp=now.isoformat(); c.execute('DELETE FROM results'); c.executemany('INSERT INTO results VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)',[(x['ticker'],x['company'],x['sector'],x['industry'],x['country'],x['market_cap'],x['pe'],x['price'],x['change'],x['volume'],x['sma_status'],x['trend_6m'],stamp) for x in rows]); c.execute("INSERT INTO meta VALUES('updated_at',?) ON CONFLICT(key) DO UPDATE SET value=excluded.value",(stamp,)); c.execute("INSERT INTO meta VALUES('status','ok') ON CONFLICT(key) DO UPDATE SET value=excluded.value"); c.commit(); return read(c,'ok')
- except Exception as e:
+  rows=enrich(fetch()); stamp=now.isoformat(); c.execute('DELETE FROM results'); c.executemany('INSERT INTO results VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)',[(x['ticker'],x['company'],x['sector'],x['industry'],x['country'],x['market_cap'],x['pe'],x['price'],x['change'],x['volume'],x['sma_status'],x['trend_6m'],stamp) for x in rows]); c.execute("INSERT INTO meta VALUES('updated_at',?) ON CONFLICT(key) DO UPDATE SET value=excluded.value",(stamp,)); c.execute("INSERT INTO meta VALUES('status','ok') ON CONFLICT(key) DO UPDATE SET value=excluded.value"); c.commit(); return read(c,'ok')
+ except Exception:
   c.execute("INSERT INTO meta VALUES('status',?) ON CONFLICT(key) DO UPDATE SET value=excluded.value",('stale-cache',)); c.commit(); return read(c,'stale-cache')
 if __name__=='__main__': refresh_database(True)
