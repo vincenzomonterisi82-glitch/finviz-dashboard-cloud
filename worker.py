@@ -10,6 +10,14 @@ def read(c,status=None):
  rows=[dict(x) for x in c.execute('SELECT * FROM results ORDER BY ticker')]; meta={x['key']:x['value'] for x in c.execute('SELECT key,value FROM meta')}; meta['total_results_loaded']=len(rows)
  if status: meta['status']=status
  return {'results':rows,'meta':meta}
+def fix_ticker(raw, company):
+ t=(raw or '').strip().upper(); c=(company or '').strip().upper();
+ if len(t.split())>1: t=t.split()[-1]
+ if len(t)==2 and c.startswith(t[0]) and t[1] in c:
+  return t[1:]
+ if len(t)>=2 and t[0]==t[1] and t[1:] in c:
+  return t[1:]
+ return t
 def fetch():
  s=requests.Session(); s.headers['User-Agent']='Mozilla/5.0 FinvizDashboard/1.0'; out={}
  for p in range(MAX_PAGES):
@@ -17,7 +25,9 @@ def fetch():
   if not table: break
   for tr in table.find_all('tr'):
    cells=[x.get_text(' ',strip=True) for x in tr.find_all('td')]
-   if len(cells)>=11 and cells[0].isdigit(): out[cells[1]]={'ticker':cells[1],'company':cells[2],'sector':cells[3],'industry':cells[4],'country':cells[5],'market_cap':cells[6],'pe':cells[7],'price':cells[8],'change':cells[9],'volume':cells[10],'sma_status':'N/D','trend_6m':'N/D'}
+   if len(cells)>=11 and cells[0].isdigit():
+    ticker=fix_ticker(cells[1],cells[2])
+    out[ticker]={'ticker':ticker,'company':cells[2],'sector':cells[3],'industry':cells[4],'country':cells[5],'market_cap':cells[6],'pe':cells[7],'price':cells[8],'change':cells[9],'volume':cells[10],'sma_status':'N/D','trend_6m':'N/D'}
   time.sleep(random.uniform(2,4))
  return list(out.values())
 def enrich(rows):
