@@ -56,7 +56,7 @@
     }
 
     #sortSelect {
-      width: 150px;
+      width: 180px;
     }
 
     #status {
@@ -170,6 +170,7 @@
         <option value="price">Prezzo</option>
         <option value="change">Variazione</option>
         <option value="market_cap">Market Cap</option>
+        <option value="last_earnings_date">Last earnings date</option>
       </select>
     </div>
 
@@ -192,7 +193,6 @@
       if (value === null || value === undefined || value === "") {
         return "-";
       }
-
       return String(value);
     }
 
@@ -212,9 +212,7 @@
         .replace("%", "")
         .trim();
 
-      const match = cleaned.match(
-        /^(-?d+(?:.d+)?)([KMBT])?$/i
-      );
+      const match = cleaned.match(/^(-?d+(?:.d+)?)([KMBT])?$/i);
 
       if (!match) {
         return 0;
@@ -233,6 +231,15 @@
       return number * multiplier;
     }
 
+    function dateNum(value) {
+      if (!value) {
+        return 0;
+      }
+
+      const t = Date.parse(value);
+      return Number.isNaN(t) ? 0 : t;
+    }
+
     function addLine(label, value, className = "") {
       const row = document.createElement("div");
       row.className = "line";
@@ -246,7 +253,6 @@
       valueElement.textContent = text(value);
 
       row.append(labelElement, valueElement);
-
       return row;
     }
 
@@ -265,9 +271,7 @@
       card.append(ticker, company);
 
       const change = text(item.change);
-      const changeClass = change.startsWith("-")
-        ? "negative"
-        : "positive";
+      const changeClass = change.startsWith("-") ? "negative" : "positive";
 
       card.append(
         addLine("Prezzo", item.price),
@@ -279,7 +283,8 @@
         addLine("Industria", item.industry),
         addLine("Paese", item.country),
         addLine("SMA", item.sma_status),
-        addLine("Trend 6M", item.trend_6m)
+        addLine("Trend 6M", item.trend_6m),
+        addLine("Last earnings date", item.last_earnings_date)
       );
 
       return card;
@@ -287,6 +292,24 @@
 
     function sortedItems(items, field) {
       return [...items].sort((a, b) => {
+        if (field === "last_earnings_date") {
+          const ad = dateNum(a.last_earnings_date);
+          const bd = dateNum(b.last_earnings_date);
+
+          if (ad !== bd) {
+            return bd - ad;
+          }
+
+          const am = numericValue(a.market_cap);
+          const bm = numericValue(b.market_cap);
+
+          if (am !== bm) {
+            return bm - am;
+          }
+
+          return 0;
+        }
+
         if (field === "ticker") {
           return String(a.ticker || "").localeCompare(
             String(b.ticker || ""),
@@ -341,30 +364,20 @@
       const query = searchInput.value.trim();
 
       if (query) {
-        statusBox.textContent =
-          `${items.length} risultati per "${query}"`;
+        statusBox.textContent = `${items.length} risultati per "${query}"`;
       } else {
-        statusBox.textContent =
-          `${items.length} titoli caricati`;
+        statusBox.textContent = `${items.length} titoli caricati`;
       }
     }
 
     function refresh() {
       try {
         const filtered = filteredItems(allItems);
-
-        const ordered = sortedItems(
-          filtered,
-          sortSelect.value
-        );
-
+        const ordered = sortedItems(filtered, sortSelect.value);
         render(ordered);
       } catch (error) {
         console.error(error);
-
-        showError(
-          `Errore durante la visualizzazione: ${error.message}`
-        );
+        showError(`Errore durante la visualizzazione: ${error.message}`);
       }
     }
 
@@ -375,17 +388,13 @@
         });
 
         if (!response.ok) {
-          throw new Error(
-            `data.json non raggiungibile: HTTP ${response.status}`
-          );
+          throw new Error(`data.json non raggiungibile: HTTP ${response.status}`);
         }
 
         const json = await response.json();
 
         if (!json || !Array.isArray(json.results)) {
-          throw new Error(
-            "Struttura JSON non valida: manca results."
-          );
+          throw new Error("Struttura JSON non valida: manca results.");
         }
 
         allItems = json.results;
@@ -393,13 +402,11 @@
 
       } catch (error) {
         console.error(error);
-
         showError(
           `${error.message}
 
 ` +
-          "Controlla che data.json sia nella stessa cartella " +
-          "di dashboard.html e che il JSON sia valido."
+          "Controlla che data.json sia nella stessa cartella di dashboard.html e che il JSON sia valido."
         );
       }
     }
