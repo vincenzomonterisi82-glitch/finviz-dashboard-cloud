@@ -170,7 +170,7 @@
         <option value="price">Prezzo</option>
         <option value="change">Variazione</option>
         <option value="market_cap">Market Cap</option>
-        <option value="last_earnings_date">Last earnings date</option>
+        <option value="last_earnings_date" selected>Last earnings date</option>
       </select>
     </div>
 
@@ -186,6 +186,8 @@
     const grid = document.getElementById("grid");
     const searchInput = document.getElementById("tickerSearch");
     const sortSelect = document.getElementById("sortSelect");
+
+    sortSelect.value = "last_earnings_date";
 
     let allItems = [];
 
