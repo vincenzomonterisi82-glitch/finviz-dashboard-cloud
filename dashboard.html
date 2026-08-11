@@ -205,9 +205,37 @@
     }
 
     function numericValue(value) {
-      if (value === null || value === undefined) {
-        return 0;
-      }
+  if (value === null || value === undefined) {
+    return 0;
+  }
+
+  const cleaned = String(value)
+    .replace(/s/g, "")      // toglie spazi
+    .replace(/,/g, "")       // toglie virgole migliaia
+    .replace("%", "")        // toglie %
+    .trim();
+
+  if (!cleaned) {
+    return 0;
+  }
+
+  const match = cleaned.match(/^(-?d+(?:.d+)?)([KMBT])?$/i);
+  if (!match) {
+    return 0;
+  }
+
+  const number = parseFloat(match[1]);
+  const suffix = String(match[2] || "").toUpperCase();
+
+  const multiplier = {
+    K: 1e3,
+    M: 1e6,
+    B: 1e9,
+    T: 1e12
+  }[suffix] || 1;
+
+  return number * multiplier;
+}
 
       const cleaned = String(value)
         .replace(/,/g, "")
