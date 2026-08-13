@@ -131,7 +131,7 @@
   <main id="grid" class="grid"></main>
 
   <script>
-    let data = [], history = [], sortKey = "market_cap", direction = -1;
+    let data = [], history = {}, sortKey = "market_cap", direction = -1;
 
     // Watchlist salvata in localStorage (solo elenco di ticker)
     let watchlist = new Set(JSON.parse(localStorage.getItem("watchlist") || "[]"));
