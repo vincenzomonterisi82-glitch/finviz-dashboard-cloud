@@ -86,6 +86,129 @@ function toggleWatchlist(ticker){
         <div><span class='label'>Market Cap</span><span class='value'>${esc(r.market_cap)}</span></div>
         <div><span class='label'>Volume</span><span class='value'>${esc(r.volume)}</span></div>
         <div><span class='label'>P/E</span><span class='value'>${esc(r.pe)}</span></div>
+        <div><span class='label'>SMA <script>
+let data = [], history = {}, sortKey = 'market_cap', direction = -1;
+
+// Watchlist salvata in localStorage
+let watchlist = new Set(JSON.parse(localStorage.getItem('watchlist') || '[]'));
+
+function saveWatchlist(){
+  localStorage.setItem('watchlist', JSON.stringify(Array.from(watchlist)));
+}
+
+function inWatchlist(ticker){
+  return watchlist.has(ticker);
+}
+
+function toggleWatchlist(ticker){
+  if (watchlist.has(ticker)) {
+    watchlist.delete(ticker);
+  } else {
+    watchlist.add(ticker);
+  }
+  saveWatchlist();
+  draw();
+}
+
+const grid = document.querySelector('#grid');
+const meta = document.querySelector('#meta');
+
+const num = v => {
+  let m = String(v || '').replace('%','').match(/(-?[d.]+)([BMKT])?/i);
+  return m ? parseFloat(m[1]) * ({T:1e12,B:1e9,M:1e6,K:1e3}[String(m[2] || '').toUpperCase()] || 1) : 0;
+};
+
+const dateNum = v => {
+  let m = String(v || '').match(/(d{2})/(d{2})/(d{4})/);
+  return m ? Date.UTC(+m[3], +m[2] - 1, +m[1]) : 0;
+};
+
+const esc = v => String(v ?? '').replace(/[&<>"']/g, x => (
+  {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]
+));
+
+function cardClass(r){
+  let h = String(r.trend_6m).toUpperCase() === 'HIGH';
+  let l = String(r.trend_6m).toUpperCase() === 'LOW';
+  let a = String(r.sma_status).toUpperCase().startsWith('SOPRA');
+  let b = String(r.sma_status).toUpperCase().startsWith('SOTTO');
+  return h && a ? 'bull' : l && b ? 'bear' : 'mixed';
+}
+
+function spark(t){
+  let a = (history[t] || []).slice(-126);
+  let v = a.map(x => x.close);
+  if (v.length < 2) return '';
+  let mn = Math.min(...v), mx = Math.max(...v), w = 300, h = 58;
+  let pts = v.map((x,i) => `${(i/(v.length-1))*w},${h-5-((x-mn)/(mx-mn || 1))*(h-10)}`).join(' ');
+  return `<svg class='preview' viewBox='0 0 ${w} ${h}' preserveAspectRatio='none'>
+    <polyline points='${pts}' fill='none' stroke='#2563eb' stroke-width='2'/>
+  </svg>`;
+}
+
+function openChart(t,e){
+  if (e.target.closest('a')) return;
+  location.href = `chart.html?ticker=${encodeURIComponent(t)}`;
+}
+
+function draw(){
+  // Se è selezionata "La mia lista", filtra i dati
+  let base = sortKey === 'watchlist'
+    ? data.filter(r => watchlist.has(r.ticker))
+    : data;
+
+  let a = [...base].sort((x, y) => {
+    // Caso speciale: ordinamento per last_earnings_date con tie-breaker su market_cap
+    if (sortKey === 'last_earnings_date') {
+      const dx = dateNum(x.last_earnings_date);
+      const dy = dateNum(y.last_earnings_date);
+
+      if (dx !== dy) {
+        // data più recente prima
+        return dx < dy ? 1 : -1;
+      }
+
+      const mx = num(x.market_cap);
+      const my = num(y.market_cap);
+
+      if (mx !== my) {
+        // market cap più alta prima
+        return mx < my ? 1 : -1;
+      }
+
+      return 0;
+    }
+
+    let u = x[sortKey], v = y[sortKey];
+
+    if (['market_cap','change','price'].includes(sortKey)) {
+      u = num(u);
+      v = num(v);
+    } else {
+      u = String(u || '').toUpperCase();
+      v = String(v || '').toUpperCase();
+    }
+
+    return u < v ? -direction : u > v ? direction : 0;
+  });
+
+  grid.innerHTML = a.map(r => {
+    let ch = String(r.change || '');
+    return `<article class='card ${cardClass(r)}' onclick='openChart(${JSON.stringify(r.ticker)},event)'>
+      <div class='head'>
+        <img class='logo' src='${esc(r.logo_url)}' onerror="this.style.display='none'">
+        <div>
+          <a class='ticker' href='chart.html?ticker=${encodeURIComponent(r.ticker)}'>${esc(r.ticker)}</a>
+          <div class='company'>${esc(r.company)}</div>
+        </div>
+      </div>
+      ${spark(r.ticker)}
+      <div class='fields'>
+        <div><span class='label'>Prezzo</span><span class='value'>${esc(r.price)}</span></div>
+        <div><span class='label'>Change</span><span class='value ${ch.startsWith('-') ? 'negative' : 'positive'}'>${esc(r.change)}</span></div>
+        <div><span class='label'>Market Cap</span><span class='value'>${esc(r.market_cap)}</span></div>
+        <div><span class='label'>Volume</span><span class='value'>${esc(r.volume)}</span></div>
+        <div><span class='label'>P/E</span><span class='value'>${esc(r.pe)}</span></div>
         <div><span class='label'>SMA 20/50/100</span><span class='value'>${esc(r.sma_status)}</span></div>
         <div><span class='label'>Settore</span><span class='value'>${esc(r.sector)}</span></div>
         <div><span class='label'>Industria</span><span class='value'>${esc(r.industry)}</span></div>
@@ -95,4 +218,28 @@ function toggleWatchlist(ticker){
       </div>
     </article>`;
   }).join('') || '<div class="empty">Nessun dato disponibile</div>';
-}document.querySelector('#sort').onchange=e=>{sortKey=e.target.value;draw()};Promise.all([fetch('./data.json').then(r=>r.json()),fetch('./history.json').then(r=>r.json())]).then(([p,h])=>{data=p.results||[];history=h||{};let m=p.meta||{};meta.textContent=`${data.length} titoli · Aggiornato: ${m.updated_at?new Date(m.updated_at).toLocaleString('it-IT'):'-'}`;draw()}).catch(()=>{meta.textContent='Errore nel caricamento';grid.innerHTML='<div class="empty">Impossibile caricare i dati</div>'});navigator.serviceWorker?.register('./service-worker.js')</script></body></html>
+}
+
+document.querySelector('#sort').onchange = e => {
+  sortKey = e.target.value;
+  draw();
+};
+
+Promise.all([
+  fetch('./data.json').then(r => r.json()),
+  fetch('./history.json').then(r => r.json())
+]).then(([p,h]) => {
+  data = p.results || [];
+  history = h || {};
+  let m = p.meta || {};
+  meta.textContent = `${data.length} titoli · Aggiornato: ${
+    m.updated_at ? new Date(m.updated_at).toLocaleString('it-IT') : '-'
+  }`;
+  draw();
+}).catch(() => {
+  meta.textContent = 'Errore nel caricamento';
+  grid.innerHTML = '<div class="empty">Impossibile caricare i dati</div>';
+});
+
+navigator.serviceWorker?.register('./service-worker.js');
+</script></body></html>
