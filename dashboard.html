@@ -170,7 +170,7 @@
     };
 
     const esc = v => String(v ?? "").replace(/[&<>"']/g, x => (
-      {"&":"&amp;","<":"&lt;",">":"&gt;",""":"&quot;","'":"&#39;"}[x]
+      {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[x]
     ));
 
     function cardClass(r){
