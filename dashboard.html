@@ -158,14 +158,14 @@
     const meta = document.querySelector("#meta");
 
     const num = v => {
-      let m = String(v || "").replace("%","").match(/(-?[d.]+)([BMKT])?/i);
+      let m = String(v || "").replace("%","").match(/(-?[\d.]+)([BMKT])?/i);
       return m
         ? parseFloat(m[1]) * ({T:1e12,B:1e9,M:1e6,K:1e3}[String(m[2] || "").toUpperCase()] || 1)
         : 0;
     };
 
     const dateNum = v => {
-      let m = String(v || "").match(/(d{2})/(d{2})/(d{4})/);
+      let m = String(v || "").match(/(\d{2})\/(\d{2})\/(\d{4})/);
       return m ? Date.UTC(+m[3], +m[2] - 1, +m[1]) : 0;
     };
 
