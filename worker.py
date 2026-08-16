@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 import requests
 import yfinance as yf
 from bs4 import BeautifulSoup
-DB_PATH=os.getenv('DB_PATH','finviz.db'); TTL=int(os.getenv('CACHE_TTL_SECONDS','3600')); MAX_PAGES=int(os.getenv('MAX_PAGES','12')); FILTERS=os.getenv('FINVIZ_FILTERS','cap_midover,geo_usa,sh_avgvol_o1000,sh_opt_option,sh_price_o30,ta_sma20_pa,ta_sma50_pa,ta_sma100_pa')
+DB_PATH=os.getenv('DB_PATH','finviz.db'); TTL=int(os.getenv('CACHE_TTL_SECONDS','3600')); MAX_PAGES=int(os.getenv('MAX_PAGES','30')); FILTERS=os.getenv('FINVIZ_FILTERS','cap_midover,geo_usa,sh_avgvol_o1000,sh_opt_option,sh_price_o30,ta_sma20_pa,ta_sma50_pa,ta_sma100_pa')
 def db():
  c=sqlite3.connect(DB_PATH); c.row_factory=sqlite3.Row; c.execute('CREATE TABLE IF NOT EXISTS results (ticker TEXT PRIMARY KEY, company TEXT, sector TEXT, industry TEXT, country TEXT, market_cap TEXT, pe TEXT, price TEXT, change TEXT, volume TEXT, sma_status TEXT, trend_6m TEXT, updated_at TEXT)'); c.execute('CREATE TABLE IF NOT EXISTS meta (key TEXT PRIMARY KEY,value TEXT)'); c.commit(); return c
 def read(c,status=None):
