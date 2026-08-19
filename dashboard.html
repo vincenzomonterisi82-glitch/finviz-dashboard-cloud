@@ -240,7 +240,7 @@
 
       grid.innerHTML = a.map(r => {
         let ch = String(r.change || "");
-        return `<article class="card ${cardClass(r)}" onclick="openChart(${JSON.stringify(r.ticker)},event)">
+       return `<article class="card ${cardClass(r)}" onclick='openChart(${JSON.stringify(r.ticker)},event)'> 
           <div class="head">
             <img class="logo" src="${esc(r.logo_url)}" onerror="this.style.display='none'">
             <div>
