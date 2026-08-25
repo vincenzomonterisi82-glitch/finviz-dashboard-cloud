@@ -145,7 +145,7 @@
   <main id="grid" class="grid"></main>
 
   <script>
-    let data = [], history = {}, sortKey = "last_earnings_date", direction = -1;
+    let data = [], history = {}, sortKey = localStorage.getItem("sortKey") || "last_earnings_date", direction = -1;
 
     // Watchlist salvata in localStorage (solo elenco di ticker)
     let watchlist = new Set(JSON.parse(localStorage.getItem("watchlist") || "[]"));
@@ -281,10 +281,13 @@
       }).join("") || '<div class="empty">Nessun dato disponibile</div>';
     }
 
-    document.querySelector("#sort").onchange = e => {
-      sortKey = e.target.value;
-      draw();
-    };
+    const sortSelect = document.querySelector("#sort");
+sortSelect.value = sortKey;
+sortSelect.onchange = e => {
+  sortKey = e.target.value;
+  localStorage.setItem("sortKey", sortKey);
+  draw();
+};
 
     Promise.all([
       fetch("./data.json").then(r => r.json()),
