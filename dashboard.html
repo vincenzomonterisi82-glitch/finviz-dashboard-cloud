@@ -135,7 +135,7 @@
         <option value="ticker">Ordina: Ticker</option>
         <option value="trend_6m">Ordina: Trend 6M</option>
         <option value="price">Ordina: Prezzo</option>
-        <option value="last_earnings_date">Ordina: Last earnings date</option>
+        <option value="last_earnings_date" selected>Ordina: Last earnings date</option>
         <option value="watchlist">La mia lista</option>
       </select>
     </div>
@@ -145,7 +145,7 @@
   <main id="grid" class="grid"></main>
 
   <script>
-    let data = [], history = {}, sortKey = "market_cap", direction = -1;
+    let data = [], history = {}, sortKey = "last_earnings_date", direction = -1;
 
     // Watchlist salvata in localStorage (solo elenco di ticker)
     let watchlist = new Set(JSON.parse(localStorage.getItem("watchlist") || "[]"));
