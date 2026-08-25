@@ -78,6 +78,20 @@
       font-size:.92rem;
       margin-top:3px;
     }
+    .star{
+  margin-left:auto;
+  align-self:flex-start;
+  background:none;
+  border:none;
+  font-size:1.4rem;
+  line-height:1;
+  cursor:pointer;
+  color:#cbd5e1;
+  padding:2px 4px;
+}
+.star.active{
+  color:#f5b301;
+}
     .fields{
       display:grid;
       grid-template-columns:1fr 1fr;
@@ -111,6 +125,7 @@
     }
   </style>
 </head>
+  <button class="star ${inWatchlist(r.ticker) ? "active" : ""}" title="Aggiungi/rimuovi da La mia lista" onclick='event.stopPropagation();toggleWatchlist(${JSON.stringify(r.ticker)})'>${inWatchlist(r.ticker) ? "★" : "☆"}</button>
 <body>
   <div class="top">
     <h1>Finviz Dashboard</h1>
