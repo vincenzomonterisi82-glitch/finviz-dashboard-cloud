@@ -79,19 +79,19 @@
       margin-top:3px;
     }
     .star{
-  margin-left:auto;
-  align-self:flex-start;
-  background:none;
-  border:none;
-  font-size:1.4rem;
-  line-height:1;
-  cursor:pointer;
-  color:#cbd5e1;
-  padding:2px 4px;
-}
-.star.active{
-  color:#f5b301;
-}
+      margin-left:auto;
+      align-self:flex-start;
+      background:none;
+      border:none;
+      font-size:1.4rem;
+      line-height:1;
+      cursor:pointer;
+      color:#cbd5e1;
+      padding:2px 4px;
+    }
+    .star.active{
+      color:#f5b301;
+    }
     .fields{
       display:grid;
       grid-template-columns:1fr 1fr;
@@ -125,7 +125,6 @@
     }
   </style>
 </head>
-  <button class="star ${inWatchlist(r.ticker) ? "active" : ""}" title="Aggiungi/rimuovi da La mia lista" onclick='event.stopPropagation();toggleWatchlist(${JSON.stringify(r.ticker)})'>${inWatchlist(r.ticker) ? "★" : "☆"}</button>
 <body>
   <div class="top">
     <h1>Finviz Dashboard</h1>
@@ -255,13 +254,14 @@
 
       grid.innerHTML = a.map(r => {
         let ch = String(r.change || "");
-       return `<article class="card ${cardClass(r)}" onclick='openChart(${JSON.stringify(r.ticker)},event)'> 
+        return `<article class="card ${cardClass(r)}" onclick='openChart(${JSON.stringify(r.ticker)},event)'>
           <div class="head">
             <img class="logo" src="${esc(r.logo_url)}" onerror="this.style.display='none'">
             <div>
               <a class="ticker" href="chart.html?ticker=${encodeURIComponent(r.ticker)}">${esc(r.ticker)}</a>
               <div class="company">${esc(r.company)}</div>
             </div>
+            <button class="star ${inWatchlist(r.ticker) ? "active" : ""}" title="Aggiungi/rimuovi da La mia lista" onclick='event.stopPropagation();toggleWatchlist(${JSON.stringify(r.ticker)})'>${inWatchlist(r.ticker) ? "★" : "☆"}</button>
           </div>
           ${spark(r.ticker)}
           <div class="fields">
