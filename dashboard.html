@@ -217,6 +217,16 @@
         ? data.filter(r => watchlist.has(r.ticker))
         : data;
 
+      // Esclude i titoli con trend 6M e SMA discordanti o non disponibili (box gialli).
+      base = base.filter(r => {
+        const trend = String(r.trend_6m || "").toUpperCase();
+        const sma = String(r.sma_status || "").toUpperCase();
+        return (
+          (trend === "HIGH" && sma.startsWith("SOPRA")) ||
+          (trend === "LOW" && sma.startsWith("SOTTO"))
+        );
+      });
+
       let a = [...base].sort((x,y) => {
         // Ordinamento speciale per last_earnings_date: data, poi Market Cap
         if (sortKey === "last_earnings_date") {
