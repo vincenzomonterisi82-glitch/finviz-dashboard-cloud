@@ -32,6 +32,7 @@
       border:1px solid #cbd5e1;
       border-radius:9px;
       background:#fff;
+      color:#17202a;
       font-size:.95rem;
     }
     .meta{
@@ -92,6 +93,30 @@
     .star.active{
       color:#f5b301;
     }
+    .previews{
+      display:flex;
+      gap:8px;
+      margin:10px 0 4px;
+    }
+    .mini{
+      flex:1;
+      background:#ffffff66;
+      border-radius:8px;
+      padding:4px 4px 2px;
+      min-width:0;
+    }
+    .mini svg{
+      width:100%;
+      height:44px;
+      display:block;
+    }
+    .mini-label{
+      display:block;
+      text-align:center;
+      font-size:.65rem;
+      color:#64748b;
+      margin-top:2px;
+    }
     .fields{
       display:grid;
       grid-template-columns:1fr 1fr;
@@ -110,13 +135,6 @@
     }
     .positive{color:#16803c}
     .negative{color:#b42318}
-    .preview{
-      width:100%;
-      height:58px;
-      margin:10px 0 4px;
-      background:#ffffff66;
-      border-radius:8px;
-    }
     .empty{
       padding:20px;
       background:#fff;
@@ -195,19 +213,30 @@
       return h && a ? "bull" : l && b ? "bear" : "mixed";
     }
 
-    function spark(t){
-      let a = (history[t] || []).slice(-126);
-      let v = a.map(x => x.close);
-      if (v.length < 2) return "";
-      let mn = Math.min(...v), mx = Math.max(...v), w = 300, h = 58;
-      let pts = v.map((x,i) => `${(i/(v.length-1))*w},${h-5-((x-mn)/(mx-mn || 1))*(h-10)}`).join(" ");
-      return `<svg class="preview" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
-        <polyline points="${pts}" fill="none" stroke="#2563eb" stroke-width="2"/>
-      </svg>`;
+    function miniChart(closes, label){
+      if (closes.length < 2) return "";
+      let mn = Math.min(...closes), mx = Math.max(...closes), w = 145, h = 44;
+      let pts = closes.map((x,i) => `${(i/(closes.length-1))*w},${h-4-((x-mn)/(mx-mn || 1))*(h-8)}`).join(" ");
+      let color = closes[closes.length-1] >= closes[0] ? "#16803c" : "#b42318";
+      return `<div class="mini">
+        <svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
+          <polyline points="${pts}" fill="none" stroke="${color}" stroke-width="2"/>
+        </svg>
+        <span class="mini-label">${label}</span>
+      </div>`;
+    }
+
+    function previews(t){
+      let all = history[t] || [];
+      if (all.length < 2) return "";
+      let sixM = all.slice(-126).map(x => x.close);
+      let twoY = all.slice(-504).map(x => x.close);
+      return `<div class="previews">${miniChart(sixM,"6 mesi")}${miniChart(twoY,"2 anni")}</div>`;
     }
 
     function openChart(t,e){
       if (e.target.closest("a")) return;
+      sessionStorage.setItem("scrollTicker", t);
       location.href = `chart.html?ticker=${encodeURIComponent(t)}`;
     }
 
@@ -217,7 +246,7 @@
         ? data.filter(r => watchlist.has(r.ticker))
         : data;
 
-      // Esclude i titoli con trend 6M e SMA discordanti o non disponibili (box gialli).
+      // Esclude i titoli con trend 6M e SMA discordanti o non disponibili (box gialli/misti).
       base = base.filter(r => {
         const trend = String(r.trend_6m || "").toUpperCase();
         const sma = String(r.sma_status || "").toUpperCase();
@@ -264,16 +293,16 @@
 
       grid.innerHTML = a.map(r => {
         let ch = String(r.change || "");
-        return `<article class="card ${cardClass(r)}" onclick='openChart(${JSON.stringify(r.ticker)},event)'>
+        return `<article class="card ${cardClass(r)}" data-ticker="${esc(r.ticker)}" onclick='openChart(${JSON.stringify(r.ticker)},event)'>
           <div class="head">
             <img class="logo" src="${esc(r.logo_url)}" onerror="this.style.display='none'">
             <div>
-              <a class="ticker" href="chart.html?ticker=${encodeURIComponent(r.ticker)}">${esc(r.ticker)}</a>
+              <a class="ticker" href="chart.html?ticker=${encodeURIComponent(r.ticker)}" onclick='sessionStorage.setItem("scrollTicker",${JSON.stringify(r.ticker)})'>${esc(r.ticker)}</a>
               <div class="company">${esc(r.company)}</div>
             </div>
             <button class="star ${inWatchlist(r.ticker) ? "active" : ""}" title="Aggiungi/rimuovi da La mia lista" onclick='event.stopPropagation();toggleWatchlist(${JSON.stringify(r.ticker)})'>${inWatchlist(r.ticker) ? "★" : "☆"}</button>
           </div>
-          ${spark(r.ticker)}
+          ${previews(r.ticker)}
           <div class="fields">
             <div><span class="label">Prezzo</span><span class="value">${esc(r.price)}</span></div>
             <div><span class="label">Change</span><span class="value ${ch.startsWith("-") ? "negative" : "positive"}">${esc(r.change)}</span></div>
@@ -291,13 +320,21 @@
       }).join("") || '<div class="empty">Nessun dato disponibile</div>';
     }
 
+    function scrollToLastViewed(){
+      const wanted = sessionStorage.getItem("scrollTicker");
+      if (!wanted) return;
+      const el = grid.querySelector(`[data-ticker="${CSS.escape(wanted)}"]`);
+      if (el) el.scrollIntoView({block:"center"});
+      sessionStorage.removeItem("scrollTicker");
+    }
+
     const sortSelect = document.querySelector("#sort");
-sortSelect.value = sortKey;
-sortSelect.onchange = e => {
-  sortKey = e.target.value;
-  localStorage.setItem("sortKey", sortKey);
-  draw();
-};
+    sortSelect.value = sortKey;
+    sortSelect.onchange = e => {
+      sortKey = e.target.value;
+      localStorage.setItem("sortKey", sortKey);
+      draw();
+    };
 
     Promise.all([
       fetch("./data.json").then(r => r.json()),
@@ -310,6 +347,7 @@ sortSelect.onchange = e => {
         m.updated_at ? new Date(m.updated_at).toLocaleString("it-IT") : "-"
       }`;
       draw();
+      scrollToLastViewed();
     }).catch(() => {
       meta.textContent = "Errore nel caricamento";
       grid.innerHTML = '<div class="empty">Impossibile caricare i dati</div>';
