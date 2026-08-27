@@ -1,117 +1,45 @@
-<!DOCTYPE html>
-<html lang="it">
+<!doctype html>
+<html lang='it'>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grafico Azionario</title>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f5f5f5; }
-        .container { max-width: 1200px; margin: 0 auto; }
-        .chart-box { background: white; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-        .price-box { background: #e8f4fd; border-left: 4px solid #2196f3; padding: 15px; margin-bottom: 20px; border-radius: 4px; }
-        .price-value { font-size: 2em; font-weight: bold; color: #1976d2; }
-        .price-time { font-size: 0.9em; color: #666; }
-        .session-badge { display: inline-block; padding: 4px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; margin-left: 10px; }
-        .session-pre { background: #ff9800; color: white; }
-        .session-regular { background: #4caf50; color: white; }
-        .session-after { background: #9c27b0; color: white; }
-    </style>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+<meta name='theme-color' content='#01696f'>
+<script src='https://cdn.jsdelivr.net/npm/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js'></script>
+<title>Grafico Finviz</title>
+<style>body{font-family:system-ui;margin:0;padding:16px;background:#f5f5f5}a{color:#075985}.toolbar{display:flex;gap:8px;align-items:center}.toolbar select{padding:8px;border:1px solid #cbd5e1;border-radius:8px;background:#fff}.box{background:#fff;padding:8px;border-radius:10px}#chart{width:100%;height:70vh}</style>
 </head>
 <body>
-    <div class="container">
-        <div class="price-box">
-            <div>
-                Ultimo prezzo: 
-                <span class="price-value" id="price">--</span>
-                <span class="session-badge" id="session">--</span>
-            </div>
-            <div class="price-time" id="time">Aggiornamento: --</div>
-        </div>
-        <div class="chart-box">
-            <div id="chart"></div>
-        </div>
-    </div>
-
-    <script>
-        // Configurazione
-        const TICKER = "AAPL"; // Cambia con il ticker desiderato
-        const API_URL = `/api/quote?ticker=${TICKER}`;
-        const CHART_URL = `https://query1.finance.yahoo.com/v8/finance/chart/${TICKER}?interval=1d&range=1y`;
-
-        // Funzione per aggiornare il prezzo
-        async function updatePrice() {
-            try {
-                const response = await fetch(API_URL);
-                const data = await response.json();
-                
-                if (data.error) {
-                    document.getElementById('price').textContent = 'Errore';
-                    return;
-                }
-                
-                document.getElementById('price').textContent = `$${data.price.toFixed(2)}`;
-                document.getElementById('time').textContent = `Aggiornamento: ${new Date(data.time).toLocaleString('it-IT')}`;
-                
-                const sessionEl = document.getElementById('session');
-                sessionEl.textContent = data.session;
-                sessionEl.className = 'session-badge';
-                
-                if (data.session === 'pre-market') {
-                    sessionEl.classList.add('session-pre');
-                } else if (data.session === 'regular') {
-                    sessionEl.classList.add('session-regular');
-                } else {
-                    sessionEl.classList.add('session-after');
-                }
-                
-            } catch (error) {
-                console.error('Errore nel recupero del prezzo:', error);
-                document.getElementById('price').textContent = 'Errore';
-            }
-        }
-
-        // Funzione per caricare il grafico
-        async function loadChart() {
-            try {
-                const response = await fetch(CHART_URL);
-                const data = await response.json();
-                
-                const chartData = data.chart.result[0];
-                const timestamps = chartData.timestamp;
-                const quotes = chartData.indicators.quote[0];
-                
-                const dates = timestamps.map(ts => new Date(ts * 1000).toISOString().split('T')[0]);
-                const closes = quotes.close;
-                
-                const trace = {
-                    x: dates,
-                    y: closes,
-                    type: 'scatter',
-                    mode: 'lines',
-                    line: { color: '#1976d2', width: 2 }
-                };
-                
-                const layout = {
-                    title: `Grafico ${TICKER} - 1 anno`,
-                    xaxis: { title: 'Data' },
-                    yaxis: { title: 'Prezzo (USD)' },
-                    hovermode: 'x'
-                };
-                
-                Plotly.newPlot('chart', [trace], layout, { responsive: true });
-                
-            } catch (error) {
-                console.error('Errore nel caricamento del grafico:', error);
-            }
-        }
-
-        // Caricamento iniziale
-        loadChart();
-        updatePrice();
-        
-        // Aggiorna il prezzo ogni minuto
-        setInterval(updatePrice, 60000);
-    </script>
+<p><a href='dashboard.html'>← Dashboard</a></p>
+<h1 id='title'>Grafico</h1>
+<div class='toolbar'>
+  <label for='period'>Storico:</label>
+  <select id='period'>
+    <option value='6'>6 mesi</option>
+    <option value='24'>2 anni</option>
+  </select>
+</div>
+<div class='box'><div id='chart'></div></div>
+<script>
+const ticker=new URLSearchParams(location.search).get('ticker');
+document.querySelector('#title').textContent=`${ticker||''} · Daily`;
+const root=document.querySelector('#chart');
+const chart=LightweightCharts.createChart(root,{layout:{background:{color:'#fff'},textColor:'#374151'},grid:{vertLines:{color:'#e5e7eb'},horzLines:{color:'#e5e7eb'}},rightPriceScale:{borderColor:'#d1d5db'},timeScale:{borderColor:'#d1d5db',timeVisible:false}});
+const candles=chart.addSeries(LightweightCharts.CandlestickSeries,{upColor:'#16a34a',downColor:'#dc2626',borderUpColor:'#16a34a',borderDownColor:'#dc2626',wickUpColor:'#16a34a',wickDownColor:'#dc2626'});
+const line=(color)=>chart.addSeries(LightweightCharts.LineSeries,{color,lineWidth:2,crosshairMarkerVisible:false});
+let all=[];
+function render(){
+  let n=document.querySelector('#period').value==='6'?126:all.length;
+  let rows=all.slice(-n);
+  candles.setData(rows.map(x=>({time:x.date,open:x.open,high:x.high,low:x.low,close:x.close})));
+  let s20=line('#2563eb'),s50=line('#f59e0b'),s100=line('#dc2626');
+  s20.setData(rows.filter(x=>x.sma20!=null).map(x=>({time:x.date,value:x.sma20})));
+  s50.setData(rows.filter(x=>x.sma50!=null).map(x=>({time:x.date,value:x.sma50})));
+  s100.setData(rows.filter(x=>x.sma100!=null).map(x=>({time:x.date,value:x.sma100})));
+  chart.timeScale().fitContent()
+}
+fetch('./history.json').then(r=>r.json()).then(x=>{all=x[ticker]||[];render()});
+document.querySelector('#period').onchange=render;
+new ResizeObserver(()=>chart.applyOptions({width:root.clientWidth,height:root.clientHeight})).observe(root)
+</script>
 </body>
 </html>
