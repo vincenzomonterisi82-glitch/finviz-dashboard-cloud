@@ -6,11 +6,15 @@
 <meta name='theme-color' content='#01696f'>
 <script src='https://cdn.jsdelivr.net/npm/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.production.js'></script>
 <title>Grafico Finviz</title>
-<style>body{font-family:system-ui;margin:0;padding:16px;background:#f5f5f5}a{color:#075985}.toolbar{display:flex;gap:8px;align-items:center}.toolbar select{padding:8px;border:1px solid #cbd5e1;border-radius:8px;background:#fff}.box{background:#fff;padding:8px;border-radius:10px}#chart{width:100%;height:70vh}</style>
+<style>body{font-family:system-ui;margin:0;padding:16px;background:#f5f5f5}a{color:#075985}.toolbar{display:flex;gap:8px;align-items:center}.toolbar select{padding:8px;border:1px solid #cbd5e1;border-radius:8px;background:#fff}.box{background:#fff;padding:8px;border-radius:10px}#chart{width:100%;height:70vh}.pricebox{background:#e8f4fd;border-left:4px solid #2196f3;padding:10px 14px;border-radius:6px;margin:10px 0}.pricebox .val{font-size:1.5rem;font-weight:700;color:#1976d2}.pricebox .sess{display:inline-block;padding:2px 8px;border-radius:4px;font-size:.75rem;font-weight:600;margin-left:8px;color:#fff}.sess-regular{background:#4caf50}.sess-pre{background:#ff9800}.sess-after{background:#9c27b0}.sess-nd{background:#9ca3af}.pricebox .time{font-size:.8rem;color:#64748b;margin-top:2px}</style>
 </head>
 <body>
 <p><a href='dashboard.html'>← Dashboard</a></p>
 <h1 id='title'>Grafico</h1>
+<div class='pricebox' id='pricebox'>
+  <div><span class='val' id='priceVal'>--</span><span class='sess sess-nd' id='priceSess'>--</span></div>
+  <div class='time' id='priceTime'>Ultimo prezzo disponibile: --</div>
+</div>
 <div class='toolbar'>
   <label for='period'>Storico:</label>
   <select id='period'>
@@ -39,7 +43,22 @@ function render(){
 }
 fetch('./history.json').then(r=>r.json()).then(x=>{all=x[ticker]||[];render()});
 document.querySelector('#period').onchange=render;
-new ResizeObserver(()=>chart.applyOptions({width:root.clientWidth,height:root.clientHeight})).observe(root)
+new ResizeObserver(()=>chart.applyOptions({width:root.clientWidth,height:root.clientHeight})).observe(root);
+
+fetch('./data.json').then(r=>r.json()).then(d=>{
+  const row=(d.results||[]).find(r=>r.ticker===ticker);
+  if(!row || row.last_price==null){
+    document.querySelector('#priceTime').textContent='Ultimo prezzo disponibile: non disponibile';
+    return;
+  }
+  document.querySelector('#priceVal').textContent=`$${Number(row.last_price).toFixed(2)}`;
+  const sessEl=document.querySelector('#priceSess');
+  sessEl.textContent=row.last_price_session||'N/D';
+  sessEl.className='sess '+(row.last_price_session==='Regular'?'sess-regular':row.last_price_session==='Pre-market'?'sess-pre':row.last_price_session==='After-hours'?'sess-after':'sess-nd');
+  document.querySelector('#priceTime').textContent='Ultimo prezzo disponibile: '+(row.last_price_time?new Date(row.last_price_time).toLocaleString('it-IT'):'--');
+}).catch(()=>{
+  document.querySelector('#priceTime').textContent='Ultimo prezzo disponibile: errore nel caricamento';
+});
 </script>
 </body>
 </html>
