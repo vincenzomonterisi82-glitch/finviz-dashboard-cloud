@@ -30,10 +30,11 @@ const root=document.querySelector('#chart');
 const chart=LightweightCharts.createChart(root,{layout:{background:{color:'#fff'},textColor:'#374151'},grid:{vertLines:{color:'#e5e7eb'},horzLines:{color:'#e5e7eb'}},rightPriceScale:{borderColor:'#d1d5db'},timeScale:{borderColor:'#d1d5db',timeVisible:false}});
 const candles=chart.addSeries(LightweightCharts.CandlestickSeries,{upColor:'#16a34a',downColor:'#dc2626',borderUpColor:'#16a34a',borderDownColor:'#dc2626',wickUpColor:'#16a34a',wickDownColor:'#dc2626'});
 const line=(color)=>chart.addSeries(LightweightCharts.LineSeries,{color,lineWidth:2,crosshairMarkerVisible:false});
-let all=[];
+let all=[], todayBar=null;
 function render(){
   let n=document.querySelector('#period').value==='6'?126:all.length;
   let rows=all.slice(-n);
+  if(todayBar) rows=[...rows,todayBar];
   candles.setData(rows.map(x=>({time:x.date,open:x.open,high:x.high,low:x.low,close:x.close})));
   let s20=line('#2563eb'),s50=line('#f59e0b'),s100=line('#dc2626');
   s20.setData(rows.filter(x=>x.sma20!=null).map(x=>({time:x.date,value:x.sma20})));
@@ -41,23 +42,49 @@ function render(){
   s100.setData(rows.filter(x=>x.sma100!=null).map(x=>({time:x.date,value:x.sma100})));
   chart.timeScale().fitContent()
 }
-fetch('./history.json').then(r=>r.json()).then(x=>{all=x[ticker]||[];render()});
 document.querySelector('#period').onchange=render;
 new ResizeObserver(()=>chart.applyOptions({width:root.clientWidth,height:root.clientHeight})).observe(root);
 
-fetch('./data.json').then(r=>r.json()).then(d=>{
-  const row=(d.results||[]).find(r=>r.ticker===ticker);
-  if(!row || row.last_price==null){
-    document.querySelector('#priceTime').textContent='Ultimo prezzo disponibile: non disponibile';
-    return;
-  }
-  document.querySelector('#priceVal').textContent=`$${Number(row.last_price).toFixed(2)}`;
+function paintPricebox(price,session,timeIso){
+  document.querySelector('#priceVal').textContent = price!=null ? `$${Number(price).toFixed(2)}` : '--';
   const sessEl=document.querySelector('#priceSess');
-  sessEl.textContent=row.last_price_session||'N/D';
-  sessEl.className='sess '+(row.last_price_session==='Regular'?'sess-regular':row.last_price_session==='Pre-market'?'sess-pre':row.last_price_session==='After-hours'?'sess-after':'sess-nd');
-  document.querySelector('#priceTime').textContent='Ultimo prezzo disponibile: '+(row.last_price_time?new Date(row.last_price_time).toLocaleString('it-IT'):'--');
-}).catch(()=>{
-  document.querySelector('#priceTime').textContent='Ultimo prezzo disponibile: errore nel caricamento';
+  sessEl.textContent=session||'N/D';
+  sessEl.className='sess '+(session==='Regular'?'sess-regular':session==='Pre-market'?'sess-pre':session==='After-hours'?'sess-after':'sess-nd');
+  document.querySelector('#priceTime').textContent='Ultimo prezzo disponibile: '+(timeIso?new Date(timeIso).toLocaleString('it-IT'):'--');
+}
+
+Promise.all([
+  fetch('./history.json').then(r=>r.json()),
+  fetch('./data.json').then(r=>r.json()).catch(()=>({results:[]})),
+  fetch('./prices.json').then(r=>r.json()).catch(()=>null)
+]).then(([h,d,pj])=>{
+  all=h[ticker]||[];
+
+  const liveEntry = pj && pj.prices ? pj.prices[ticker] : null;
+
+  if (liveEntry){
+    paintPricebox(liveEntry.last_price, liveEntry.last_price_session, liveEntry.last_price_time);
+    const lastHistDate = all.length ? all[all.length-1].date : null;
+    if (liveEntry.date && liveEntry.date !== lastHistDate){
+      todayBar={
+        date: liveEntry.date,
+        open: liveEntry.today_open,
+        high: liveEntry.today_high,
+        low: liveEntry.today_low,
+        close: liveEntry.today_close,
+        sma20: null, sma50: null, sma100: null
+      };
+    }
+  } else {
+    const row=(d.results||[]).find(r=>r.ticker===ticker);
+    if (row && row.last_price!=null){
+      paintPricebox(row.last_price, row.last_price_session, row.last_price_time);
+    } else {
+      document.querySelector('#priceTime').textContent='Ultimo prezzo disponibile: non disponibile';
+    }
+  }
+
+  render();
 });
 </script>
 </body>
