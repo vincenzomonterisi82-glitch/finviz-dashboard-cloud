@@ -2,7 +2,11 @@ import json,time
 from datetime import datetime,timezone
 import yfinance as yf
 from worker import refresh_database
+from etfs import fetch_etfs
 payload=refresh_database(force=True); today=datetime.now(timezone.utc).date()
+for row in payload.get('results', []):
+ row.setdefault('asset_class','azioni')
+payload['results'].extend(fetch_etfs())
 for row in payload.get('results', []):
  row['last_earnings_date']='N/D'; row['next_earnings_date']='N/D'; row['logo_url']=f"https://assets.parqet.com/logos/symbol/{row['ticker']}?format=png"
  tk=yf.Ticker(row['ticker'])
