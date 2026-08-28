@@ -26,8 +26,13 @@
       background:#eef2f5;
       padding-bottom:10px;
     }
+    .controls{
+      display:flex;
+      gap:8px;
+    }
     .controls select{
-      width:100%;
+      flex:1;
+      min-width:0;
       padding:10px;
       border:1px solid #cbd5e1;
       border-radius:9px;
@@ -147,6 +152,12 @@
   <div class="top">
     <h1>Finviz Dashboard</h1>
     <div class="controls">
+      <select id="assetType">
+        <option value="azioni">Azioni</option>
+        <option value="etf">ETF</option>
+        <option value="valute">Valute</option>
+        <option value="commodity">Commodity</option>
+      </select>
       <select id="sort">
         <option value="market_cap">Ordina: Market Cap</option>
         <option value="change">Ordina: Change</option>
@@ -164,6 +175,7 @@
 
   <script>
     let data = [], history = {}, sortKey = localStorage.getItem("sortKey") || "last_earnings_date", direction = -1;
+    let assetClass = localStorage.getItem("assetClass") || "azioni";
 
     // Watchlist salvata in localStorage (solo elenco di ticker)
     let watchlist = new Set(JSON.parse(localStorage.getItem("watchlist") || "[]"));
@@ -241,12 +253,16 @@
     }
 
     function draw(){
-      // Se è selezionata "La mia lista", mostra solo i ticker in watchlist
-      let base = sortKey === "watchlist"
-        ? data.filter(r => watchlist.has(r.ticker))
-        : data;
+      // Filtra per classe di attivo (azioni / etf / valute / commodity).
+      // I dati attuali non hanno un campo "asset_class": vengono trattati tutti come "azioni".
+      let base = data.filter(r => (r.asset_class || "azioni") === assetClass);
 
-      // Esclude i titoli con trend 6M e SMA discordanti o non disponibili (box gialli/misti).
+      // Se è selezionata "La mia lista", mostra solo i ticker in watchlist
+      if (sortKey === "watchlist") {
+        base = base.filter(r => watchlist.has(r.ticker));
+      }
+
+      // Esclude i titoli con trend 6M e SMA discordanti (box gialli/misti).
       base = base.filter(r => {
         const trend = String(r.trend_6m || "").toUpperCase();
         const sma = String(r.sma_status || "").toUpperCase();
@@ -327,6 +343,14 @@
       if (el) el.scrollIntoView({block:"center"});
       sessionStorage.removeItem("scrollTicker");
     }
+
+    const assetSelect = document.querySelector("#assetType");
+    assetSelect.value = assetClass;
+    assetSelect.onchange = e => {
+      assetClass = e.target.value;
+      localStorage.setItem("assetClass", assetClass);
+      draw();
+    };
 
     const sortSelect = document.querySelector("#sort");
     sortSelect.value = sortKey;
