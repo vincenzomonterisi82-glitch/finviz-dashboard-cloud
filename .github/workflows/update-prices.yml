@@ -5,6 +5,9 @@ on:
     - cron: '*/15 8-23 * * 1-5'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-prices:
     runs-on: ubuntu-latest
