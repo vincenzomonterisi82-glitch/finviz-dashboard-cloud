@@ -4,11 +4,13 @@ import yfinance as yf
 from worker import refresh_database
 from etfs import fetch_etfs
 from currencies import fetch_currencies
+from commodities import fetch_commodities
 payload=refresh_database(force=True); today=datetime.now(timezone.utc).date()
 for row in payload.get('results', []):
  row.setdefault('asset_class','azioni')
 payload['results'].extend(fetch_etfs())
 payload['results'].extend(fetch_currencies())
+payload['results'].extend(fetch_commodities())
 for row in payload.get('results', []):
  row['last_earnings_date']='N/D'; row['next_earnings_date']='N/D'; row['logo_url']=f"https://assets.parqet.com/logos/symbol/{row['ticker']}?format=png"
  tk=yf.Ticker(row['ticker'])
