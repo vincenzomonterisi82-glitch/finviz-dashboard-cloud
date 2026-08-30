@@ -11,12 +11,8 @@ def read(c,status=None):
  if status: meta['status']=status
  return {'results':rows,'meta':meta}
 def fix_ticker(raw, company):
- t=(raw or '').strip().upper(); c=(company or '').strip().upper();
+ t=(raw or '').strip().upper()
  if len(t.split())>1: t=t.split()[-1]
- if len(t)==2 and c.startswith(t[0]) and t[1] in c:
-  return t[1:]
- if len(t)>=2 and t[0]==t[1] and t[1:] in c:
-  return t[1:]
  return t
 def fetch():
  s=requests.Session(); s.headers['User-Agent']='Mozilla/5.0 FinvizDashboard/1.0'; out={}
