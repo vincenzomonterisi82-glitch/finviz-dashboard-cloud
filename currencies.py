@@ -1,26 +1,26 @@
 import yfinance as yf
 
 CURRENCY_LIST = {
-    '6E=F': 'Euro FX Futures',
-    '6B=F': 'British Pound Futures',
-    '6A=F': 'Australian Dollar Futures',
-    '6J=F': 'Japanese Yen Futures',
-    '6C=F': 'Canadian Dollar Futures',
-    '6S=F': 'Swiss Franc Futures',
-    'DX=F': 'US Dollar Index Futures',
+    'EUR': ('6E=F', 'Euro FX Futures'),
+    'GBP': ('6B=F', 'British Pound Futures'),
+    'AUD': ('6A=F', 'Australian Dollar Futures'),
+    'JPY': ('6J=F', 'Japanese Yen Futures'),
+    'CAD': ('6C=F', 'Canadian Dollar Futures'),
+    'CHF': ('6S=F', 'Swiss Franc Futures'),
+    'DXY': ('DX=F', 'US Dollar Index Futures'),
 }
 
 
 def fetch_currencies():
     rows = []
-    for ticker, name in CURRENCY_LIST.items():
+    for display, (symbol, name) in CURRENCY_LIST.items():
         row = {
-            'ticker': ticker, 'company': name, 'sector': 'Valute', 'industry': 'Futures',
-            'country': 'USA', 'market_cap': '-', 'pe': '-', 'price': '-', 'change': '-',
-            'volume': '-', 'sma_status': 'N/D', 'trend_6m': 'N/D', 'asset_class': 'valute',
+            'ticker': display, 'yahoo_symbol': symbol, 'company': name, 'sector': 'Valute',
+            'industry': 'Futures', 'country': 'USA', 'market_cap': '-', 'pe': '-', 'price': '-',
+            'change': '-', 'volume': '-', 'sma_status': 'N/D', 'trend_6m': 'N/D', 'asset_class': 'valute',
         }
         try:
-            tk = yf.Ticker(ticker)
+            tk = yf.Ticker(symbol)
             info = tk.info
             vol = info.get('regularMarketVolume') or info.get('averageVolume')
             if vol:
@@ -31,7 +31,7 @@ def fetch_currencies():
         except Exception:
             pass
         try:
-            close = yf.download(ticker, period='1y', interval='1d', auto_adjust=True, progress=False, threads=False)['Close']
+            close = yf.download(symbol, period='1y', interval='1d', auto_adjust=True, progress=False, threads=False)['Close']
             if hasattr(close, 'columns'):
                 close = close.iloc[:, 0]
             close = close.dropna()
