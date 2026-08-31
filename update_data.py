@@ -44,7 +44,6 @@ history={}
 def col(df,name):
  x=df[name]; return x.iloc[:,0] if hasattr(x,'columns') else x
 for row in payload.get('results',[]):
-for row in payload.get('results',[]):
  ticker=row['ticker']; symbol=row.get('yahoo_symbol', ticker)
  try:
   raw=yf.download(symbol,period='2y',interval='1d',auto_adjust=True,progress=False,threads=False); close=col(raw,'Close').dropna(); op=col(raw,'Open'); high=col(raw,'High'); low=col(raw,'Low'); records=[]
