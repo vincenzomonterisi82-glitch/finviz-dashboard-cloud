@@ -29,6 +29,7 @@ jobs:
       - name: Run update script
         run: python update_data.py
 
+  
       - name: Commit and push changes
         run: |
           git config --local user.name "github-actions[bot]"
