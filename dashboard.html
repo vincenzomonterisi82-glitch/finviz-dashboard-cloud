@@ -272,6 +272,15 @@
       {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[x]
     ));
 
+    function passesTrendFilter(r){
+      const trend = String(r.trend_6m || "").toUpperCase();
+      const sma = String(r.sma_status || "").toUpperCase();
+      return (
+        (trend === "HIGH" && sma.startsWith("SOPRA")) ||
+        (trend === "LOW" && sma.startsWith("SOTTO"))
+      );
+    }
+
     function cardClass(r){
       let h = String(r.trend_6m).toUpperCase() === "HIGH";
       let l = String(r.trend_6m).toUpperCase() === "LOW";
@@ -318,14 +327,7 @@
       }
 
       // Esclude i titoli con trend 6M e SMA discordanti (box gialli/misti).
-      base = base.filter(r => {
-        const trend = String(r.trend_6m || "").toUpperCase();
-        const sma = String(r.sma_status || "").toUpperCase();
-        return (
-          (trend === "HIGH" && sma.startsWith("SOPRA")) ||
-          (trend === "LOW" && sma.startsWith("SOTTO"))
-        );
-      });
+      base = base.filter(passesTrendFilter);
 
       let a = [...base].sort((x,y) => {
         // Ordinamento speciale per last_earnings_date: data, poi Market Cap
@@ -435,11 +437,17 @@
     const searchInput = document.querySelector("#search");
     const searchResults = document.querySelector("#searchResults");
 
-    function goToTicker(t){
+    function jumpToCard(ticker, tickerAssetClass){
       searchInput.value = "";
       searchResults.style.display = "none";
-      sessionStorage.setItem("scrollTicker", t);
-      location.href = `chart.html?ticker=${encodeURIComponent(t)}`;
+      if (tickerAssetClass && tickerAssetClass !== assetClass) {
+        assetClass = tickerAssetClass;
+        localStorage.setItem("assetClass", assetClass);
+        assetSelect.value = assetClass;
+      }
+      draw();
+      const el = grid.querySelector(`[data-ticker="${CSS.escape(ticker)}"]`);
+      if (el) el.scrollIntoView({block:"center"});
     }
 
     searchInput.addEventListener("input", () => {
@@ -449,8 +457,9 @@
         searchResults.innerHTML = "";
         return;
       }
+      const pool = data.filter(passesTrendFilter);
       const starts = [], contains = [];
-      for (const r of data) {
+      for (const r of pool) {
         const t = String(r.ticker || "").toUpperCase();
         const c = String(r.company || "").toUpperCase();
         if (t.startsWith(q) || c.startsWith(q)) starts.push(r);
@@ -464,7 +473,7 @@
         return;
       }
       searchResults.innerHTML = matches.map(r =>
-        `<div class="search-item" onclick='goToTicker(${JSON.stringify(r.ticker)})'>
+        `<div class="search-item" onclick='jumpToCard(${JSON.stringify(r.ticker)},${JSON.stringify(r.asset_class || "azioni")})'>
           <span class="t">${esc(r.ticker)}</span>
           <span class="c">${esc(r.company)}</span>
         </div>`
