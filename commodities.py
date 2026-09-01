@@ -23,9 +23,10 @@ def fetch_commodities():
     rows = []
     for display, symbol in COMMODITY_LIST.items():
         row = {
-            'ticker': display, 'yahoo_symbol': symbol, 'company': '', 'sector': 'Commodity',
-            'industry': 'Futures', 'country': 'USA', 'market_cap': '-', 'pe': '-', 'price': '-',
-            'change': '-', 'volume': '-', 'sma_status': 'N/D', 'trend_6m': 'N/D', 'asset_class': 'commodity',
+            'ticker': display, 'yahoo_symbol': symbol, 'company': symbol.replace('=F', ''),
+            'sector': 'Commodity', 'industry': 'Futures', 'country': 'USA', 'market_cap': '-',
+            'pe': '-', 'price': '-', 'change': '-', 'volume': '-', 'sma_status': 'N/D',
+            'trend_6m': 'N/D', 'asset_class': 'commodity',
         }
         try:
             tk = yf.Ticker(symbol)
