@@ -40,6 +40,57 @@
       color:#17202a;
       font-size:.95rem;
     }
+    .search-wrap{
+      position:relative;
+      margin-bottom:8px;
+    }
+    .search-wrap input{
+      width:100%;
+      padding:10px;
+      border:1px solid #cbd5e1;
+      border-radius:9px;
+      background:#fff;
+      color:#17202a;
+      font-size:.95rem;
+    }
+    .search-results{
+      position:absolute;
+      top:calc(100% + 4px);
+      left:0;
+      right:0;
+      background:#fff;
+      border:1px solid #cbd5e1;
+      border-radius:9px;
+      box-shadow:0 4px 12px #17202a22;
+      max-height:280px;
+      overflow-y:auto;
+      z-index:5;
+    }
+    .search-item{
+      display:flex;
+      justify-content:space-between;
+      gap:8px;
+      padding:9px 12px;
+      cursor:pointer;
+      border-bottom:1px solid #eef2f5;
+    }
+    .search-item:last-child{
+      border-bottom:none;
+    }
+    .search-item:hover{
+      background:#f5f7fa;
+    }
+    .search-item .t{
+      font-weight:700;
+      color:#075985;
+    }
+    .search-item .c{
+      color:#64748b;
+      font-size:.82rem;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+    }
     .meta{
       color:#64748b;
       font-size:.78rem;
@@ -151,6 +202,10 @@
 <body>
   <div class="top">
     <h1>Finviz Dashboard</h1>
+    <div class="search-wrap">
+      <input type="text" id="search" placeholder="Cerca un titolo (azioni, ETF, valute, commodity)..." autocomplete="off">
+      <div id="searchResults" class="search-results" style="display:none"></div>
+    </div>
     <div class="controls">
       <select id="assetType">
         <option value="azioni">Azioni</option>
@@ -375,6 +430,52 @@
     }).catch(() => {
       meta.textContent = "Errore nel caricamento";
       grid.innerHTML = '<div class="empty">Impossibile caricare i dati</div>';
+    });
+
+    const searchInput = document.querySelector("#search");
+    const searchResults = document.querySelector("#searchResults");
+
+    function goToTicker(t){
+      searchInput.value = "";
+      searchResults.style.display = "none";
+      sessionStorage.setItem("scrollTicker", t);
+      location.href = `chart.html?ticker=${encodeURIComponent(t)}`;
+    }
+
+    searchInput.addEventListener("input", () => {
+      const q = searchInput.value.trim().toUpperCase();
+      if (!q) {
+        searchResults.style.display = "none";
+        searchResults.innerHTML = "";
+        return;
+      }
+      const starts = [], contains = [];
+      for (const r of data) {
+        const t = String(r.ticker || "").toUpperCase();
+        const c = String(r.company || "").toUpperCase();
+        if (t.startsWith(q) || c.startsWith(q)) starts.push(r);
+        else if (t.includes(q) || c.includes(q)) contains.push(r);
+        if (starts.length + contains.length > 40) break;
+      }
+      const matches = [...starts, ...contains].slice(0, 8);
+      if (!matches.length) {
+        searchResults.innerHTML = '<div class="search-item"><span class="c">Nessun risultato</span></div>';
+        searchResults.style.display = "block";
+        return;
+      }
+      searchResults.innerHTML = matches.map(r =>
+        `<div class="search-item" onclick='goToTicker(${JSON.stringify(r.ticker)})'>
+          <span class="t">${esc(r.ticker)}</span>
+          <span class="c">${esc(r.company)}</span>
+        </div>`
+      ).join("");
+      searchResults.style.display = "block";
+    });
+
+    document.addEventListener("click", e => {
+      if (!e.target.closest(".search-wrap")) {
+        searchResults.style.display = "none";
+      }
     });
 
     navigator.serviceWorker?.register("./service-worker.js");
