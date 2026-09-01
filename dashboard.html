@@ -368,6 +368,11 @@
           v = String(v || "").toUpperCase();
         }
 
+        // Il ticker va sempre in ordine alfabetico crescente (A→Z), a prescindere da "direction".
+        if (sortKey === "ticker") {
+          return u < v ? -1 : u > v ? 1 : 0;
+        }
+
         return u < v ? -direction : u > v ? direction : 0;
       });
 
