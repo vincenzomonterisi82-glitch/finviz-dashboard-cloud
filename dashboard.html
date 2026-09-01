@@ -107,6 +107,13 @@
       box-shadow:0 2px 8px #17202a18;
       cursor:pointer;
     }
+    .card-highlight{
+      animation:cardFlash 1.6s ease-out;
+    }
+    @keyframes cardFlash{
+      0%{ box-shadow:0 0 0 5px #2563eb99, 0 2px 8px #17202a18; }
+      100%{ box-shadow:0 2px 8px #17202a18; }
+    }
     .bull{background:#e8f5e9}
     .bear{background:#ffebee}
     .mixed{background:#fff8d6}
@@ -447,7 +454,11 @@
       }
       draw();
       const el = grid.querySelector(`[data-ticker="${CSS.escape(ticker)}"]`);
-      if (el) el.scrollIntoView({block:"center"});
+      if (el) {
+        el.scrollIntoView({block:"center"});
+        el.classList.add("card-highlight");
+        setTimeout(() => el.classList.remove("card-highlight"), 1600);
+      }
     }
 
     searchInput.addEventListener("input", () => {
