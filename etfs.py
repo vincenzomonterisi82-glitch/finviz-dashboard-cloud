@@ -2,22 +2,24 @@ import yfinance as yf
 
 ETF_LIST = {
     # Settoriali (SPDR Select Sector)
-    'XLK': 'Technology',
-    'XLE': 'Energy',
-    'XLF': 'Financials',
-    'XLV': 'Health Care',
-    'XLY': 'Consumer Discretionary',
-    'XLP': 'Consumer Staples',
-    'XLI': 'Industrials',
-    'XLB': 'Materials',
-    'XLU': 'Utilities',
-    'XLRE': 'Real Estate',
-    'XLC': 'Communication Services',
+    'XLK': ('XLK', 'Technology'),
+    'XLE': ('XLE', 'Energy'),
+    'XLF': ('XLF', 'Financials'),
+    'XLV': ('XLV', 'Health Care'),
+    'XLY': ('XLY', 'Consumer Discretionary'),
+    'XLP': ('XLP', 'Consumer Staples'),
+    'XLI': ('XLI', 'Industrials'),
+    'XLB': ('XLB', 'Materials'),
+    'XLU': ('XLU', 'Utilities'),
+    'XLRE': ('XLRE', 'Real Estate'),
+    'XLC': ('XLC', 'Communication Services'),
     # Non settoriali (ampio mercato)
-    'SPY': 'Broad Market',
-    'QQQ': 'Broad Market',
-    'DIA': 'Broad Market',
-    'IWM': 'Broad Market',
+    'SPY': ('SPY', 'Broad Market'),
+    'QQQ': ('QQQ', 'Broad Market'),
+    'DIA': ('DIA', 'Broad Market'),
+    'IWM': ('IWM', 'Broad Market'),
+    # Indici esteri (usato l'indice cash, nessun ticker future continuous confermato su Yahoo Finance)
+    'DAX': ('^GDAXI', 'Indice'),
 }
 
 
@@ -32,16 +34,16 @@ def fmt_cap(value):
 
 def fetch_etfs():
     rows = []
-    for ticker, sector in ETF_LIST.items():
+    for display, (symbol, sector) in ETF_LIST.items():
         row = {
-            'ticker': ticker, 'company': ticker, 'sector': sector, 'industry': 'ETF',
-            'country': 'USA', 'market_cap': '-', 'pe': '-', 'price': '-', 'change': '-',
-            'volume': '-', 'sma_status': 'N/D', 'trend_6m': 'N/D', 'asset_class': 'etf',
+            'ticker': display, 'yahoo_symbol': symbol, 'company': display, 'sector': sector,
+            'industry': 'ETF', 'country': 'USA', 'market_cap': '-', 'pe': '-', 'price': '-',
+            'change': '-', 'volume': '-', 'sma_status': 'N/D', 'trend_6m': 'N/D', 'asset_class': 'etf',
         }
         try:
-            tk = yf.Ticker(ticker)
+            tk = yf.Ticker(symbol)
             info = tk.info
-            row['company'] = info.get('longName') or info.get('shortName') or ticker
+            row['company'] = info.get('longName') or info.get('shortName') or display
             aum = info.get('totalAssets')
             if aum:
                 row['market_cap'] = fmt_cap(aum)
@@ -54,7 +56,7 @@ def fetch_etfs():
         except Exception:
             pass
         try:
-            close = yf.download(ticker, period='1y', interval='1d', auto_adjust=True, progress=False, threads=False)['Close']
+            close = yf.download(symbol, period='1y', interval='1d', auto_adjust=True, progress=False, threads=False)['Close']
             if hasattr(close, 'columns'):
                 close = close.iloc[:, 0]
             close = close.dropna()
