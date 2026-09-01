@@ -42,7 +42,7 @@ def fetch_commodities():
             close = yf.download(symbol, period='1y', interval='1d', auto_adjust=True, progress=False, threads=False)['Close']
             if hasattr(close, 'columns'):
                 close = close.iloc[:, 0]
-                       close = close.dropna()
+            close = close.dropna()
             if len(close) >= 130:
                 current = float(close.iloc[-1])
                 values = [float(close.rolling(n).mean().iloc[-1]) for n in (20, 50, 100)]
@@ -51,3 +51,7 @@ def fetch_commodities():
                 old = float(close.iloc[-126])
                 row['trend_6m'] = 'HIGH' if current > old else 'LOW'
                 row['price'] = f'{current:.2f}'
+        except Exception:
+            pass
+        rows.append(row)
+    return rows
