@@ -19,7 +19,7 @@ ETF_LIST = {
     'DIA': ('DIA', 'Broad Market'),
     'IWM': ('IWM', 'Broad Market'),
     # Indici esteri (usato l'indice cash, nessun ticker future continuous confermato su Yahoo Finance)
-    'DAX': ('DAX.DE', 'Indice'),
+   'DAX': ('^GDAXI', 'Indice'),
 }
 
 
