@@ -42,7 +42,7 @@ def fetch_currencies():
                 row['sma_status'] = f'Sopra {above}/3' if above >= 2 else f'Sotto {3-above}/3'
                 old = float(close.iloc[-126])
                 row['trend_6m'] = 'HIGH' if current > old else 'LOW'
-                row['price'] = f'{current:.4f}'
+                row['price'] = f'{current:.6f}'
         except Exception:
             pass
         rows.append(row)
