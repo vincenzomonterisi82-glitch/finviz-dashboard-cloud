@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-03T11:44:34.450667+00:00",
+  "updated_at": "2026-09-03T11:56:45.796890+00:00",
   "prices": {
     "A": {
       "last_price": 152.51,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:00:00+00:00",
+      "last_price_time": "2026-09-03T11:18:00+00:00",
       "date": "2026-09-03",
       "today_open": 152.514,
       "today_high": 152.514,
@@ -12,24 +12,24 @@
       "today_close": 152.5122
     },
     "AA": {
-      "last_price": 51.55,
+      "last_price": 51.61,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:38:27+00:00",
+      "last_price_time": "2026-09-03T11:56:24+00:00",
       "date": "2026-09-03",
       "today_open": 51.15,
       "today_high": 51.94,
       "today_low": 50.8,
-      "today_close": 51.55
+      "today_close": 51.6097
     },
     "AAOI": {
-      "last_price": 102.2,
+      "last_price": 102.02,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:10+00:00",
+      "last_price_time": "2026-09-03T11:56:33+00:00",
       "date": "2026-09-03",
       "today_open": 103.37,
       "today_high": 104.0,
       "today_low": 101.07,
-      "today_close": 102.2
+      "today_close": 102.016
     },
     "AAON": {
       "last_price": 76.31,
@@ -42,39 +42,39 @@
       "today_close": 76.31
     },
     "AAP": {
-      "last_price": 41.77,
+      "last_price": 42.76,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:02:00+00:00",
+      "last_price_time": "2026-09-03T11:49:29+00:00",
       "date": "2026-09-03",
       "today_open": 41.767,
-      "today_high": 41.767,
+      "today_high": 43.285,
       "today_low": 41.767,
-      "today_close": 41.767
+      "today_close": 42.762
     },
     "AAPL": {
-      "last_price": 324.21,
+      "last_price": 324.06,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:36+00:00",
+      "last_price_time": "2026-09-03T11:56:31+00:00",
       "date": "2026-09-03",
       "today_open": 324.74,
       "today_high": 325.68,
       "today_low": 323.68,
-      "today_close": 324.21
+      "today_close": 324.0587
     },
     "ABBV": {
-      "last_price": 262.35,
+      "last_price": 261.73,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:30:19+00:00",
+      "last_price_time": "2026-09-03T11:56:33+00:00",
       "date": "2026-09-03",
       "today_open": 262.7177,
       "today_high": 264.4488,
       "today_low": 258.157,
-      "today_close": 262.35
+      "today_close": 261.73
     },
     "ABNB": {
       "last_price": 183.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:31:18+00:00",
+      "last_price_time": "2026-09-03T11:31:00+00:00",
       "date": "2026-09-03",
       "today_open": 183.64,
       "today_high": 184.324,
@@ -84,7 +84,7 @@
     "ABT": {
       "last_price": 110.5,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:27:00+00:00",
+      "last_price_time": "2026-09-03T11:56:21+00:00",
       "date": "2026-09-03",
       "today_open": 110.23,
       "today_high": 111.76,
@@ -92,14 +92,14 @@
       "today_close": 110.5
     },
     "ACIW": {
-      "last_price": 52.35,
+      "last_price": 52.7,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:07:00+00:00",
+      "last_price_time": "2026-09-03T11:31:00+00:00",
       "date": "2026-09-03",
       "today_open": 52.35,
       "today_high": 53.05,
       "today_low": 52.35,
-      "today_close": 52.35
+      "today_close": 52.7
     },
     "ACM": {
       "last_price": 66.18,
@@ -114,22 +114,22 @@
     "ACMR": {
       "last_price": 69.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:11:00+00:00",
+      "last_price_time": "2026-09-03T11:49:23+00:00",
       "date": "2026-09-03",
       "today_open": 72.6487,
       "today_high": 72.6487,
-      "today_low": 69.0003,
-      "today_close": 69.0003
+      "today_low": 69.0,
+      "today_close": 69.0
     },
     "ADBE": {
-      "last_price": 283.63,
+      "last_price": 283.3,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:24+00:00",
+      "last_price_time": "2026-09-03T11:53:17+00:00",
       "date": "2026-09-03",
       "today_open": 282.7307,
       "today_high": 284.4557,
       "today_low": 279.79,
-      "today_close": 283.63
+      "today_close": 283.3
     },
     "ADC": {
       "last_price": 72.63,
@@ -142,14 +142,14 @@
       "today_close": 72.63
     },
     "ADI": {
-      "last_price": 353.4,
+      "last_price": 351.1,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:32+00:00",
+      "last_price_time": "2026-09-03T11:51:37+00:00",
       "date": "2026-09-03",
       "today_open": 355.71,
       "today_high": 357.19,
       "today_low": 350.79,
-      "today_close": 353.4
+      "today_close": 351.1
     },
     "ADM": {
       "last_price": 85.59,
@@ -162,29 +162,29 @@
       "today_close": 85.59
     },
     "ADP": {
-      "last_price": 282.01,
+      "last_price": 282.11,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:17:00+00:00",
+      "last_price_time": "2026-09-03T11:45:17+00:00",
       "date": "2026-09-03",
       "today_open": 281.16,
       "today_high": 283.8,
       "today_low": 275.415,
-      "today_close": 282.01
+      "today_close": 282.11
     },
     "ADSK": {
-      "last_price": 243.3,
+      "last_price": 243.68,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:42:14+00:00",
+      "last_price_time": "2026-09-03T11:54:34+00:00",
       "date": "2026-09-03",
       "today_open": 243.0,
       "today_high": 244.35,
-      "today_low": 242.46,
-      "today_close": 243.3
+      "today_low": 241.0,
+      "today_close": 243.68
     },
     "AEE": {
       "last_price": 106.25,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:03:00+00:00",
+      "last_price_time": "2026-09-03T11:20:00+00:00",
       "date": "2026-09-03",
       "today_open": 106.25,
       "today_high": 106.25,
@@ -192,29 +192,29 @@
       "today_close": 106.25
     },
     "AEHR": {
-      "last_price": 80.8,
+      "last_price": 79.57,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:23+00:00",
+      "last_price_time": "2026-09-03T11:54:33+00:00",
       "date": "2026-09-03",
       "today_open": 81.82,
       "today_high": 82.5,
       "today_low": 79.0,
-      "today_close": 80.8
+      "today_close": 79.57
     },
     "AEP": {
-      "last_price": 123.41,
+      "last_price": 124.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:01:00+00:00",
+      "last_price_time": "2026-09-03T11:22:00+00:00",
       "date": "2026-09-03",
       "today_open": 123.57,
       "today_high": 124.0,
       "today_low": 123.0,
-      "today_close": 123.41
+      "today_close": 124.0
     },
     "AFL": {
       "last_price": 118.43,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:20:12+00:00",
+      "last_price_time": "2026-09-03T11:07:00+00:00",
       "date": "2026-09-03",
       "today_open": 118.54,
       "today_high": 118.54,
@@ -222,19 +222,19 @@
       "today_close": 118.43
     },
     "AFRM": {
-      "last_price": 74.22,
+      "last_price": 74.35,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:31:00+00:00",
+      "last_price_time": "2026-09-03T11:56:12+00:00",
       "date": "2026-09-03",
       "today_open": 74.472,
       "today_high": 74.92,
       "today_low": 73.55,
-      "today_close": 74.22
+      "today_close": 74.35
     },
     "AGIO": {
       "last_price": 34.3,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:36:16+00:00",
+      "last_price_time": "2026-09-03T11:36:00+00:00",
       "date": "2026-09-03",
       "today_open": 36.5,
       "today_high": 36.5,
@@ -274,7 +274,7 @@
     "AKAM": {
       "last_price": 105.1,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:32:25+00:00",
+      "last_price_time": "2026-09-03T11:32:00+00:00",
       "date": "2026-09-03",
       "today_open": 105.86,
       "today_high": 105.86,
@@ -282,29 +282,29 @@
       "today_close": 105.1
     },
     "ALAB": {
-      "last_price": 270.5,
+      "last_price": 271.49,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:42:45+00:00",
+      "last_price_time": "2026-09-03T11:56:02+00:00",
       "date": "2026-09-03",
       "today_open": 274.09,
       "today_high": 277.7705,
-      "today_low": 270.3335,
-      "today_close": 270.5
+      "today_low": 269.27,
+      "today_close": 271.49
     },
     "ALB": {
-      "last_price": 137.5,
+      "last_price": 137.3,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:36:14+00:00",
+      "last_price_time": "2026-09-03T11:46:52+00:00",
       "date": "2026-09-03",
       "today_open": 136.85,
       "today_high": 138.63,
       "today_low": 135.7,
-      "today_close": 137.5
+      "today_close": 137.3
     },
     "ALGM": {
       "last_price": 35.1,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:25:31+00:00",
+      "last_price_time": "2026-09-03T11:25:00+00:00",
       "date": "2026-09-03",
       "today_open": 35.75,
       "today_high": 35.75,
@@ -334,7 +334,7 @@
     "ALLY": {
       "last_price": 43.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:20:36+00:00",
+      "last_price_time": "2026-09-03T11:32:11+00:00",
       "date": "2026-09-03",
       "today_open": 42.96,
       "today_high": 43.0,
@@ -342,19 +342,19 @@
       "today_close": 43.0
     },
     "ALNY": {
-      "last_price": 265.2,
+      "last_price": 265.24,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:26:00+00:00",
+      "last_price_time": "2026-09-03T11:50:49+00:00",
       "date": "2026-09-03",
       "today_open": 267.81,
       "today_high": 269.53,
       "today_low": 264.0,
-      "today_close": 265.2
+      "today_close": 265.24
     },
     "ALSN": {
       "last_price": 126.71,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:02:00+00:00",
+      "last_price_time": "2026-09-03T11:32:18+00:00",
       "date": "2026-09-03",
       "today_open": 126.71,
       "today_high": 126.71,
@@ -362,39 +362,39 @@
       "today_close": 126.71
     },
     "AMAT": {
-      "last_price": 433.43,
+      "last_price": 432.5,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:12+00:00",
+      "last_price_time": "2026-09-03T11:56:48+00:00",
       "date": "2026-09-03",
       "today_open": 438.4387,
       "today_high": 440.9612,
-      "today_low": 432.1,
-      "today_close": 433.43
+      "today_low": 432.0,
+      "today_close": 432.5
     },
     "AMBA": {
-      "last_price": 67.25,
+      "last_price": 66.97,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:15+00:00",
+      "last_price_time": "2026-09-03T11:56:05+00:00",
       "date": "2026-09-03",
       "today_open": 67.62,
       "today_high": 68.0,
       "today_low": 66.65,
-      "today_close": 67.25
+      "today_close": 66.97
     },
     "AMD": {
-      "last_price": 454.42,
+      "last_price": 453.29,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:31+00:00",
+      "last_price_time": "2026-09-03T11:56:49+00:00",
       "date": "2026-09-03",
       "today_open": 458.67,
       "today_high": 459.35,
-      "today_low": 453.21,
-      "today_close": 454.42
+      "today_low": 453.1,
+      "today_close": 453.29
     },
     "AME": {
       "last_price": 232.9,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:04:00+00:00",
+      "last_price_time": "2026-09-03T11:20:00+00:00",
       "date": "2026-09-03",
       "today_open": 235.1,
       "today_high": 244.5537,
@@ -404,7 +404,7 @@
     "AMGN": {
       "last_price": 443.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:39:03+00:00",
+      "last_price_time": "2026-09-03T11:39:00+00:00",
       "date": "2026-09-03",
       "today_open": 442.84,
       "today_high": 445.0,
@@ -414,7 +414,7 @@
     "AMH": {
       "last_price": 32.99,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:03:00+00:00",
+      "last_price_time": "2026-09-03T11:32:18+00:00",
       "date": "2026-09-03",
       "today_open": 32.99,
       "today_high": 32.99,
@@ -422,29 +422,29 @@
       "today_close": 32.99
     },
     "AMKR": {
-      "last_price": 47.0,
+      "last_price": 46.47,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:37:31+00:00",
+      "last_price_time": "2026-09-03T11:54:26+00:00",
       "date": "2026-09-03",
       "today_open": 47.4732,
       "today_high": 47.73,
       "today_low": 46.19,
-      "today_close": 47.0
+      "today_close": 46.47
     },
     "AMLX": {
-      "last_price": 35.4,
+      "last_price": 34.5,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:05:00+00:00",
+      "last_price_time": "2026-09-03T11:51:19+00:00",
       "date": "2026-09-03",
       "today_open": 34.85,
       "today_high": 35.5,
-      "today_low": 34.85,
-      "today_close": 35.4
+      "today_low": 34.5,
+      "today_close": 34.5
     },
     "AMRZ": {
       "last_price": 43.14,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:36:45+00:00",
+      "last_price_time": "2026-09-03T11:38:44+00:00",
       "date": "2026-09-03",
       "today_open": 42.97,
       "today_high": 43.51,
@@ -452,34 +452,34 @@
       "today_close": 43.14
     },
     "AMT": {
-      "last_price": 173.55,
+      "last_price": 173.7,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:04:00+00:00",
+      "last_price_time": "2026-09-03T11:55:42+00:00",
       "date": "2026-09-03",
       "today_open": 173.73,
-      "today_high": 173.73,
+      "today_high": 174.925,
       "today_low": 171.075,
-      "today_close": 173.55
+      "today_close": 173.7
     },
     "AMZN": {
-      "last_price": 255.5,
+      "last_price": 255.4,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:32+00:00",
+      "last_price_time": "2026-09-03T11:56:50+00:00",
       "date": "2026-09-03",
       "today_open": 255.92,
       "today_high": 257.0,
       "today_low": 254.98,
-      "today_close": 255.5
+      "today_close": 255.4
     },
     "ANET": {
-      "last_price": 185.99,
+      "last_price": 185.05,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:39:17+00:00",
+      "last_price_time": "2026-09-03T11:56:48+00:00",
       "date": "2026-09-03",
       "today_open": 187.0,
       "today_high": 187.9007,
       "today_low": 185.01,
-      "today_close": 185.99
+      "today_close": 185.05
     },
     "ANF": {
       "last_price": 138.89,
@@ -494,7 +494,7 @@
     "AOS": {
       "last_price": 58.88,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:01:00+00:00",
+      "last_price_time": "2026-09-03T11:23:00+00:00",
       "date": "2026-09-03",
       "today_open": 59.26,
       "today_high": 59.26,
@@ -502,14 +502,14 @@
       "today_close": 58.88
     },
     "APA": {
-      "last_price": 45.25,
+      "last_price": 45.2,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:31:00+00:00",
+      "last_price_time": "2026-09-03T11:56:01+00:00",
       "date": "2026-09-03",
       "today_open": 44.47,
       "today_high": 45.25,
       "today_low": 44.26,
-      "today_close": 45.25
+      "today_close": 45.2
     },
     "APD": {
       "last_price": 309.85,
@@ -524,7 +524,7 @@
     "APG": {
       "last_price": 39.36,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:02:00+00:00",
+      "last_price_time": "2026-09-03T11:32:11+00:00",
       "date": "2026-09-03",
       "today_open": 39.36,
       "today_high": 39.36,
@@ -532,14 +532,14 @@
       "today_close": 39.36
     },
     "APH": {
-      "last_price": 81.49,
+      "last_price": 81.41,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:09+00:00",
+      "last_price_time": "2026-09-03T11:56:27+00:00",
       "date": "2026-09-03",
       "today_open": 82.93,
       "today_high": 84.75,
       "today_low": 80.25,
-      "today_close": 81.49
+      "today_close": 81.4115
     },
     "APO": {
       "last_price": 130.0,
@@ -552,29 +552,29 @@
       "today_close": 130.0
     },
     "APP": {
-      "last_price": 322.6,
+      "last_price": 321.9,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:16+00:00",
+      "last_price_time": "2026-09-03T11:56:48+00:00",
       "date": "2026-09-03",
       "today_open": 319.28,
       "today_high": 324.0,
       "today_low": 318.0,
-      "today_close": 322.6
+      "today_close": 321.8977
     },
     "AR": {
-      "last_price": 39.5,
+      "last_price": 40.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:12:00+00:00",
+      "last_price_time": "2026-09-03T11:37:00+00:00",
       "date": "2026-09-03",
       "today_open": 40.04,
       "today_high": 40.04,
       "today_low": 39.5,
-      "today_close": 39.5
+      "today_close": 40.0
     },
     "ARE": {
       "last_price": 52.04,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:02:00+00:00",
+      "last_price_time": "2026-09-03T11:20:00+00:00",
       "date": "2026-09-03",
       "today_open": 52.72,
       "today_high": 53.02,
@@ -594,7 +594,7 @@
     "ARMK": {
       "last_price": 56.46,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:03:00+00:00",
+      "last_price_time": "2026-09-03T11:35:23+00:00",
       "date": "2026-09-03",
       "today_open": 56.72,
       "today_high": 56.72,
@@ -602,14 +602,14 @@
       "today_close": 56.46
     },
     "AROC": {
-      "last_price": 31.96,
+      "last_price": 32.3,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:11+00:00",
+      "last_price_time": "2026-09-03T11:51:52+00:00",
       "date": "2026-09-03",
       "today_open": 32.3898,
       "today_high": 32.68,
       "today_low": 31.962,
-      "today_close": 31.962
+      "today_close": 32.3
     },
     "ARWR": {
       "last_price": 84.71,
@@ -624,7 +624,7 @@
     "ASB": {
       "last_price": 30.58,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:21:28+00:00",
+      "last_price_time": "2026-09-03T11:32:52+00:00",
       "date": "2026-09-03",
       "today_open": 30.58,
       "today_high": 30.58,
@@ -642,24 +642,24 @@
       "today_close": 44.22
     },
     "ASTS": {
-      "last_price": 62.93,
+      "last_price": 62.64,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:18+00:00",
+      "last_price_time": "2026-09-03T11:56:51+00:00",
       "date": "2026-09-03",
       "today_open": 62.55,
       "today_high": 64.35,
       "today_low": 61.89,
-      "today_close": 62.93
+      "today_close": 62.6362
     },
     "ATI": {
-      "last_price": 201.98,
+      "last_price": 201.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:14:00+00:00",
+      "last_price_time": "2026-09-03T11:36:00+00:00",
       "date": "2026-09-03",
       "today_open": 203.57,
       "today_high": 204.51,
       "today_low": 200.0,
-      "today_close": 201.98
+      "today_close": 201.0
     },
     "ATO": {
       "last_price": 165.78,
@@ -672,19 +672,19 @@
       "today_close": 165.7777
     },
     "AU": {
-      "last_price": 109.31,
+      "last_price": 109.01,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:01+00:00",
+      "last_price_time": "2026-09-03T11:55:56+00:00",
       "date": "2026-09-03",
       "today_open": 108.26,
       "today_high": 109.85,
       "today_low": 107.77,
-      "today_close": 109.31
+      "today_close": 109.0101
     },
     "AUB": {
       "last_price": 40.8,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:21:28+00:00",
+      "last_price_time": "2026-09-03T11:32:52+00:00",
       "date": "2026-09-03",
       "today_open": 40.9505,
       "today_high": 40.9505,
@@ -694,7 +694,7 @@
     "AUGO": {
       "last_price": 86.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:41:04+00:00",
+      "last_price_time": "2026-09-03T11:41:00+00:00",
       "date": "2026-09-03",
       "today_open": 85.45,
       "today_high": 86.0,
@@ -702,24 +702,24 @@
       "today_close": 86.0
     },
     "AVAV": {
-      "last_price": 154.72,
+      "last_price": 154.99,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:15+00:00",
+      "last_price_time": "2026-09-03T11:56:41+00:00",
       "date": "2026-09-03",
       "today_open": 150.94,
       "today_high": 156.0,
       "today_low": 150.0,
-      "today_close": 154.72
+      "today_close": 154.99
     },
     "AVGO": {
-      "last_price": 356.0,
+      "last_price": 354.32,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:35+00:00",
+      "last_price_time": "2026-09-03T11:56:41+00:00",
       "date": "2026-09-03",
       "today_open": 361.8,
       "today_high": 367.24,
       "today_low": 353.01,
-      "today_close": 356.0
+      "today_close": 354.32
     },
     "AVT": {
       "last_price": 90.31,
@@ -732,14 +732,14 @@
       "today_close": 90.31
     },
     "AWK": {
-      "last_price": 138.84,
+      "last_price": 140.25,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:18:00+00:00",
+      "last_price_time": "2026-09-03T11:38:00+00:00",
       "date": "2026-09-03",
       "today_open": 139.49,
       "today_high": 140.6422,
       "today_low": 138.84,
-      "today_close": 138.84
+      "today_close": 140.2532
     },
     "AXGN": {
       "last_price": 48.29,
@@ -752,19 +752,19 @@
       "today_close": 48.2903
     },
     "AXP": {
-      "last_price": 331.28,
+      "last_price": 330.25,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:38:41+00:00",
+      "last_price_time": "2026-09-03T11:56:34+00:00",
       "date": "2026-09-03",
       "today_open": 329.97,
       "today_high": 333.4852,
       "today_low": 329.8,
-      "today_close": 331.28
+      "today_close": 330.25
     },
     "AXTA": {
       "last_price": 35.62,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:23:48+00:00",
+      "last_price_time": "2026-09-03T11:23:00+00:00",
       "date": "2026-09-03",
       "today_open": 35.79,
       "today_high": 35.79,
@@ -772,49 +772,49 @@
       "today_close": 35.62
     },
     "AXTI": {
-      "last_price": 56.44,
+      "last_price": 56.28,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:37+00:00",
+      "last_price_time": "2026-09-03T11:56:46+00:00",
       "date": "2026-09-03",
       "today_open": 56.98,
       "today_high": 57.8,
       "today_low": 56.03,
-      "today_close": 56.44
+      "today_close": 56.28
     },
     "BA": {
-      "last_price": 209.3,
+      "last_price": 208.86,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:26+00:00",
+      "last_price_time": "2026-09-03T11:56:45+00:00",
       "date": "2026-09-03",
       "today_open": 208.97,
       "today_high": 209.646,
       "today_low": 208.85,
-      "today_close": 209.3
+      "today_close": 208.86
     },
     "BAC": {
-      "last_price": 62.73,
+      "last_price": 62.81,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:19+00:00",
+      "last_price_time": "2026-09-03T11:56:33+00:00",
       "date": "2026-09-03",
       "today_open": 62.72,
       "today_high": 62.91,
       "today_low": 62.6,
-      "today_close": 62.73
+      "today_close": 62.81
     },
     "BAH": {
-      "last_price": 73.67,
+      "last_price": 73.82,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:03:00+00:00",
+      "last_price_time": "2026-09-03T11:40:16+00:00",
       "date": "2026-09-03",
       "today_open": 73.17,
       "today_high": 73.82,
       "today_low": 73.03,
-      "today_close": 73.67
+      "today_close": 73.82
     },
     "BALL": {
       "last_price": 63.5,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:03:00+00:00",
+      "last_price_time": "2026-09-03T11:35:06+00:00",
       "date": "2026-09-03",
       "today_open": 63.3,
       "today_high": 63.5,
@@ -834,7 +834,7 @@
     "BBIO": {
       "last_price": 77.34,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:34:30+00:00",
+      "last_price_time": "2026-09-03T11:34:00+00:00",
       "date": "2026-09-03",
       "today_open": 76.0,
       "today_high": 77.34,
@@ -862,14 +862,14 @@
       "today_close": 187.03
     },
     "BE": {
-      "last_price": 216.88,
+      "last_price": 216.38,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:27+00:00",
+      "last_price_time": "2026-09-03T11:56:48+00:00",
       "date": "2026-09-03",
       "today_open": 217.6,
       "today_high": 221.19,
-      "today_low": 216.0,
-      "today_close": 216.88
+      "today_low": 215.5,
+      "today_close": 216.38
     },
     "BEN": {
       "last_price": 33.13,
@@ -884,7 +884,7 @@
     "BEPC": {
       "last_price": 31.38,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:19:00+00:00",
+      "last_price_time": "2026-09-03T11:20:00+00:00",
       "date": "2026-09-03",
       "today_open": 31.38,
       "today_high": 31.38,
@@ -904,7 +904,7 @@
     "BIIB": {
       "last_price": 224.8,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:38:08+00:00",
+      "last_price_time": "2026-09-03T11:38:00+00:00",
       "date": "2026-09-03",
       "today_open": 222.67,
       "today_high": 226.76,
@@ -912,19 +912,19 @@
       "today_close": 224.8
     },
     "BILL": {
-      "last_price": 49.44,
+      "last_price": 49.05,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:05:00+00:00",
+      "last_price_time": "2026-09-03T11:30:00+00:00",
       "date": "2026-09-03",
       "today_open": 48.76,
       "today_high": 49.44,
       "today_low": 48.76,
-      "today_close": 49.44
+      "today_close": 49.05
     },
     "BIPC": {
       "last_price": 36.69,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:01:29+00:00",
+      "last_price_time": "2026-09-03T11:01:00+00:00",
       "date": "2026-09-03",
       "today_open": 37.06,
       "today_high": 37.06,
@@ -934,7 +934,7 @@
     "BJ": {
       "last_price": 93.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:00:00+00:00",
+      "last_price_time": "2026-09-03T11:18:00+00:00",
       "date": "2026-09-03",
       "today_open": 93.0,
       "today_high": 93.0,
@@ -944,7 +944,7 @@
     "BKNG": {
       "last_price": 198.96,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:31+00:00",
+      "last_price_time": "2026-09-03T11:56:40+00:00",
       "date": "2026-09-03",
       "today_open": 197.585,
       "today_high": 201.62,
@@ -952,14 +952,14 @@
       "today_close": 198.96
     },
     "BKR": {
-      "last_price": 64.88,
+      "last_price": 64.91,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:21:00+00:00",
+      "last_price_time": "2026-09-03T11:49:46+00:00",
       "date": "2026-09-03",
       "today_open": 64.64,
-      "today_high": 64.88,
+      "today_high": 64.91,
       "today_low": 64.39,
-      "today_close": 64.88
+      "today_close": 64.91
     },
     "BLDR": {
       "last_price": 63.2,
@@ -992,19 +992,19 @@
       "today_close": 67.5
     },
     "BNY": {
-      "last_price": 162.79,
+      "last_price": 162.93,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:35:47+00:00",
+      "last_price_time": "2026-09-03T11:50:02+00:00",
       "date": "2026-09-03",
       "today_open": 163.5,
       "today_high": 163.5,
       "today_low": 162.04,
-      "today_close": 162.789
+      "today_close": 162.93
     },
     "BOX": {
       "last_price": 34.97,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:18:00+00:00",
+      "last_price_time": "2026-09-03T11:33:30+00:00",
       "date": "2026-09-03",
       "today_open": 34.9731,
       "today_high": 34.9731,
@@ -1014,7 +1014,7 @@
     "BR": {
       "last_price": 177.85,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:04:41+00:00",
+      "last_price_time": "2026-09-03T11:04:00+00:00",
       "date": "2026-09-03",
       "today_open": 177.85,
       "today_high": 178.06,
@@ -1022,14 +1022,14 @@
       "today_close": 177.85
     },
     "BRK-B": {
-      "last_price": 506.26,
+      "last_price": 505.64,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:23+00:00",
+      "last_price_time": "2026-09-03T11:56:24+00:00",
       "date": "2026-09-03",
       "today_open": 506.8647,
       "today_high": 507.5,
       "today_low": 505.24,
-      "today_close": 506.26
+      "today_close": 505.64
     },
     "BRKR": {
       "last_price": 59.82,
@@ -1044,7 +1044,7 @@
     "BRO": {
       "last_price": 72.46,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:09:00+00:00",
+      "last_price_time": "2026-09-03T11:25:00+00:00",
       "date": "2026-09-03",
       "today_open": 72.04,
       "today_high": 72.46,
@@ -1052,14 +1052,14 @@
       "today_close": 72.46
     },
     "BROS": {
-      "last_price": 48.2,
+      "last_price": 48.21,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:07+00:00",
+      "last_price_time": "2026-09-03T11:54:18+00:00",
       "date": "2026-09-03",
       "today_open": 48.17,
       "today_high": 48.39,
       "today_low": 47.94,
-      "today_close": 48.2
+      "today_close": 48.21
     },
     "BRZE": {
       "last_price": 33.04,
@@ -1072,19 +1072,19 @@
       "today_close": 33.0396
     },
     "BSX": {
-      "last_price": 48.8,
+      "last_price": 48.7,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:37+00:00",
+      "last_price_time": "2026-09-03T11:53:53+00:00",
       "date": "2026-09-03",
       "today_open": 48.79,
       "today_high": 48.8,
       "today_low": 48.2705,
-      "today_close": 48.8
+      "today_close": 48.7
     },
     "BSY": {
       "last_price": 34.32,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:29:18+00:00",
+      "last_price_time": "2026-09-03T11:29:00+00:00",
       "date": "2026-09-03",
       "today_open": 34.79,
       "today_high": 36.78,
@@ -1092,19 +1092,19 @@
       "today_close": 34.32
     },
     "BTSG": {
-      "last_price": 60.5,
+      "last_price": 60.7,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T08:00:00+00:00",
+      "last_price_time": "2026-09-03T11:32:00+00:00",
       "date": "2026-09-03",
       "today_open": 60.5,
-      "today_high": 60.5,
+      "today_high": 60.7,
       "today_low": 60.5,
-      "today_close": 60.5
+      "today_close": 60.7
     },
     "BWA": {
       "last_price": 65.56,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:09:00+00:00",
+      "last_price_time": "2026-09-03T11:25:00+00:00",
       "date": "2026-09-03",
       "today_open": 65.18,
       "today_high": 65.77,
@@ -1122,14 +1122,14 @@
       "today_close": 30.91
     },
     "BWXT": {
-      "last_price": 157.75,
+      "last_price": 158.29,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:40:49+00:00",
+      "last_price_time": "2026-09-03T11:56:13+00:00",
       "date": "2026-09-03",
       "today_open": 157.74,
       "today_high": 158.94,
       "today_low": 155.67,
-      "today_close": 157.75
+      "today_close": 158.29
     },
     "BX": {
       "last_price": 137.1,
@@ -1152,24 +1152,24 @@
       "today_close": 66.85
     },
     "C": {
-      "last_price": 134.86,
+      "last_price": 135.17,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:34:01+00:00",
+      "last_price_time": "2026-09-03T11:53:45+00:00",
       "date": "2026-09-03",
       "today_open": 135.14,
       "today_high": 135.37,
       "today_low": 134.34,
-      "today_close": 134.86
+      "today_close": 135.17
     },
     "CAH": {
-      "last_price": 246.16,
+      "last_price": 248.23,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:28+00:00",
+      "last_price_time": "2026-09-03T11:54:38+00:00",
       "date": "2026-09-03",
       "today_open": 247.8,
       "today_high": 248.78,
       "today_low": 246.16,
-      "today_close": 246.16
+      "today_close": 248.2277
     },
     "CAKE": {
       "last_price": 108.6,
@@ -1192,34 +1192,44 @@
       "today_close": 37.82
     },
     "CARR": {
-      "last_price": 57.51,
+      "last_price": 57.99,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:21:00+00:00",
+      "last_price_time": "2026-09-03T11:41:00+00:00",
       "date": "2026-09-03",
       "today_open": 57.85,
       "today_high": 58.27,
       "today_low": 57.0736,
-      "today_close": 57.51
+      "today_close": 57.9947
+    },
+    "CART": {
+      "last_price": 50.5,
+      "last_price_session": "Pre-market",
+      "last_price_time": "2026-09-03T11:24:00+00:00",
+      "date": "2026-09-03",
+      "today_open": 50.5,
+      "today_high": 50.5,
+      "today_low": 50.5,
+      "today_close": 50.5
     },
     "CAT": {
-      "last_price": 794.93,
+      "last_price": 792.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:42:12+00:00",
+      "last_price_time": "2026-09-03T11:52:12+00:00",
       "date": "2026-09-03",
       "today_open": 797.6,
       "today_high": 797.6,
       "today_low": 786.8012,
-      "today_close": 794.93
+      "today_close": 792.0
     },
     "CAVA": {
-      "last_price": 62.98,
+      "last_price": 62.6,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:41:39+00:00",
+      "last_price_time": "2026-09-03T11:55:44+00:00",
       "date": "2026-09-03",
       "today_open": 62.08,
       "today_high": 62.9845,
       "today_low": 61.81,
-      "today_close": 62.9845
+      "today_close": 62.6
     },
     "CBOE": {
       "last_price": 295.47,
@@ -1234,7 +1244,7 @@
     "CBRE": {
       "last_price": 142.06,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:06:00+00:00",
+      "last_price_time": "2026-09-03T11:25:00+00:00",
       "date": "2026-09-03",
       "today_open": 142.06,
       "today_high": 142.06,
@@ -1242,14 +1252,14 @@
       "today_close": 142.06
     },
     "CBRS": {
-      "last_price": 182.5,
+      "last_price": 182.15,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:29+00:00",
+      "last_price_time": "2026-09-03T11:56:30+00:00",
       "date": "2026-09-03",
       "today_open": 185.4682,
       "today_high": 185.5,
       "today_low": 181.52,
-      "today_close": 182.5
+      "today_close": 182.15
     },
     "CBSH": {
       "last_price": 58.57,
@@ -1274,7 +1284,7 @@
     "CCI": {
       "last_price": 75.3,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:35:27+00:00",
+      "last_price_time": "2026-09-03T11:35:00+00:00",
       "date": "2026-09-03",
       "today_open": 75.5,
       "today_high": 75.6,
@@ -1294,7 +1304,7 @@
     "CDNA": {
       "last_price": 49.2,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:29:27+00:00",
+      "last_price_time": "2026-09-03T11:29:00+00:00",
       "date": "2026-09-03",
       "today_open": 50.0,
       "today_high": 52.5,
@@ -1332,14 +1342,14 @@
       "today_close": 47.0
     },
     "CEG": {
-      "last_price": 290.38,
+      "last_price": 289.56,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:20+00:00",
+      "last_price_time": "2026-09-03T11:55:05+00:00",
       "date": "2026-09-03",
       "today_open": 290.7677,
       "today_high": 290.99,
       "today_low": 288.0574,
-      "today_close": 290.38
+      "today_close": 289.5576
     },
     "CELC": {
       "last_price": 96.8,
@@ -1352,59 +1362,59 @@
       "today_close": 96.8
     },
     "CELH": {
-      "last_price": 31.47,
+      "last_price": 31.46,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:36:52+00:00",
+      "last_price_time": "2026-09-03T11:55:48+00:00",
       "date": "2026-09-03",
       "today_open": 30.78,
       "today_high": 31.9523,
       "today_low": 30.78,
-      "today_close": 31.47
+      "today_close": 31.46
     },
     "CENX": {
-      "last_price": 46.9,
+      "last_price": 47.38,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T08:01:00+00:00",
+      "last_price_time": "2026-09-03T11:49:55+00:00",
       "date": "2026-09-03",
       "today_open": 47.76,
       "today_high": 47.76,
       "today_low": 46.9,
-      "today_close": 46.9
+      "today_close": 47.3805
     },
     "CF": {
       "last_price": 139.9,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:20+00:00",
+      "last_price_time": "2026-09-03T11:56:14+00:00",
       "date": "2026-09-03",
       "today_open": 139.72,
-      "today_high": 139.99,
+      "today_high": 140.0,
       "today_low": 137.84,
       "today_close": 139.9
     },
     "CFG": {
-      "last_price": 69.9,
+      "last_price": 69.98,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:06:00+00:00",
+      "last_price_time": "2026-09-03T11:40:48+00:00",
       "date": "2026-09-03",
       "today_open": 69.84,
       "today_high": 70.04,
       "today_low": 69.78,
-      "today_close": 69.9
+      "today_close": 69.98
     },
     "CGNX": {
-      "last_price": 59.5,
+      "last_price": 59.92,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:20:00+00:00",
+      "last_price_time": "2026-09-03T11:46:14+00:00",
       "date": "2026-09-03",
       "today_open": 59.95,
       "today_high": 60.68,
       "today_low": 59.47,
-      "today_close": 59.5
+      "today_close": 59.92
     },
     "CHD": {
       "last_price": 99.42,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:20:42+00:00",
+      "last_price_time": "2026-09-03T11:20:00+00:00",
       "date": "2026-09-03",
       "today_open": 100.09,
       "today_high": 100.09,
@@ -1424,7 +1434,7 @@
     "CHTR": {
       "last_price": 158.5,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:39:28+00:00",
+      "last_price_time": "2026-09-03T11:39:00+00:00",
       "date": "2026-09-03",
       "today_open": 158.75,
       "today_high": 159.8493,
@@ -1444,7 +1454,7 @@
     "CI": {
       "last_price": 284.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T10:45:00+00:00",
+      "last_price_time": "2026-09-03T11:12:00+00:00",
       "date": "2026-09-03",
       "today_open": 282.84,
       "today_high": 284.7582,
@@ -1452,19 +1462,19 @@
       "today_close": 284.0
     },
     "CIEN": {
-      "last_price": 362.5,
+      "last_price": 361.47,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:35+00:00",
+      "last_price_time": "2026-09-03T11:56:52+00:00",
       "date": "2026-09-03",
       "today_open": 358.8,
       "today_high": 382.0,
       "today_low": 342.0,
-      "today_close": 362.5
+      "today_close": 361.47
     },
     "CL": {
       "last_price": 90.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:26:31+00:00",
+      "last_price_time": "2026-09-03T11:26:00+00:00",
       "date": "2026-09-03",
       "today_open": 90.22,
       "today_high": 91.03,
@@ -1482,34 +1492,34 @@
       "today_close": 39.095
     },
     "CLMT": {
-      "last_price": 53.52,
+      "last_price": 54.19,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T09:48:00+00:00",
+      "last_price_time": "2026-09-03T11:25:00+00:00",
       "date": "2026-09-03",
       "today_open": 53.54,
-      "today_high": 53.54,
+      "today_high": 54.19,
       "today_low": 53.52,
-      "today_close": 53.52
+      "today_close": 54.19
     },
     "CLX": {
-      "last_price": 94.54,
+      "last_price": 94.95,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:12+00:00",
+      "last_price_time": "2026-09-03T11:53:55+00:00",
       "date": "2026-09-03",
       "today_open": 94.46,
       "today_high": 95.04,
-      "today_low": 94.46,
-      "today_close": 94.544
+      "today_low": 94.43,
+      "today_close": 94.9475
     },
     "CMC": {
-      "last_price": 69.83,
+      "last_price": 69.6,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:23:09+00:00",
+      "last_price_time": "2026-09-03T11:38:21+00:00",
       "date": "2026-09-03",
       "today_open": 69.15,
       "today_high": 69.9,
       "today_low": 66.61,
-      "today_close": 69.83
+      "today_close": 69.6
     },
     "CME": {
       "last_price": 277.43,
@@ -1524,7 +1534,7 @@
     "CMG": {
       "last_price": 38.59,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:36:13+00:00",
+      "last_price_time": "2026-09-03T11:36:00+00:00",
       "date": "2026-09-03",
       "today_open": 38.45,
       "today_high": 38.8412,
@@ -1554,7 +1564,7 @@
     "CNC": {
       "last_price": 68.1,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:31:36+00:00",
+      "last_price_time": "2026-09-03T11:32:18+00:00",
       "date": "2026-09-03",
       "today_open": 67.01,
       "today_high": 68.3,
@@ -1564,7 +1574,7 @@
     "CNK": {
       "last_price": 34.8,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:20:48+00:00",
+      "last_price_time": "2026-09-03T11:20:00+00:00",
       "date": "2026-09-03",
       "today_open": 34.68,
       "today_high": 36.0,
@@ -1574,7 +1584,7 @@
     "CNM": {
       "last_price": 44.22,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:02:00+00:00",
+      "last_price_time": "2026-09-03T11:31:19+00:00",
       "date": "2026-09-03",
       "today_open": 44.22,
       "today_high": 44.22,
@@ -1594,7 +1604,7 @@
     "CNX": {
       "last_price": 37.24,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T10:28:00+00:00",
+      "last_price_time": "2026-09-03T11:03:00+00:00",
       "date": "2026-09-03",
       "today_open": 37.58,
       "today_high": 38.01,
@@ -1602,39 +1612,39 @@
       "today_close": 37.24
     },
     "COF": {
-      "last_price": 216.81,
+      "last_price": 218.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:11:00+00:00",
+      "last_price_time": "2026-09-03T11:37:58+00:00",
       "date": "2026-09-03",
       "today_open": 217.05,
       "today_high": 218.69,
       "today_low": 216.6,
-      "today_close": 216.81
+      "today_close": 218.0
     },
     "COGT": {
-      "last_price": 33.9,
+      "last_price": 34.97,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:09:00+00:00",
+      "last_price_time": "2026-09-03T11:32:00+00:00",
       "date": "2026-09-03",
       "today_open": 35.25,
       "today_high": 35.25,
       "today_low": 33.0,
-      "today_close": 33.9
+      "today_close": 34.97
     },
     "COHR": {
-      "last_price": 266.97,
+      "last_price": 266.02,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:06+00:00",
+      "last_price_time": "2026-09-03T11:55:42+00:00",
       "date": "2026-09-03",
       "today_open": 270.12,
       "today_high": 272.0,
       "today_low": 263.5,
-      "today_close": 266.97
+      "today_close": 266.02
     },
     "COHU": {
       "last_price": 44.83,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:23+00:00",
+      "last_price_time": "2026-09-03T11:45:25+00:00",
       "date": "2026-09-03",
       "today_open": 46.1435,
       "today_high": 46.1435,
@@ -1642,14 +1652,14 @@
       "today_close": 44.83
     },
     "COIN": {
-      "last_price": 177.6,
+      "last_price": 177.24,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:40+00:00",
+      "last_price_time": "2026-09-03T11:57:02+00:00",
       "date": "2026-09-03",
       "today_open": 177.1362,
       "today_high": 179.0,
       "today_low": 174.74,
-      "today_close": 177.6
+      "today_close": 177.24
     },
     "COLB": {
       "last_price": 29.94,
@@ -1672,19 +1682,19 @@
       "today_close": 70.04
     },
     "COP": {
-      "last_price": 137.55,
+      "last_price": 137.48,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:33:07+00:00",
+      "last_price_time": "2026-09-03T11:56:15+00:00",
       "date": "2026-09-03",
       "today_open": 136.25,
       "today_high": 138.02,
       "today_low": 135.5112,
-      "today_close": 137.55
+      "today_close": 137.48
     },
     "COR": {
       "last_price": 337.75,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:41:54+00:00",
+      "last_price_time": "2026-09-03T11:54:41+00:00",
       "date": "2026-09-03",
       "today_open": 336.36,
       "today_high": 338.0,
@@ -1702,29 +1712,29 @@
       "today_close": 110.93
     },
     "COST": {
-      "last_price": 928.54,
+      "last_price": 929.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:32+00:00",
+      "last_price_time": "2026-09-03T11:56:47+00:00",
       "date": "2026-09-03",
       "today_open": 931.8252,
       "today_high": 931.8252,
       "today_low": 925.1847,
-      "today_close": 928.54
+      "today_close": 929.0
     },
     "CPRT": {
-      "last_price": 32.94,
+      "last_price": 32.89,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:35+00:00",
+      "last_price_time": "2026-09-03T11:46:14+00:00",
       "date": "2026-09-03",
       "today_open": 32.75,
       "today_high": 32.95,
       "today_low": 32.13,
-      "today_close": 32.94
+      "today_close": 32.89
     },
     "CPT": {
       "last_price": 105.54,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:02:00+00:00",
+      "last_price_time": "2026-09-03T11:30:56+00:00",
       "date": "2026-09-03",
       "today_open": 105.54,
       "today_high": 105.54,
@@ -1734,7 +1744,7 @@
     "CRBG": {
       "last_price": 33.78,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:02:00+00:00",
+      "last_price_time": "2026-09-03T11:20:00+00:00",
       "date": "2026-09-03",
       "today_open": 33.3732,
       "today_high": 34.0,
@@ -1742,14 +1752,14 @@
       "today_close": 33.7782
     },
     "CRCL": {
-      "last_price": 89.48,
+      "last_price": 89.7,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:41+00:00",
+      "last_price_time": "2026-09-03T11:57:01+00:00",
       "date": "2026-09-03",
       "today_open": 89.15,
       "today_high": 90.06,
       "today_low": 87.91,
-      "today_close": 89.48
+      "today_close": 89.7
     },
     "CRH": {
       "last_price": 93.0,
@@ -1762,14 +1772,14 @@
       "today_close": 93.0
     },
     "CRM": {
-      "last_price": 261.0,
+      "last_price": 260.74,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:24+00:00",
+      "last_price_time": "2026-09-03T11:56:34+00:00",
       "date": "2026-09-03",
       "today_open": 257.58,
       "today_high": 261.98,
       "today_low": 256.93,
-      "today_close": 261.0
+      "today_close": 260.74
     },
     "CROX": {
       "last_price": 115.85,
@@ -1782,39 +1792,39 @@
       "today_close": 115.85
     },
     "CRWD": {
-      "last_price": 207.5,
+      "last_price": 207.19,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:40+00:00",
+      "last_price_time": "2026-09-03T11:56:59+00:00",
       "date": "2026-09-03",
       "today_open": 204.7,
       "today_high": 207.54,
       "today_low": 203.44,
-      "today_close": 207.5
+      "today_close": 207.19
     },
     "CRWV": {
-      "last_price": 80.39,
+      "last_price": 80.15,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:21+00:00",
+      "last_price_time": "2026-09-03T11:56:58+00:00",
       "date": "2026-09-03",
       "today_open": 81.01,
       "today_high": 81.56,
-      "today_low": 80.2,
-      "today_close": 80.39
+      "today_low": 80.02,
+      "today_close": 80.15
     },
     "CSCO": {
-      "last_price": 109.08,
+      "last_price": 108.96,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:54+00:00",
+      "last_price_time": "2026-09-03T11:56:31+00:00",
       "date": "2026-09-03",
       "today_open": 108.8317,
       "today_high": 109.455,
       "today_low": 108.75,
-      "today_close": 109.08
+      "today_close": 108.9644
     },
     "CSGP": {
       "last_price": 31.59,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:24:36+00:00",
+      "last_price_time": "2026-09-03T11:24:00+00:00",
       "date": "2026-09-03",
       "today_open": 31.31,
       "today_high": 31.85,
@@ -1824,7 +1834,7 @@
     "CSX": {
       "last_price": 49.02,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:28:08+00:00",
+      "last_price_time": "2026-09-03T11:28:00+00:00",
       "date": "2026-09-03",
       "today_open": 48.65,
       "today_high": 49.02,
@@ -1844,7 +1854,7 @@
     "CTRE": {
       "last_price": 39.57,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:03:00+00:00",
+      "last_price_time": "2026-09-03T11:20:00+00:00",
       "date": "2026-09-03",
       "today_open": 39.57,
       "today_high": 39.57,
@@ -1872,64 +1882,64 @@
       "today_close": 90.05
     },
     "CUBE": {
-      "last_price": 39.4,
+      "last_price": 39.77,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:01:00+00:00",
+      "last_price_time": "2026-09-03T11:35:00+00:00",
       "date": "2026-09-03",
       "today_open": 39.46,
-      "today_high": 39.46,
+      "today_high": 39.77,
       "today_low": 39.4,
-      "today_close": 39.4
+      "today_close": 39.77
     },
     "CVNA": {
-      "last_price": 74.3,
+      "last_price": 74.31,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:34:18+00:00",
+      "last_price_time": "2026-09-03T11:41:20+00:00",
       "date": "2026-09-03",
       "today_open": 73.44,
       "today_high": 76.1455,
       "today_low": 73.44,
-      "today_close": 74.3
+      "today_close": 74.31
     },
     "CVS": {
-      "last_price": 97.3,
+      "last_price": 97.08,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:41:54+00:00",
+      "last_price_time": "2026-09-03T11:55:43+00:00",
       "date": "2026-09-03",
       "today_open": 97.35,
       "today_high": 97.94,
       "today_low": 96.82,
-      "today_close": 97.3
+      "today_close": 97.084
     },
     "CVX": {
-      "last_price": 212.3,
+      "last_price": 213.08,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:42:51+00:00",
+      "last_price_time": "2026-09-03T11:56:10+00:00",
       "date": "2026-09-03",
       "today_open": 211.33,
-      "today_high": 213.07,
+      "today_high": 213.164,
       "today_low": 210.04,
-      "today_close": 212.3
+      "today_close": 213.08
     },
     "CWEN": {
-      "last_price": 31.52,
+      "last_price": 31.78,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:10:00+00:00",
+      "last_price_time": "2026-09-03T11:51:11+00:00",
       "date": "2026-09-03",
       "today_open": 31.2756,
-      "today_high": 31.52,
+      "today_high": 31.78,
       "today_low": 31.2756,
-      "today_close": 31.52
+      "today_close": 31.78
     },
     "CXW": {
-      "last_price": 31.9,
+      "last_price": 32.53,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:20:48+00:00",
+      "last_price_time": "2026-09-03T11:41:34+00:00",
       "date": "2026-09-03",
       "today_open": 32.38,
       "today_high": 33.59,
       "today_low": 31.9,
-      "today_close": 31.9
+      "today_close": 32.53
     },
     "CYTK": {
       "last_price": 73.5,
@@ -1942,29 +1952,29 @@
       "today_close": 73.5
     },
     "D": {
-      "last_price": 66.12,
+      "last_price": 66.11,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:10+00:00",
+      "last_price_time": "2026-09-03T11:54:05+00:00",
       "date": "2026-09-03",
       "today_open": 66.495,
       "today_high": 66.7275,
       "today_low": 65.86,
-      "today_close": 66.12
+      "today_close": 66.1132
     },
     "DAL": {
-      "last_price": 78.7,
+      "last_price": 77.83,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:41:15+00:00",
+      "last_price_time": "2026-09-03T11:52:17+00:00",
       "date": "2026-09-03",
       "today_open": 78.28,
       "today_high": 79.0,
       "today_low": 77.5,
-      "today_close": 78.7
+      "today_close": 77.83
     },
     "DAN": {
       "last_price": 30.67,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:25:17+00:00",
+      "last_price_time": "2026-09-03T11:34:59+00:00",
       "date": "2026-09-03",
       "today_open": 30.67,
       "today_high": 30.7,
@@ -1972,34 +1982,34 @@
       "today_close": 30.67
     },
     "DAR": {
-      "last_price": 68.0,
+      "last_price": 67.58,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:00:00+00:00",
+      "last_price_time": "2026-09-03T11:22:00+00:00",
       "date": "2026-09-03",
       "today_open": 68.34,
       "today_high": 68.34,
-      "today_low": 68.0,
-      "today_close": 68.0
+      "today_low": 67.58,
+      "today_close": 67.58
     },
     "DASH": {
-      "last_price": 227.63,
+      "last_price": 225.78,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:41:31+00:00",
+      "last_price_time": "2026-09-03T11:56:40+00:00",
       "date": "2026-09-03",
       "today_open": 225.45,
       "today_high": 227.68,
       "today_low": 225.24,
-      "today_close": 227.63
+      "today_close": 225.78
     },
     "DBX": {
-      "last_price": 34.69,
+      "last_price": 34.7,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T10:57:00+00:00",
+      "last_price_time": "2026-09-03T11:35:00+00:00",
       "date": "2026-09-03",
       "today_open": 34.57,
-      "today_high": 34.69,
+      "today_high": 34.7,
       "today_low": 34.57,
-      "today_close": 34.69
+      "today_close": 34.7
     },
     "DD": {
       "last_price": 133.0,
@@ -2012,44 +2022,44 @@
       "today_close": 133.0
     },
     "DDOG": {
-      "last_price": 221.4,
+      "last_price": 221.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:24+00:00",
+      "last_price_time": "2026-09-03T11:56:26+00:00",
       "date": "2026-09-03",
       "today_open": 221.2547,
       "today_high": 223.5,
       "today_low": 218.18,
-      "today_close": 221.4
+      "today_close": 221.0
     },
     "DE": {
-      "last_price": 701.22,
+      "last_price": 700.92,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:41:51+00:00",
+      "last_price_time": "2026-09-03T11:53:09+00:00",
       "date": "2026-09-03",
       "today_open": 698.98,
       "today_high": 709.77,
       "today_low": 698.1932,
-      "today_close": 701.2244
+      "today_close": 700.92
     },
     "DECK": {
-      "last_price": 84.17,
+      "last_price": 84.2,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:35:38+00:00",
+      "last_price_time": "2026-09-03T11:48:52+00:00",
       "date": "2026-09-03",
       "today_open": 84.0,
       "today_high": 84.7,
       "today_low": 83.88,
-      "today_close": 84.1693
+      "today_close": 84.2
     },
     "DELL": {
-      "last_price": 484.42,
+      "last_price": 485.6,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:34+00:00",
+      "last_price_time": "2026-09-03T11:57:02+00:00",
       "date": "2026-09-03",
       "today_open": 484.0,
       "today_high": 492.2,
       "today_low": 480.11,
-      "today_close": 484.42
+      "today_close": 485.6
     },
     "DFTX": {
       "last_price": 39.44,
@@ -2062,14 +2072,14 @@
       "today_close": 39.4389
     },
     "DG": {
-      "last_price": 131.3,
+      "last_price": 130.6,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:17:00+00:00",
+      "last_price_time": "2026-09-03T11:47:32+00:00",
       "date": "2026-09-03",
       "today_open": 131.45,
-      "today_high": 131.86,
+      "today_high": 133.56,
       "today_low": 130.5,
-      "today_close": 131.3
+      "today_close": 130.6
     },
     "DHI": {
       "last_price": 142.51,
@@ -2082,14 +2092,14 @@
       "today_close": 142.51
     },
     "DHR": {
-      "last_price": 208.5,
+      "last_price": 210.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:23:00+00:00",
+      "last_price_time": "2026-09-03T11:42:29+00:00",
       "date": "2026-09-03",
       "today_open": 209.91,
       "today_high": 210.82,
       "today_low": 208.5,
-      "today_close": 208.5
+      "today_close": 210.0
     },
     "DINO": {
       "last_price": 106.76,
@@ -2102,39 +2112,39 @@
       "today_close": 106.76
     },
     "DIS": {
-      "last_price": 108.11,
+      "last_price": 108.43,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:05+00:00",
+      "last_price_time": "2026-09-03T11:53:46+00:00",
       "date": "2026-09-03",
       "today_open": 107.88,
       "today_high": 108.6217,
       "today_low": 106.9707,
-      "today_close": 108.11
+      "today_close": 108.4285
     },
     "DK": {
-      "last_price": 72.05,
+      "last_price": 73.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:12:00+00:00",
+      "last_price_time": "2026-09-03T11:52:39+00:00",
       "date": "2026-09-03",
       "today_open": 71.45,
-      "today_high": 72.29,
+      "today_high": 73.0,
       "today_low": 70.45,
-      "today_close": 72.05
+      "today_close": 73.0
     },
     "DKS": {
-      "last_price": 137.19,
+      "last_price": 137.58,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:42:45+00:00",
+      "last_price_time": "2026-09-03T11:56:09+00:00",
       "date": "2026-09-03",
       "today_open": 137.7,
       "today_high": 137.75,
       "today_low": 134.0012,
-      "today_close": 137.1915
+      "today_close": 137.58
     },
     "DLR": {
       "last_price": 183.76,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:08:00+00:00",
+      "last_price_time": "2026-09-03T11:34:00+00:00",
       "date": "2026-09-03",
       "today_open": 183.5,
       "today_high": 183.76,
@@ -2154,7 +2164,7 @@
     "DNTH": {
       "last_price": 106.2,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:33:47+00:00",
+      "last_price_time": "2026-09-03T11:33:00+00:00",
       "date": "2026-09-03",
       "today_open": 106.0,
       "today_high": 108.14,
@@ -2164,7 +2174,7 @@
     "DOCN": {
       "last_price": 105.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:36:02+00:00",
+      "last_price_time": "2026-09-03T11:46:13+00:00",
       "date": "2026-09-03",
       "today_open": 104.8,
       "today_high": 106.17,
@@ -2172,14 +2182,14 @@
       "today_close": 105.0
     },
     "DOCU": {
-      "last_price": 66.8,
+      "last_price": 66.76,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:48+00:00",
+      "last_price_time": "2026-09-03T11:56:46+00:00",
       "date": "2026-09-03",
       "today_open": 65.48,
       "today_high": 66.98,
       "today_low": 64.9748,
-      "today_close": 66.8
+      "today_close": 66.76
     },
     "DOV": {
       "last_price": 193.85,
@@ -2212,29 +2222,29 @@
       "today_close": 220.5
     },
     "DT": {
-      "last_price": 51.82,
+      "last_price": 51.99,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:31:05+00:00",
+      "last_price_time": "2026-09-03T11:41:31+00:00",
       "date": "2026-09-03",
       "today_open": 51.12,
-      "today_high": 51.89,
+      "today_high": 52.02,
       "today_low": 51.0,
-      "today_close": 51.82
+      "today_close": 51.99
     },
     "DTE": {
-      "last_price": 136.25,
+      "last_price": 136.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:22:00+00:00",
+      "last_price_time": "2026-09-03T11:32:15+00:00",
       "date": "2026-09-03",
       "today_open": 134.77,
       "today_high": 136.48,
       "today_low": 134.77,
-      "today_close": 136.25
+      "today_close": 136.0
     },
     "DUK": {
       "last_price": 120.8,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:43+00:00",
+      "last_price_time": "2026-09-03T11:55:16+00:00",
       "date": "2026-09-03",
       "today_open": 120.6516,
       "today_high": 121.03,
@@ -2242,24 +2252,24 @@
       "today_close": 120.8
     },
     "DUOL": {
-      "last_price": 157.85,
+      "last_price": 158.88,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:08+00:00",
+      "last_price_time": "2026-09-03T11:52:40+00:00",
       "date": "2026-09-03",
       "today_open": 157.2,
       "today_high": 160.0,
       "today_low": 157.0287,
-      "today_close": 157.85
+      "today_close": 158.88
     },
     "DVN": {
-      "last_price": 49.43,
+      "last_price": 49.48,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:01+00:00",
+      "last_price_time": "2026-09-03T11:52:02+00:00",
       "date": "2026-09-03",
       "today_open": 49.12,
-      "today_high": 49.43,
+      "today_high": 49.48,
       "today_low": 48.5012,
-      "today_close": 49.43
+      "today_close": 49.48
     },
     "DXCM": {
       "last_price": 90.64,
@@ -2272,14 +2282,14 @@
       "today_close": 90.6417
     },
     "EAT": {
-      "last_price": 230.0,
+      "last_price": 229.9,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:09:00+00:00",
+      "last_price_time": "2026-09-03T11:48:54+00:00",
       "date": "2026-09-03",
       "today_open": 231.0,
       "today_high": 231.0,
-      "today_low": 230.0,
-      "today_close": 230.0
+      "today_low": 226.38,
+      "today_close": 229.9
     },
     "EBAY": {
       "last_price": 107.53,
@@ -2294,7 +2304,7 @@
     "ECHO": {
       "last_price": 86.5,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:38:27+00:00",
+      "last_price_time": "2026-09-03T11:38:00+00:00",
       "date": "2026-09-03",
       "today_open": 86.44,
       "today_high": 87.5658,
@@ -2304,7 +2314,7 @@
     "ECL": {
       "last_price": 279.9,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:05:00+00:00",
+      "last_price_time": "2026-09-03T11:31:00+00:00",
       "date": "2026-09-03",
       "today_open": 283.73,
       "today_high": 283.73,
@@ -2342,19 +2352,19 @@
       "today_close": 121.18
     },
     "EIX": {
-      "last_price": 55.28,
+      "last_price": 55.26,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:43+00:00",
+      "last_price_time": "2026-09-03T11:46:12+00:00",
       "date": "2026-09-03",
       "today_open": 55.4,
       "today_high": 55.47,
       "today_low": 54.95,
-      "today_close": 55.28
+      "today_close": 55.26
     },
     "EL": {
       "last_price": 100.61,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:34:17+00:00",
+      "last_price_time": "2026-09-03T11:34:00+00:00",
       "date": "2026-09-03",
       "today_open": 101.17,
       "today_high": 101.88,
@@ -2364,7 +2374,7 @@
     "ELF": {
       "last_price": 107.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:27+00:00",
+      "last_price_time": "2026-09-03T11:51:33+00:00",
       "date": "2026-09-03",
       "today_open": 106.14,
       "today_high": 107.76,
@@ -2392,19 +2402,19 @@
       "today_close": 409.0
     },
     "ELVN": {
-      "last_price": 59.3,
+      "last_price": 59.2,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:29:08+00:00",
+      "last_price_time": "2026-09-03T11:52:48+00:00",
       "date": "2026-09-03",
       "today_open": 59.94,
       "today_high": 61.01,
       "today_low": 57.5,
-      "today_close": 59.3
+      "today_close": 59.2
     },
     "EMN": {
       "last_price": 72.16,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T09:45:00+00:00",
+      "last_price_time": "2026-09-03T11:00:00+00:00",
       "date": "2026-09-03",
       "today_open": 71.7459,
       "today_high": 74.18,
@@ -2414,7 +2424,7 @@
     "EMR": {
       "last_price": 150.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:33:36+00:00",
+      "last_price_time": "2026-09-03T11:33:00+00:00",
       "date": "2026-09-03",
       "today_open": 149.72,
       "today_high": 150.0,
@@ -2442,14 +2452,14 @@
       "today_close": 130.24
     },
     "EOG": {
-      "last_price": 150.0,
+      "last_price": 150.67,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:18:00+00:00",
+      "last_price_time": "2026-09-03T11:36:00+00:00",
       "date": "2026-09-03",
       "today_open": 148.96,
-      "today_high": 150.09,
+      "today_high": 152.0,
       "today_low": 145.6925,
-      "today_close": 150.0
+      "today_close": 150.6689
     },
     "EPAM": {
       "last_price": 116.65,
@@ -2464,7 +2474,7 @@
     "EPD": {
       "last_price": 39.47,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:17:01+00:00",
+      "last_price_time": "2026-09-03T11:17:00+00:00",
       "date": "2026-09-03",
       "today_open": 39.4,
       "today_high": 39.58,
@@ -2482,19 +2492,19 @@
       "today_close": 51.52
     },
     "EQT": {
-      "last_price": 56.0,
+      "last_price": 56.08,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:35:32+00:00",
+      "last_price_time": "2026-09-03T11:49:55+00:00",
       "date": "2026-09-03",
       "today_open": 56.0,
       "today_high": 56.4,
       "today_low": 54.86,
-      "today_close": 56.0
+      "today_close": 56.084
     },
     "ES": {
       "last_price": 70.5,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:26:37+00:00",
+      "last_price_time": "2026-09-03T11:26:00+00:00",
       "date": "2026-09-03",
       "today_open": 70.34,
       "today_high": 70.64,
@@ -2512,14 +2522,14 @@
       "today_close": 35.0
     },
     "ESTC": {
-      "last_price": 91.67,
+      "last_price": 91.95,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:28:46+00:00",
+      "last_price_time": "2026-09-03T11:52:05+00:00",
       "date": "2026-09-03",
       "today_open": 90.25,
-      "today_high": 91.89,
+      "today_high": 91.9499,
       "today_low": 89.23,
-      "today_close": 91.67
+      "today_close": 91.9499
     },
     "ETR": {
       "last_price": 106.75,
@@ -2592,14 +2602,14 @@
       "today_close": 100.51
     },
     "EXEL": {
-      "last_price": 58.77,
+      "last_price": 58.78,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:26:00+00:00",
+      "last_price_time": "2026-09-03T11:56:05+00:00",
       "date": "2026-09-03",
       "today_open": 59.0,
       "today_high": 59.12,
       "today_low": 58.7709,
-      "today_close": 58.7709
+      "today_close": 58.7835
     },
     "EXLS": {
       "last_price": 37.35,
@@ -2614,7 +2624,7 @@
     "EXPD": {
       "last_price": 185.71,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:26:18+00:00",
+      "last_price_time": "2026-09-03T11:26:00+00:00",
       "date": "2026-09-03",
       "today_open": 186.16,
       "today_high": 186.16,
@@ -2664,7 +2674,7 @@
     "FAST": {
       "last_price": 47.6,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:35:10+00:00",
+      "last_price_time": "2026-09-03T11:35:00+00:00",
       "date": "2026-09-03",
       "today_open": 47.8,
       "today_high": 48.02,
@@ -2674,7 +2684,7 @@
     "FBIN": {
       "last_price": 42.89,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:02:00+00:00",
+      "last_price_time": "2026-09-03T11:20:00+00:00",
       "date": "2026-09-03",
       "today_open": 42.89,
       "today_high": 42.89,
@@ -2682,14 +2692,14 @@
       "today_close": 42.89
     },
     "FCX": {
-      "last_price": 74.68,
+      "last_price": 74.58,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:00+00:00",
+      "last_price_time": "2026-09-03T11:56:47+00:00",
       "date": "2026-09-03",
       "today_open": 74.17,
       "today_high": 75.25,
       "today_low": 73.8736,
-      "today_close": 74.6845
+      "today_close": 74.58
     },
     "FDX": {
       "last_price": 317.99,
@@ -2702,19 +2712,19 @@
       "today_close": 317.99
     },
     "FDXF": {
-      "last_price": 126.2,
+      "last_price": 126.33,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:39+00:00",
+      "last_price_time": "2026-09-03T11:54:50+00:00",
       "date": "2026-09-03",
       "today_open": 127.0,
       "today_high": 128.0,
-      "today_low": 126.09,
-      "today_close": 126.2
+      "today_low": 125.7422,
+      "today_close": 126.33
     },
     "FE": {
       "last_price": 46.51,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:31:09+00:00",
+      "last_price_time": "2026-09-03T11:31:00+00:00",
       "date": "2026-09-03",
       "today_open": 46.0,
       "today_high": 46.98,
@@ -2724,7 +2734,7 @@
     "FERG": {
       "last_price": 222.73,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:03:02+00:00",
+      "last_price_time": "2026-09-03T11:03:00+00:00",
       "date": "2026-09-03",
       "today_open": 223.0,
       "today_high": 223.0,
@@ -2732,24 +2742,24 @@
       "today_close": 222.73
     },
     "FIGR": {
-      "last_price": 33.33,
+      "last_price": 33.75,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:42+00:00",
+      "last_price_time": "2026-09-03T11:53:02+00:00",
       "date": "2026-09-03",
       "today_open": 33.7137,
       "today_high": 34.01,
       "today_low": 33.3,
-      "today_close": 33.33
+      "today_close": 33.75
     },
     "FIS": {
-      "last_price": 42.0,
+      "last_price": 42.02,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:01:00+00:00",
+      "last_price_time": "2026-09-03T11:21:00+00:00",
       "date": "2026-09-03",
       "today_open": 41.87,
       "today_high": 42.1,
       "today_low": 41.5252,
-      "today_close": 42.0
+      "today_close": 42.02
     },
     "FISV": {
       "last_price": 52.33,
@@ -2764,7 +2774,7 @@
     "FITB": {
       "last_price": 54.4,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:42:41+00:00",
+      "last_price_time": "2026-09-03T11:54:31+00:00",
       "date": "2026-09-03",
       "today_open": 54.4,
       "today_high": 54.96,
@@ -2772,14 +2782,14 @@
       "today_close": 54.4
     },
     "FIVE": {
-      "last_price": 257.1,
+      "last_price": 257.24,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:27+00:00",
+      "last_price_time": "2026-09-03T11:56:50+00:00",
       "date": "2026-09-03",
       "today_open": 255.446,
       "today_high": 258.92,
       "today_low": 251.0,
-      "today_close": 257.1
+      "today_close": 257.24
     },
     "FIVN": {
       "last_price": 34.0,
@@ -2792,14 +2802,14 @@
       "today_close": 34.0
     },
     "FLEX": {
-      "last_price": 106.88,
+      "last_price": 105.08,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:34:30+00:00",
+      "last_price_time": "2026-09-03T11:47:45+00:00",
       "date": "2026-09-03",
       "today_open": 105.95,
       "today_high": 112.791,
       "today_low": 102.7372,
-      "today_close": 106.88
+      "today_close": 105.08
     },
     "FLR": {
       "last_price": 56.81,
@@ -2824,7 +2834,7 @@
     "FLUT": {
       "last_price": 102.06,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:08:14+00:00",
+      "last_price_time": "2026-09-03T11:08:00+00:00",
       "date": "2026-09-03",
       "today_open": 101.44,
       "today_high": 104.6,
@@ -2862,14 +2872,14 @@
       "today_close": 97.2
     },
     "FOUR": {
-      "last_price": 44.0,
+      "last_price": 44.3,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:00:00+00:00",
+      "last_price_time": "2026-09-03T11:19:00+00:00",
       "date": "2026-09-03",
       "today_open": 44.0,
-      "today_high": 44.0,
+      "today_high": 44.3,
       "today_low": 44.0,
-      "today_close": 44.0
+      "today_close": 44.3
     },
     "FOX": {
       "last_price": 59.38,
@@ -2894,7 +2904,7 @@
     "FR": {
       "last_price": 61.6,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:04:00+00:00",
+      "last_price_time": "2026-09-03T11:20:00+00:00",
       "date": "2026-09-03",
       "today_open": 61.65,
       "today_high": 65.01,
@@ -2902,39 +2912,39 @@
       "today_close": 61.6
     },
     "FROG": {
-      "last_price": 92.45,
+      "last_price": 92.65,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:40:43+00:00",
+      "last_price_time": "2026-09-03T11:51:43+00:00",
       "date": "2026-09-03",
       "today_open": 92.0,
       "today_high": 93.66,
       "today_low": 91.56,
-      "today_close": 92.45
+      "today_close": 92.65
     },
     "FSLR": {
-      "last_price": 201.75,
+      "last_price": 201.98,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:11+00:00",
+      "last_price_time": "2026-09-03T11:56:59+00:00",
       "date": "2026-09-03",
       "today_open": 203.5,
       "today_high": 203.5,
       "today_low": 200.7,
-      "today_close": 201.75
+      "today_close": 201.98
     },
     "FTAI": {
-      "last_price": 185.82,
+      "last_price": 184.47,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:00:00+00:00",
+      "last_price_time": "2026-09-03T11:46:32+00:00",
       "date": "2026-09-03",
       "today_open": 185.61,
       "today_high": 187.0,
-      "today_low": 185.61,
-      "today_close": 185.82
+      "today_low": 184.0,
+      "today_close": 184.465
     },
     "FTI": {
       "last_price": 80.5,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:28:39+00:00",
+      "last_price_time": "2026-09-03T11:28:00+00:00",
       "date": "2026-09-03",
       "today_open": 79.72,
       "today_high": 80.5,
@@ -2942,19 +2952,19 @@
       "today_close": 80.5
     },
     "FTNT": {
-      "last_price": 156.67,
+      "last_price": 157.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:58+00:00",
+      "last_price_time": "2026-09-03T11:56:31+00:00",
       "date": "2026-09-03",
       "today_open": 155.78,
       "today_high": 160.5232,
       "today_low": 154.01,
-      "today_close": 156.67
+      "today_close": 157.0
     },
     "FTV": {
       "last_price": 56.6,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:02:00+00:00",
+      "last_price_time": "2026-09-03T11:20:00+00:00",
       "date": "2026-09-03",
       "today_open": 56.6,
       "today_high": 56.6,
@@ -2984,7 +2994,7 @@
     "GBCI": {
       "last_price": 46.74,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:21:28+00:00",
+      "last_price_time": "2026-09-03T11:08:00+00:00",
       "date": "2026-09-03",
       "today_open": 46.7867,
       "today_high": 46.9112,
@@ -2994,7 +3004,7 @@
     "GD": {
       "last_price": 366.8,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:13:45+00:00",
+      "last_price_time": "2026-09-03T11:13:00+00:00",
       "date": "2026-09-03",
       "today_open": 364.07,
       "today_high": 366.8,
@@ -3012,14 +3022,14 @@
       "today_close": 101.99
     },
     "GE": {
-      "last_price": 329.8,
+      "last_price": 329.84,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:38:49+00:00",
+      "last_price_time": "2026-09-03T11:56:57+00:00",
       "date": "2026-09-03",
       "today_open": 330.74,
       "today_high": 330.74,
       "today_low": 329.3472,
-      "today_close": 329.8
+      "today_close": 329.84
     },
     "GEHC": {
       "last_price": 70.66,
@@ -3052,14 +3062,14 @@
       "today_close": 30.56
     },
     "GEV": {
-      "last_price": 923.73,
+      "last_price": 923.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:51+00:00",
+      "last_price_time": "2026-09-03T11:57:11+00:00",
       "date": "2026-09-03",
       "today_open": 926.36,
       "today_high": 928.9992,
       "today_low": 915.01,
-      "today_close": 923.73
+      "today_close": 923.0
     },
     "GFL": {
       "last_price": 43.96,
@@ -3072,14 +3082,14 @@
       "today_close": 43.96
     },
     "GFS": {
-      "last_price": 43.88,
+      "last_price": 43.79,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:49+00:00",
+      "last_price_time": "2026-09-03T11:56:36+00:00",
       "date": "2026-09-03",
       "today_open": 44.15,
       "today_high": 44.26,
       "today_low": 43.66,
-      "today_close": 43.88
+      "today_close": 43.79
     },
     "GGG": {
       "last_price": 77.67,
@@ -3094,7 +3104,7 @@
     "GILD": {
       "last_price": 149.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:33:21+00:00",
+      "last_price_time": "2026-09-03T11:33:00+00:00",
       "date": "2026-09-03",
       "today_open": 148.7812,
       "today_high": 149.48,
@@ -3102,29 +3112,29 @@
       "today_close": 149.0
     },
     "GIS": {
-      "last_price": 40.0,
+      "last_price": 40.07,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:38:02+00:00",
+      "last_price_time": "2026-09-03T11:52:59+00:00",
       "date": "2026-09-03",
       "today_open": 40.5,
       "today_high": 40.99,
       "today_low": 39.69,
-      "today_close": 40.0
+      "today_close": 40.07
     },
     "GLW": {
-      "last_price": 142.94,
+      "last_price": 143.22,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:07+00:00",
+      "last_price_time": "2026-09-03T11:57:01+00:00",
       "date": "2026-09-03",
       "today_open": 144.28,
       "today_high": 144.8,
       "today_low": 141.0,
-      "today_close": 142.94
+      "today_close": 143.22
     },
     "GM": {
       "last_price": 85.57,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:32:31+00:00",
+      "last_price_time": "2026-09-03T11:32:00+00:00",
       "date": "2026-09-03",
       "today_open": 84.87,
       "today_high": 87.8446,
@@ -3142,34 +3152,34 @@
       "today_close": 83.8
     },
     "GNRC": {
-      "last_price": 181.85,
+      "last_price": 179.1,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:28:59+00:00",
+      "last_price_time": "2026-09-03T11:31:35+00:00",
       "date": "2026-09-03",
       "today_open": 182.0,
       "today_high": 182.245,
-      "today_low": 179.6,
-      "today_close": 181.85
+      "today_low": 179.1017,
+      "today_close": 179.1017
     },
     "GOOG": {
-      "last_price": 334.85,
+      "last_price": 334.66,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:54+00:00",
+      "last_price_time": "2026-09-03T11:57:11+00:00",
       "date": "2026-09-03",
       "today_open": 335.19,
       "today_high": 336.5,
       "today_low": 333.78,
-      "today_close": 334.85
+      "today_close": 334.66
     },
     "GOOGL": {
-      "last_price": 338.33,
+      "last_price": 338.14,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:55+00:00",
+      "last_price_time": "2026-09-03T11:56:57+00:00",
       "date": "2026-09-03",
       "today_open": 339.21,
       "today_high": 339.9237,
       "today_low": 337.12,
-      "today_close": 338.3341
+      "today_close": 338.14
     },
     "GPC": {
       "last_price": 141.28,
@@ -3192,39 +3202,39 @@
       "today_close": 93.09
     },
     "GS": {
-      "last_price": 1004.42,
+      "last_price": 1004.06,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:04+00:00",
+      "last_price_time": "2026-09-03T11:48:41+00:00",
       "date": "2026-09-03",
       "today_open": 1005.0,
       "today_high": 1009.8507,
       "today_low": 1000.3837,
-      "today_close": 1004.42
+      "today_close": 1004.06
     },
     "GTLB": {
-      "last_price": 49.93,
+      "last_price": 49.71,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:47+00:00",
+      "last_price_time": "2026-09-03T11:57:03+00:00",
       "date": "2026-09-03",
       "today_open": 49.4612,
       "today_high": 50.25,
       "today_low": 49.27,
-      "today_close": 49.93
+      "today_close": 49.71
     },
     "GWRE": {
-      "last_price": 197.51,
+      "last_price": 194.01,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:27:35+00:00",
+      "last_price_time": "2026-09-03T11:34:20+00:00",
       "date": "2026-09-03",
       "today_open": 192.76,
       "today_high": 199.99,
       "today_low": 191.98,
-      "today_close": 197.51
+      "today_close": 194.01
     },
     "GXO": {
       "last_price": 46.94,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:32:25+00:00",
+      "last_price_time": "2026-09-03T11:32:00+00:00",
       "date": "2026-09-03",
       "today_open": 46.37,
       "today_high": 46.94,
@@ -3232,19 +3242,19 @@
       "today_close": 46.94
     },
     "HAL": {
-      "last_price": 37.87,
+      "last_price": 37.89,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:47+00:00",
+      "last_price_time": "2026-09-03T11:53:41+00:00",
       "date": "2026-09-03",
       "today_open": 37.68,
-      "today_high": 37.87,
+      "today_high": 37.89,
       "today_low": 37.15,
-      "today_close": 37.87
+      "today_close": 37.89
     },
     "HALO": {
       "last_price": 110.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:21:00+00:00",
+      "last_price_time": "2026-09-03T11:48:31+00:00",
       "date": "2026-09-03",
       "today_open": 109.81,
       "today_high": 110.0,
@@ -3272,29 +3282,29 @@
       "today_close": 40.1
     },
     "HCA": {
-      "last_price": 404.96,
+      "last_price": 405.2,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:41:00+00:00",
+      "last_price_time": "2026-09-03T11:47:22+00:00",
       "date": "2026-09-03",
       "today_open": 403.06,
       "today_high": 408.0,
       "today_low": 403.0,
-      "today_close": 404.96
+      "today_close": 405.2
     },
     "HD": {
-      "last_price": 317.28,
+      "last_price": 317.25,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:48+00:00",
+      "last_price_time": "2026-09-03T11:54:16+00:00",
       "date": "2026-09-03",
       "today_open": 317.65,
       "today_high": 318.709,
       "today_low": 315.8625,
-      "today_close": 317.28
+      "today_close": 317.25
     },
     "HESM": {
       "last_price": 40.03,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:04:06+00:00",
+      "last_price_time": "2026-09-03T11:04:00+00:00",
       "date": "2026-09-03",
       "today_open": 40.03,
       "today_high": 40.03,
@@ -3332,14 +3342,14 @@
       "today_close": 30.0
     },
     "HLT": {
-      "last_price": 312.0,
+      "last_price": 311.7,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:29:09+00:00",
+      "last_price_time": "2026-09-03T11:49:40+00:00",
       "date": "2026-09-03",
       "today_open": 311.51,
       "today_high": 333.5767,
-      "today_low": 311.51,
-      "today_close": 312.0
+      "today_low": 311.0,
+      "today_close": 311.7
     },
     "HNGE": {
       "last_price": 92.3,
@@ -3352,54 +3362,54 @@
       "today_close": 92.3
     },
     "HON": {
-      "last_price": 206.75,
+      "last_price": 206.8,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:36:21+00:00",
+      "last_price_time": "2026-09-03T11:54:37+00:00",
       "date": "2026-09-03",
       "today_open": 206.07,
       "today_high": 206.8,
       "today_low": 206.0,
-      "today_close": 206.75
+      "today_close": 206.8
     },
     "HONA": {
-      "last_price": 152.8,
+      "last_price": 152.81,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:30:00+00:00",
+      "last_price_time": "2026-09-03T11:56:56+00:00",
       "date": "2026-09-03",
       "today_open": 152.81,
       "today_high": 154.0,
       "today_low": 152.01,
-      "today_close": 152.8
+      "today_close": 152.81
     },
     "HOOD": {
-      "last_price": 109.89,
+      "last_price": 109.78,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:56+00:00",
+      "last_price_time": "2026-09-03T11:57:14+00:00",
       "date": "2026-09-03",
       "today_open": 109.9,
       "today_high": 110.88,
       "today_low": 108.55,
-      "today_close": 109.8939
+      "today_close": 109.78
     },
     "HP": {
-      "last_price": 47.66,
+      "last_price": 48.09,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:28:59+00:00",
+      "last_price_time": "2026-09-03T11:50:04+00:00",
       "date": "2026-09-03",
       "today_open": 47.64,
       "today_high": 48.3,
       "today_low": 46.775,
-      "today_close": 47.66
+      "today_close": 48.085
     },
     "HPE": {
-      "last_price": 49.54,
+      "last_price": 49.55,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:50+00:00",
+      "last_price_time": "2026-09-03T11:56:58+00:00",
       "date": "2026-09-03",
       "today_open": 48.9,
       "today_high": 50.4708,
       "today_low": 48.35,
-      "today_close": 49.54
+      "today_close": 49.5539
     },
     "HPQ": {
       "last_price": 31.97,
@@ -3432,89 +3442,89 @@
       "today_close": 89.49
     },
     "HSY": {
-      "last_price": 176.33,
+      "last_price": 176.32,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:29:09+00:00",
+      "last_price_time": "2026-09-03T11:27:00+00:00",
       "date": "2026-09-03",
       "today_open": 175.54,
       "today_high": 177.6666,
       "today_low": 175.32,
-      "today_close": 176.33
+      "today_close": 176.32
     },
     "HUBS": {
-      "last_price": 250.0,
+      "last_price": 249.2,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:40:25+00:00",
+      "last_price_time": "2026-09-03T11:55:53+00:00",
       "date": "2026-09-03",
       "today_open": 248.52,
       "today_high": 251.57,
       "today_low": 245.467,
-      "today_close": 250.0
+      "today_close": 249.2
     },
     "HUM": {
-      "last_price": 402.5,
+      "last_price": 400.65,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:19:00+00:00",
+      "last_price_time": "2026-09-03T11:56:13+00:00",
       "date": "2026-09-03",
       "today_open": 400.97,
       "today_high": 417.8832,
-      "today_low": 400.97,
-      "today_close": 402.5
+      "today_low": 400.65,
+      "today_close": 400.65
     },
     "HUT": {
-      "last_price": 80.38,
+      "last_price": 80.24,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:42:04+00:00",
+      "last_price_time": "2026-09-03T11:56:19+00:00",
       "date": "2026-09-03",
       "today_open": 79.9282,
       "today_high": 81.7427,
       "today_low": 79.5,
-      "today_close": 80.38
+      "today_close": 80.24
     },
     "HWM": {
-      "last_price": 258.52,
+      "last_price": 254.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:32:28+00:00",
+      "last_price_time": "2026-09-03T11:56:07+00:00",
       "date": "2026-09-03",
       "today_open": 253.05,
       "today_high": 259.0,
       "today_low": 252.96,
-      "today_close": 258.5232
+      "today_close": 254.0
     },
     "IBKR": {
-      "last_price": 89.78,
+      "last_price": 89.3,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:40:18+00:00",
+      "last_price_time": "2026-09-03T11:54:20+00:00",
       "date": "2026-09-03",
       "today_open": 89.5386,
       "today_high": 90.0,
       "today_low": 88.9,
-      "today_close": 89.78
+      "today_close": 89.3
     },
     "IBM": {
-      "last_price": 232.92,
+      "last_price": 233.28,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:41:56+00:00",
+      "last_price_time": "2026-09-03T11:57:04+00:00",
       "date": "2026-09-03",
       "today_open": 230.76,
       "today_high": 233.6975,
       "today_low": 230.76,
-      "today_close": 232.92
+      "today_close": 233.28
     },
     "ICE": {
-      "last_price": 157.85,
+      "last_price": 156.54,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:00:00+00:00",
+      "last_price_time": "2026-09-03T11:46:58+00:00",
       "date": "2026-09-03",
       "today_open": 157.85,
-      "today_high": 157.85,
-      "today_low": 157.85,
-      "today_close": 157.85
+      "today_high": 157.86,
+      "today_low": 156.5425,
+      "today_close": 156.5425
     },
     "IDYA": {
       "last_price": 40.39,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:25:31+00:00",
+      "last_price_time": "2026-09-03T11:25:00+00:00",
       "date": "2026-09-03",
       "today_open": 40.1,
       "today_high": 40.39,
@@ -3542,19 +3552,19 @@
       "today_close": 214.0
     },
     "IMVT": {
-      "last_price": 39.41,
+      "last_price": 39.08,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:04:00+00:00",
+      "last_price_time": "2026-09-03T11:33:00+00:00",
       "date": "2026-09-03",
       "today_open": 39.64,
       "today_high": 40.0762,
       "today_low": 39.0334,
-      "today_close": 39.4097
+      "today_close": 39.0795
     },
     "INCY": {
       "last_price": 126.2,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:10+00:00",
+      "last_price_time": "2026-09-03T11:53:07+00:00",
       "date": "2026-09-03",
       "today_open": 128.7,
       "today_high": 132.28,
@@ -3562,14 +3572,14 @@
       "today_close": 126.2
     },
     "INDV": {
-      "last_price": 35.06,
+      "last_price": 35.2,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T08:25:00+00:00",
+      "last_price_time": "2026-09-03T11:36:00+00:00",
       "date": "2026-09-03",
       "today_open": 34.7,
       "today_high": 35.44,
       "today_low": 34.66,
-      "today_close": 35.06
+      "today_close": 35.1956
     },
     "INSM": {
       "last_price": 126.63,
@@ -3582,54 +3592,54 @@
       "today_close": 126.63
     },
     "INTC": {
-      "last_price": 89.38,
+      "last_price": 89.12,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:40+00:00",
+      "last_price_time": "2026-09-03T11:57:06+00:00",
       "date": "2026-09-03",
       "today_open": 90.2218,
       "today_high": 90.73,
-      "today_low": 89.17,
-      "today_close": 89.3775
+      "today_low": 89.09,
+      "today_close": 89.12
     },
     "INTU": {
-      "last_price": 346.27,
+      "last_price": 346.9,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:27+00:00",
+      "last_price_time": "2026-09-03T11:56:54+00:00",
       "date": "2026-09-03",
       "today_open": 346.3845,
       "today_high": 347.95,
       "today_low": 342.94,
-      "today_close": 346.27
+      "today_close": 346.9
     },
     "IONQ": {
-      "last_price": 38.0,
+      "last_price": 37.88,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:56+00:00",
+      "last_price_time": "2026-09-03T11:57:13+00:00",
       "date": "2026-09-03",
       "today_open": 38.0,
       "today_high": 38.27,
       "today_low": 37.64,
-      "today_close": 38.0
+      "today_close": 37.879
     },
     "IONS": {
-      "last_price": 59.0,
+      "last_price": 59.01,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:56+00:00",
+      "last_price_time": "2026-09-03T11:52:04+00:00",
       "date": "2026-09-03",
       "today_open": 60.6667,
       "today_high": 61.08,
       "today_low": 59.0,
-      "today_close": 59.0
+      "today_close": 59.01
     },
     "IOT": {
-      "last_price": 37.71,
+      "last_price": 37.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:42:49+00:00",
+      "last_price_time": "2026-09-03T11:57:08+00:00",
       "date": "2026-09-03",
       "today_open": 37.396,
       "today_high": 37.9,
-      "today_low": 37.25,
-      "today_close": 37.7062
+      "today_low": 37.0,
+      "today_close": 37.0
     },
     "IP": {
       "last_price": 36.63,
@@ -3644,7 +3654,7 @@
     "IQV": {
       "last_price": 264.5,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:10:00+00:00",
+      "last_price_time": "2026-09-03T11:20:00+00:00",
       "date": "2026-09-03",
       "today_open": 266.7,
       "today_high": 266.7,
@@ -3654,7 +3664,7 @@
     "IR": {
       "last_price": 75.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:08:00+00:00",
+      "last_price_time": "2026-09-03T11:25:00+00:00",
       "date": "2026-09-03",
       "today_open": 75.0,
       "today_high": 75.0,
@@ -3662,19 +3672,19 @@
       "today_close": 75.0
     },
     "IRDM": {
-      "last_price": 48.08,
+      "last_price": 46.96,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:04:00+00:00",
+      "last_price_time": "2026-09-03T11:39:00+00:00",
       "date": "2026-09-03",
       "today_open": 46.96,
       "today_high": 48.0758,
       "today_low": 46.96,
-      "today_close": 48.0758
+      "today_close": 46.96
     },
     "IRM": {
       "last_price": 112.4,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:14:16+00:00",
+      "last_price_time": "2026-09-03T11:25:24+00:00",
       "date": "2026-09-03",
       "today_open": 112.5,
       "today_high": 113.0,
@@ -3682,19 +3692,19 @@
       "today_close": 112.4
     },
     "ISRG": {
-      "last_price": 373.52,
+      "last_price": 373.27,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:54+00:00",
+      "last_price_time": "2026-09-03T11:54:16+00:00",
       "date": "2026-09-03",
       "today_open": 372.44,
-      "today_high": 375.0,
+      "today_high": 378.44,
       "today_low": 371.55,
-      "today_close": 373.52
+      "today_close": 373.27
     },
     "IT": {
       "last_price": 188.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:26:52+00:00",
+      "last_price_time": "2026-09-03T11:26:54+00:00",
       "date": "2026-09-03",
       "today_open": 188.88,
       "today_high": 194.99,
@@ -3704,7 +3714,7 @@
     "ITW": {
       "last_price": 270.27,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:03:20+00:00",
+      "last_price_time": "2026-09-03T11:03:00+00:00",
       "date": "2026-09-03",
       "today_open": 269.09,
       "today_high": 270.2668,
@@ -3714,7 +3724,7 @@
     "IVZ": {
       "last_price": 31.66,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:14:34+00:00",
+      "last_price_time": "2026-09-03T11:14:00+00:00",
       "date": "2026-09-03",
       "today_open": 32.63,
       "today_high": 32.63,
@@ -3724,7 +3734,7 @@
     "J": {
       "last_price": 148.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:03:10+00:00",
+      "last_price_time": "2026-09-03T11:03:00+00:00",
       "date": "2026-09-03",
       "today_open": 148.0,
       "today_high": 148.0,
@@ -3734,7 +3744,7 @@
     "JAN": {
       "last_price": 30.7,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:02:42+00:00",
+      "last_price_time": "2026-09-03T11:02:00+00:00",
       "date": "2026-09-03",
       "today_open": 30.7,
       "today_high": 30.7,
@@ -3754,7 +3764,7 @@
     "JEF": {
       "last_price": 52.9,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:08:00+00:00",
+      "last_price_time": "2026-09-03T11:20:54+00:00",
       "date": "2026-09-03",
       "today_open": 52.9,
       "today_high": 52.9,
@@ -3772,24 +3782,24 @@
       "today_close": 167.51
     },
     "JNJ": {
-      "last_price": 275.7,
+      "last_price": 275.6,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:16+00:00",
+      "last_price_time": "2026-09-03T11:57:09+00:00",
       "date": "2026-09-03",
       "today_open": 274.88,
       "today_high": 277.6797,
       "today_low": 270.8812,
-      "today_close": 275.7
+      "today_close": 275.6
     },
     "JPM": {
-      "last_price": 356.94,
+      "last_price": 356.4,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:37+00:00",
+      "last_price_time": "2026-09-03T11:55:46+00:00",
       "date": "2026-09-03",
       "today_open": 357.7847,
       "today_high": 358.1,
       "today_low": 354.5707,
-      "today_close": 356.94
+      "today_close": 356.4
     },
     "KBH": {
       "last_price": 52.5,
@@ -3822,29 +3832,29 @@
       "today_close": 32.6013
     },
     "KEYS": {
-      "last_price": 316.93,
+      "last_price": 320.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:12:40+00:00",
+      "last_price_time": "2026-09-03T11:45:38+00:00",
       "date": "2026-09-03",
       "today_open": 316.93,
-      "today_high": 316.93,
+      "today_high": 321.18,
       "today_low": 316.93,
-      "today_close": 316.93
+      "today_close": 320.0
     },
     "KGS": {
-      "last_price": 61.11,
+      "last_price": 61.73,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:00:00+00:00",
+      "last_price_time": "2026-09-03T11:53:11+00:00",
       "date": "2026-09-03",
       "today_open": 60.82,
       "today_high": 61.89,
       "today_low": 59.54,
-      "today_close": 61.11
+      "today_close": 61.735
     },
     "KKR": {
       "last_price": 108.55,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:12:34+00:00",
+      "last_price_time": "2026-09-03T11:12:00+00:00",
       "date": "2026-09-03",
       "today_open": 106.96,
       "today_high": 108.55,
@@ -3852,39 +3862,39 @@
       "today_close": 108.55
     },
     "KLAC": {
-      "last_price": 169.62,
+      "last_price": 170.34,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:31+00:00",
+      "last_price_time": "2026-09-03T11:56:57+00:00",
       "date": "2026-09-03",
       "today_open": 171.82,
       "today_high": 173.63,
-      "today_low": 169.61,
-      "today_close": 169.62
+      "today_low": 169.02,
+      "today_close": 170.3366
     },
     "KLIC": {
-      "last_price": 78.93,
+      "last_price": 78.18,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:22:00+00:00",
+      "last_price_time": "2026-09-03T11:45:02+00:00",
       "date": "2026-09-03",
       "today_open": 79.0,
       "today_high": 79.0,
-      "today_low": 78.84,
-      "today_close": 78.9344
+      "today_low": 78.18,
+      "today_close": 78.18
     },
     "KMB": {
-      "last_price": 109.5,
+      "last_price": 109.8,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:35+00:00",
+      "last_price_time": "2026-09-03T11:55:40+00:00",
       "date": "2026-09-03",
       "today_open": 109.53,
       "today_high": 111.5495,
       "today_low": 109.29,
-      "today_close": 109.5
+      "today_close": 109.8
     },
     "KMI": {
       "last_price": 32.1,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:20:40+00:00",
+      "last_price_time": "2026-09-03T11:20:00+00:00",
       "date": "2026-09-03",
       "today_open": 31.73,
       "today_high": 32.1936,
@@ -3894,7 +3904,7 @@
     "KMX": {
       "last_price": 61.43,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:03:00+00:00",
+      "last_price_time": "2026-09-03T11:20:00+00:00",
       "date": "2026-09-03",
       "today_open": 61.43,
       "today_high": 61.43,
@@ -3904,7 +3914,7 @@
     "KN": {
       "last_price": 34.26,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:27:00+00:00",
+      "last_price_time": "2026-09-03T11:29:15+00:00",
       "date": "2026-09-03",
       "today_open": 34.47,
       "today_high": 35.7,
@@ -3914,7 +3924,7 @@
     "KNTK": {
       "last_price": 54.12,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:04:06+00:00",
+      "last_price_time": "2026-09-03T11:04:00+00:00",
       "date": "2026-09-03",
       "today_open": 54.12,
       "today_high": 54.12,
@@ -3924,7 +3934,7 @@
     "KNX": {
       "last_price": 67.88,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:03:02+00:00",
+      "last_price_time": "2026-09-03T11:03:00+00:00",
       "date": "2026-09-03",
       "today_open": 67.88,
       "today_high": 67.88,
@@ -3932,14 +3942,14 @@
       "today_close": 67.88
     },
     "KO": {
-      "last_price": 88.36,
+      "last_price": 88.41,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:30+00:00",
+      "last_price_time": "2026-09-03T11:57:10+00:00",
       "date": "2026-09-03",
       "today_open": 88.47,
       "today_high": 88.71,
       "today_low": 88.2212,
-      "today_close": 88.3642
+      "today_close": 88.41
     },
     "KR": {
       "last_price": 58.25,
@@ -3954,7 +3964,7 @@
     "KRC": {
       "last_price": 36.31,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:02:33+00:00",
+      "last_price_time": "2026-09-03T11:02:00+00:00",
       "date": "2026-09-03",
       "today_open": 36.4,
       "today_high": 37.3,
@@ -3962,29 +3972,29 @@
       "today_close": 36.31
     },
     "KRMN": {
-      "last_price": 40.7,
+      "last_price": 40.71,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:24:37+00:00",
+      "last_price_time": "2026-09-03T11:38:00+00:00",
       "date": "2026-09-03",
       "today_open": 40.4,
       "today_high": 41.0,
       "today_low": 40.4,
-      "today_close": 40.7
+      "today_close": 40.71
     },
     "KTOS": {
-      "last_price": 48.5,
+      "last_price": 48.31,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:48+00:00",
+      "last_price_time": "2026-09-03T11:56:48+00:00",
       "date": "2026-09-03",
       "today_open": 48.17,
       "today_high": 48.58,
       "today_low": 47.86,
-      "today_close": 48.5
+      "today_close": 48.31
     },
     "LASR": {
       "last_price": 39.47,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:42:45+00:00",
+      "last_price_time": "2026-09-03T11:52:31+00:00",
       "date": "2026-09-03",
       "today_open": 39.35,
       "today_high": 40.0,
@@ -3994,7 +4004,7 @@
     "LAZ": {
       "last_price": 42.95,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:08:20+00:00",
+      "last_price_time": "2026-09-03T11:08:00+00:00",
       "date": "2026-09-03",
       "today_open": 42.95,
       "today_high": 42.95,
@@ -4014,7 +4024,7 @@
     "LEN": {
       "last_price": 83.9,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:35:20+00:00",
+      "last_price_time": "2026-09-03T11:35:00+00:00",
       "date": "2026-09-03",
       "today_open": 83.47,
       "today_high": 83.9205,
@@ -4024,7 +4034,7 @@
     "LGN": {
       "last_price": 51.2,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:27:39+00:00",
+      "last_price_time": "2026-09-03T11:27:00+00:00",
       "date": "2026-09-03",
       "today_open": 51.8,
       "today_high": 53.5,
@@ -4032,74 +4042,74 @@
       "today_close": 51.2
     },
     "LHX": {
-      "last_price": 263.3,
+      "last_price": 263.75,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:40:49+00:00",
+      "last_price_time": "2026-09-03T11:53:11+00:00",
       "date": "2026-09-03",
       "today_open": 261.1,
       "today_high": 265.0,
       "today_low": 260.242,
-      "today_close": 263.3
+      "today_close": 263.75
     },
     "LITE": {
-      "last_price": 862.27,
+      "last_price": 864.52,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:57+00:00",
+      "last_price_time": "2026-09-03T11:57:08+00:00",
       "date": "2026-09-03",
       "today_open": 872.999,
       "today_high": 875.0,
       "today_low": 858.1532,
-      "today_close": 862.2667
+      "today_close": 864.52
     },
     "LLY": {
-      "last_price": 1165.87,
+      "last_price": 1166.55,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:47+00:00",
+      "last_price_time": "2026-09-03T11:56:58+00:00",
       "date": "2026-09-03",
       "today_open": 1162.1542,
       "today_high": 1169.3788,
       "today_low": 1160.08,
-      "today_close": 1165.8687
+      "today_close": 1166.55
     },
     "LMND": {
-      "last_price": 53.41,
+      "last_price": 53.22,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:00:00+00:00",
+      "last_price_time": "2026-09-03T11:46:12+00:00",
       "date": "2026-09-03",
       "today_open": 52.4762,
       "today_high": 53.88,
       "today_low": 52.4762,
-      "today_close": 53.41
+      "today_close": 53.2175
     },
     "LMT": {
-      "last_price": 534.0,
+      "last_price": 532.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:55+00:00",
+      "last_price_time": "2026-09-03T11:53:18+00:00",
       "date": "2026-09-03",
       "today_open": 534.4,
       "today_high": 535.0,
       "today_low": 530.1237,
-      "today_close": 534.0
+      "today_close": 532.0
     },
     "LNC": {
-      "last_price": 43.9,
+      "last_price": 44.12,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:14:00+00:00",
+      "last_price_time": "2026-09-03T11:35:51+00:00",
       "date": "2026-09-03",
       "today_open": 44.12,
       "today_high": 44.71,
       "today_low": 43.9,
-      "today_close": 43.9
+      "today_close": 44.12
     },
     "LNG": {
-      "last_price": 298.0,
+      "last_price": 297.5,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:40+00:00",
+      "last_price_time": "2026-09-03T11:52:42+00:00",
       "date": "2026-09-03",
       "today_open": 295.51,
       "today_high": 298.0,
       "today_low": 293.0,
-      "today_close": 298.0
+      "today_close": 297.5
     },
     "LNT": {
       "last_price": 67.94,
@@ -4122,19 +4132,19 @@
       "today_close": 100.94
     },
     "LOW": {
-      "last_price": 200.8,
+      "last_price": 200.15,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:39:09+00:00",
+      "last_price_time": "2026-09-03T11:50:39+00:00",
       "date": "2026-09-03",
       "today_open": 200.83,
       "today_high": 201.91,
       "today_low": 199.84,
-      "today_close": 200.8
+      "today_close": 200.15
     },
     "LPX": {
       "last_price": 68.95,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:07:07+00:00",
+      "last_price_time": "2026-09-03T11:20:42+00:00",
       "date": "2026-09-03",
       "today_open": 68.99,
       "today_high": 68.99,
@@ -4144,7 +4154,7 @@
     "LQDA": {
       "last_price": 70.2,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:40:18+00:00",
+      "last_price_time": "2026-09-03T11:40:00+00:00",
       "date": "2026-09-03",
       "today_open": 69.25,
       "today_high": 72.2,
@@ -4152,14 +4162,14 @@
       "today_close": 70.1997
     },
     "LRCX": {
-      "last_price": 287.99,
+      "last_price": 283.21,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:28+00:00",
+      "last_price_time": "2026-09-03T11:55:02+00:00",
       "date": "2026-09-03",
       "today_open": 289.1037,
       "today_high": 292.296,
       "today_low": 283.1,
-      "today_close": 287.99
+      "today_close": 283.21
     },
     "LSCC": {
       "last_price": 113.87,
@@ -4172,29 +4182,29 @@
       "today_close": 113.87
     },
     "LTH": {
-      "last_price": 43.72,
+      "last_price": 44.08,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:02:00+00:00",
+      "last_price_time": "2026-09-03T11:30:04+00:00",
       "date": "2026-09-03",
       "today_open": 44.03,
-      "today_high": 44.05,
+      "today_high": 44.08,
       "today_low": 43.16,
-      "today_close": 43.7246
+      "today_close": 44.08
     },
     "LUV": {
-      "last_price": 38.5,
+      "last_price": 38.35,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:42:10+00:00",
+      "last_price_time": "2026-09-03T11:55:06+00:00",
       "date": "2026-09-03",
       "today_open": 38.5,
       "today_high": 39.0397,
       "today_low": 38.0542,
-      "today_close": 38.5
+      "today_close": 38.35
     },
     "LVS": {
       "last_price": 44.88,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:28:33+00:00",
+      "last_price_time": "2026-09-03T11:30:04+00:00",
       "date": "2026-09-03",
       "today_open": 44.54,
       "today_high": 44.88,
@@ -4204,7 +4214,7 @@
     "LW": {
       "last_price": 52.32,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T10:57:00+00:00",
+      "last_price_time": "2026-09-03T11:20:48+00:00",
       "date": "2026-09-03",
       "today_open": 53.17,
       "today_high": 53.17,
@@ -4214,7 +4224,7 @@
     "LYV": {
       "last_price": 179.59,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:17:00+00:00",
+      "last_price_time": "2026-09-03T11:30:00+00:00",
       "date": "2026-09-03",
       "today_open": 179.59,
       "today_high": 179.59,
@@ -4222,19 +4232,19 @@
       "today_close": 179.59
     },
     "MA": {
-      "last_price": 588.35,
+      "last_price": 590.72,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:39:33+00:00",
+      "last_price_time": "2026-09-03T11:53:51+00:00",
       "date": "2026-09-03",
       "today_open": 589.53,
       "today_high": 591.04,
       "today_low": 582.0012,
-      "today_close": 588.35
+      "today_close": 590.72
     },
     "MAA": {
       "last_price": 128.61,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:03:00+00:00",
+      "last_price_time": "2026-09-03T11:30:00+00:00",
       "date": "2026-09-03",
       "today_open": 128.61,
       "today_high": 128.61,
@@ -4264,7 +4274,7 @@
     "MAS": {
       "last_price": 70.94,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:14:34+00:00",
+      "last_price_time": "2026-09-03T11:14:00+00:00",
       "date": "2026-09-03",
       "today_open": 70.94,
       "today_high": 70.94,
@@ -4272,59 +4282,69 @@
       "today_close": 70.94
     },
     "MCD": {
-      "last_price": 261.34,
+      "last_price": 261.44,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:57+00:00",
+      "last_price_time": "2026-09-03T11:54:02+00:00",
       "date": "2026-09-03",
       "today_open": 261.0,
       "today_high": 261.972,
       "today_low": 260.95,
-      "today_close": 261.34
+      "today_close": 261.4437
     },
     "MCHP": {
-      "last_price": 71.82,
+      "last_price": 71.75,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:41:19+00:00",
+      "last_price_time": "2026-09-03T11:57:00+00:00",
       "date": "2026-09-03",
       "today_open": 70.45,
       "today_high": 73.2,
       "today_low": 70.45,
-      "today_close": 71.82
+      "today_close": 71.75
     },
     "MCK": {
-      "last_price": 927.78,
+      "last_price": 925.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:42:13+00:00",
+      "last_price_time": "2026-09-03T11:56:30+00:00",
       "date": "2026-09-03",
       "today_open": 901.75,
       "today_high": 927.78,
       "today_low": 901.75,
-      "today_close": 927.78
+      "today_close": 925.0
     },
     "MDB": {
-      "last_price": 384.0,
+      "last_price": 382.26,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:12+00:00",
+      "last_price_time": "2026-09-03T11:55:44+00:00",
       "date": "2026-09-03",
       "today_open": 379.8957,
       "today_high": 385.0,
       "today_low": 378.215,
-      "today_close": 384.0
+      "today_close": 382.26
+    },
+    "MDLN": {
+      "last_price": 36.43,
+      "last_price_session": "Pre-market",
+      "last_price_time": "2026-09-03T11:55:38+00:00",
+      "date": "2026-09-03",
+      "today_open": 36.3,
+      "today_high": 36.43,
+      "today_low": 36.3,
+      "today_close": 36.43
     },
     "MDLZ": {
-      "last_price": 62.13,
+      "last_price": 62.44,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:17:00+00:00",
+      "last_price_time": "2026-09-03T11:40:00+00:00",
       "date": "2026-09-03",
       "today_open": 62.45,
       "today_high": 62.45,
       "today_low": 62.13,
-      "today_close": 62.13
+      "today_close": 62.44
     },
     "MET": {
       "last_price": 96.42,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:01:29+00:00",
+      "last_price_time": "2026-09-03T11:01:00+00:00",
       "date": "2026-09-03",
       "today_open": 96.43,
       "today_high": 96.43,
@@ -4332,14 +4352,14 @@
       "today_close": 96.42
     },
     "META": {
-      "last_price": 597.21,
+      "last_price": 596.5,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:49+00:00",
+      "last_price_time": "2026-09-03T11:56:55+00:00",
       "date": "2026-09-03",
       "today_open": 599.4,
       "today_high": 600.33,
       "today_low": 592.85,
-      "today_close": 597.21
+      "today_close": 596.5
     },
     "MFP": {
       "last_price": 45.5,
@@ -4354,7 +4374,7 @@
     "MGM": {
       "last_price": 41.5,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:03:23+00:00",
+      "last_price_time": "2026-09-03T11:03:00+00:00",
       "date": "2026-09-03",
       "today_open": 41.44,
       "today_high": 41.9,
@@ -4372,14 +4392,14 @@
       "today_close": 40.62
     },
     "MKC": {
-      "last_price": 53.52,
+      "last_price": 53.72,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:30+00:00",
+      "last_price_time": "2026-09-03T11:54:03+00:00",
       "date": "2026-09-03",
       "today_open": 53.81,
       "today_high": 54.61,
       "today_low": 53.52,
-      "today_close": 53.52
+      "today_close": 53.7242
     },
     "MKSI": {
       "last_price": 250.5,
@@ -4404,7 +4424,7 @@
     "MLI": {
       "last_price": 63.02,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:16:00+00:00",
+      "last_price_time": "2026-09-03T11:31:02+00:00",
       "date": "2026-09-03",
       "today_open": 61.84,
       "today_high": 63.025,
@@ -4412,44 +4432,44 @@
       "today_close": 63.025
     },
     "MMM": {
-      "last_price": 169.47,
+      "last_price": 169.61,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:29:37+00:00",
+      "last_price_time": "2026-09-03T11:55:15+00:00",
       "date": "2026-09-03",
       "today_open": 168.75,
       "today_high": 169.8545,
       "today_low": 167.0012,
-      "today_close": 169.47
+      "today_close": 169.6065
     },
     "MNST": {
-      "last_price": 44.9,
+      "last_price": 44.35,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:41:39+00:00",
+      "last_price_time": "2026-09-03T11:56:16+00:00",
       "date": "2026-09-03",
       "today_open": 44.1787,
       "today_high": 44.9045,
       "today_low": 44.1787,
-      "today_close": 44.9045
+      "today_close": 44.3544
     },
     "MO": {
-      "last_price": 69.78,
+      "last_price": 69.75,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:33+00:00",
+      "last_price_time": "2026-09-03T11:55:36+00:00",
       "date": "2026-09-03",
       "today_open": 69.93,
       "today_high": 69.99,
       "today_low": 69.2632,
-      "today_close": 69.78
+      "today_close": 69.75
     },
     "MOD": {
-      "last_price": 179.0,
+      "last_price": 178.95,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:32:23+00:00",
+      "last_price_time": "2026-09-03T11:53:47+00:00",
       "date": "2026-09-03",
       "today_open": 180.01,
       "today_high": 181.44,
       "today_low": 176.0,
-      "today_close": 179.0
+      "today_close": 178.95
     },
     "MOH": {
       "last_price": 202.6,
@@ -4462,29 +4482,29 @@
       "today_close": 202.6
     },
     "MP": {
-      "last_price": 55.12,
+      "last_price": 54.95,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:51+00:00",
+      "last_price_time": "2026-09-03T11:56:57+00:00",
       "date": "2026-09-03",
       "today_open": 54.2,
       "today_high": 55.35,
       "today_low": 53.43,
-      "today_close": 55.12
+      "today_close": 54.95
     },
     "MPC": {
-      "last_price": 389.7,
+      "last_price": 390.5,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:48+00:00",
+      "last_price_time": "2026-09-03T11:57:16+00:00",
       "date": "2026-09-03",
       "today_open": 387.06,
       "today_high": 392.2,
       "today_low": 382.9026,
-      "today_close": 389.7
+      "today_close": 390.5
     },
     "MPLX": {
       "last_price": 59.54,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:32:29+00:00",
+      "last_price_time": "2026-09-03T11:32:00+00:00",
       "date": "2026-09-03",
       "today_open": 59.5,
       "today_high": 59.54,
@@ -4492,29 +4512,29 @@
       "today_close": 59.54
     },
     "MRK": {
-      "last_price": 152.0,
+      "last_price": 151.87,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:28:00+00:00",
+      "last_price_time": "2026-09-03T11:56:43+00:00",
       "date": "2026-09-03",
       "today_open": 151.4,
       "today_high": 152.241,
-      "today_low": 151.1345,
-      "today_close": 152.0
+      "today_low": 151.12,
+      "today_close": 151.87
     },
     "MRNA": {
-      "last_price": 146.59,
+      "last_price": 146.68,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:45:01+00:00",
+      "last_price_time": "2026-09-03T11:57:15+00:00",
       "date": "2026-09-03",
       "today_open": 148.45,
       "today_high": 151.49,
       "today_low": 146.2,
-      "today_close": 146.588
+      "today_close": 146.68
     },
     "MRP": {
       "last_price": 31.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:24:00+00:00",
+      "last_price_time": "2026-09-03T11:31:19+00:00",
       "date": "2026-09-03",
       "today_open": 30.7,
       "today_high": 31.1,
@@ -4524,7 +4544,7 @@
     "MRSH": {
       "last_price": 187.51,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:14:00+00:00",
+      "last_price_time": "2026-09-03T11:28:55+00:00",
       "date": "2026-09-03",
       "today_open": 187.84,
       "today_high": 187.84,
@@ -4532,34 +4552,34 @@
       "today_close": 187.51
     },
     "MRVL": {
-      "last_price": 204.23,
+      "last_price": 203.68,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:59+00:00",
+      "last_price_time": "2026-09-03T11:57:16+00:00",
       "date": "2026-09-03",
       "today_open": 206.9714,
       "today_high": 208.0,
-      "today_low": 204.0,
-      "today_close": 204.23
+      "today_low": 203.46,
+      "today_close": 203.68
     },
     "MS": {
-      "last_price": 212.0,
+      "last_price": 212.5,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:16:00+00:00",
+      "last_price_time": "2026-09-03T11:53:23+00:00",
       "date": "2026-09-03",
       "today_open": 211.51,
       "today_high": 213.6255,
       "today_low": 210.91,
-      "today_close": 212.0
+      "today_close": 212.5
     },
     "MSFT": {
       "last_price": 499.7,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:45:05+00:00",
+      "last_price_time": "2026-09-03T11:57:23+00:00",
       "date": "2026-09-03",
       "today_open": 496.67,
       "today_high": 500.9875,
       "today_low": 495.2632,
-      "today_close": 499.7
+      "today_close": 499.7001
     },
     "MSI": {
       "last_price": 478.0,
@@ -4572,19 +4592,19 @@
       "today_close": 478.0
     },
     "MSTR": {
-      "last_price": 124.86,
+      "last_price": 124.6,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:49+00:00",
+      "last_price_time": "2026-09-03T11:57:11+00:00",
       "date": "2026-09-03",
       "today_open": 124.9,
       "today_high": 125.64,
       "today_low": 122.55,
-      "today_close": 124.86
+      "today_close": 124.6
     },
     "MTB": {
       "last_price": 237.67,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:06:25+00:00",
+      "last_price_time": "2026-09-03T11:06:00+00:00",
       "date": "2026-09-03",
       "today_open": 235.48,
       "today_high": 238.3,
@@ -4594,7 +4614,7 @@
     "MTCH": {
       "last_price": 42.42,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:34:46+00:00",
+      "last_price_time": "2026-09-03T11:34:00+00:00",
       "date": "2026-09-03",
       "today_open": 42.1457,
       "today_high": 42.42,
@@ -4614,7 +4634,7 @@
     "MTG": {
       "last_price": 31.04,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:03:10+00:00",
+      "last_price_time": "2026-09-03T11:03:00+00:00",
       "date": "2026-09-03",
       "today_open": 31.04,
       "today_high": 31.04,
@@ -4624,7 +4644,7 @@
     "MTSI": {
       "last_price": 254.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:31:18+00:00",
+      "last_price_time": "2026-09-03T11:31:00+00:00",
       "date": "2026-09-03",
       "today_open": 259.41,
       "today_high": 267.27,
@@ -4634,7 +4654,7 @@
     "MTZ": {
       "last_price": 235.6,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:38:33+00:00",
+      "last_price_time": "2026-09-03T11:38:00+00:00",
       "date": "2026-09-03",
       "today_open": 235.5,
       "today_high": 245.3837,
@@ -4642,34 +4662,34 @@
       "today_close": 235.6
     },
     "MU": {
-      "last_price": 949.0,
+      "last_price": 948.1,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:45:05+00:00",
+      "last_price_time": "2026-09-03T11:57:28+00:00",
       "date": "2026-09-03",
       "today_open": 954.79,
       "today_high": 958.86,
       "today_low": 944.23,
-      "today_close": 949.0
+      "today_close": 948.1
     },
     "MUR": {
-      "last_price": 37.75,
+      "last_price": 37.51,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:35:35+00:00",
+      "last_price_time": "2026-09-03T11:36:08+00:00",
       "date": "2026-09-03",
       "today_open": 37.14,
       "today_high": 38.07,
       "today_low": 36.56,
-      "today_close": 37.75
+      "today_close": 37.51
     },
     "MXL": {
-      "last_price": 59.56,
+      "last_price": 59.38,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:01+00:00",
+      "last_price_time": "2026-09-03T11:50:43+00:00",
       "date": "2026-09-03",
       "today_open": 60.5,
       "today_high": 60.5,
-      "today_low": 59.46,
-      "today_close": 59.56
+      "today_low": 59.3821,
+      "today_close": 59.3821
     },
     "NBIX": {
       "last_price": 158.51,
@@ -4682,19 +4702,19 @@
       "today_close": 158.51
     },
     "NDAQ": {
-      "last_price": 95.71,
+      "last_price": 96.5,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:32:22+00:00",
+      "last_price_time": "2026-09-03T11:56:21+00:00",
       "date": "2026-09-03",
       "today_open": 95.7167,
       "today_high": 96.5,
       "today_low": 95.68,
-      "today_close": 95.71
+      "today_close": 96.5
     },
     "NE": {
       "last_price": 47.58,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:14:28+00:00",
+      "last_price_time": "2026-09-03T11:14:00+00:00",
       "date": "2026-09-03",
       "today_open": 48.04,
       "today_high": 48.04,
@@ -4702,49 +4722,49 @@
       "today_close": 47.58
     },
     "NEE": {
-      "last_price": 83.15,
+      "last_price": 83.27,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:17+00:00",
+      "last_price_time": "2026-09-03T11:45:14+00:00",
       "date": "2026-09-03",
       "today_open": 83.6585,
       "today_high": 83.6585,
       "today_low": 82.4615,
-      "today_close": 83.15
+      "today_close": 83.27
     },
     "NEM": {
-      "last_price": 126.87,
+      "last_price": 126.83,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:54+00:00",
+      "last_price_time": "2026-09-03T11:57:03+00:00",
       "date": "2026-09-03",
       "today_open": 126.18,
       "today_high": 127.4,
       "today_low": 125.16,
-      "today_close": 126.87
+      "today_close": 126.8293
     },
     "NESR": {
-      "last_price": 35.25,
+      "last_price": 34.63,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T09:18:00+00:00",
+      "last_price_time": "2026-09-03T11:33:00+00:00",
       "date": "2026-09-03",
       "today_open": 34.75,
       "today_high": 35.25,
-      "today_low": 34.75,
-      "today_close": 35.25
+      "today_low": 34.6253,
+      "today_close": 34.6253
     },
     "NET": {
-      "last_price": 278.31,
+      "last_price": 278.1,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:44+00:00",
+      "last_price_time": "2026-09-03T11:56:00+00:00",
       "date": "2026-09-03",
       "today_open": 275.38,
       "today_high": 279.0,
       "today_low": 273.5875,
-      "today_close": 278.31
+      "today_close": 278.1
     },
     "NFLX": {
       "last_price": 82.61,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:33+00:00",
+      "last_price_time": "2026-09-03T11:57:20+00:00",
       "date": "2026-09-03",
       "today_open": 82.39,
       "today_high": 82.945,
@@ -4754,7 +4774,7 @@
     "NI": {
       "last_price": 41.15,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:09:05+00:00",
+      "last_price_time": "2026-09-03T11:09:00+00:00",
       "date": "2026-09-03",
       "today_open": 41.15,
       "today_high": 41.15,
@@ -4762,14 +4782,14 @@
       "today_close": 41.15
     },
     "NKE": {
-      "last_price": 38.41,
+      "last_price": 38.39,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:52+00:00",
+      "last_price_time": "2026-09-03T11:56:21+00:00",
       "date": "2026-09-03",
       "today_open": 38.38,
       "today_high": 38.5,
       "today_low": 38.25,
-      "today_close": 38.41
+      "today_close": 38.39
     },
     "NNN": {
       "last_price": 45.36,
@@ -4782,24 +4802,24 @@
       "today_close": 45.36
     },
     "NOW": {
-      "last_price": 140.72,
+      "last_price": 140.57,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:45:04+00:00",
+      "last_price_time": "2026-09-03T11:57:13+00:00",
       "date": "2026-09-03",
       "today_open": 140.5,
       "today_high": 141.89,
       "today_low": 139.15,
-      "today_close": 140.72
+      "today_close": 140.57
     },
     "NRG": {
-      "last_price": 111.11,
+      "last_price": 112.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:37:20+00:00",
+      "last_price_time": "2026-09-03T11:50:44+00:00",
       "date": "2026-09-03",
       "today_open": 111.1,
       "today_high": 112.1875,
       "today_low": 111.0,
-      "today_close": 111.11
+      "today_close": 112.0
     },
     "NSC": {
       "last_price": 330.07,
@@ -4812,24 +4832,24 @@
       "today_close": 330.07
     },
     "NTAP": {
-      "last_price": 166.0,
+      "last_price": 164.12,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:51+00:00",
+      "last_price_time": "2026-09-03T11:54:25+00:00",
       "date": "2026-09-03",
       "today_open": 166.245,
       "today_high": 167.5,
       "today_low": 163.01,
-      "today_close": 166.0
+      "today_close": 164.12
     },
     "NTNX": {
-      "last_price": 68.13,
+      "last_price": 67.9,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:00:00+00:00",
+      "last_price_time": "2026-09-03T11:37:00+00:00",
       "date": "2026-09-03",
       "today_open": 67.95,
       "today_high": 68.13,
       "today_low": 66.86,
-      "today_close": 68.13
+      "today_close": 67.9
     },
     "NTRA": {
       "last_price": 326.0,
@@ -4854,7 +4874,7 @@
     "NUE": {
       "last_price": 263.79,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:45+00:00",
+      "last_price_time": "2026-09-03T11:47:42+00:00",
       "date": "2026-09-03",
       "today_open": 263.99,
       "today_high": 264.594,
@@ -4862,14 +4882,14 @@
       "today_close": 263.79
     },
     "NVDA": {
-      "last_price": 223.99,
+      "last_price": 223.45,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:45:03+00:00",
+      "last_price_time": "2026-09-03T11:57:21+00:00",
       "date": "2026-09-03",
       "today_open": 225.46,
       "today_high": 226.3762,
-      "today_low": 223.89,
-      "today_close": 223.994
+      "today_low": 223.43,
+      "today_close": 223.45
     },
     "NWS": {
       "last_price": 34.41,
@@ -4884,7 +4904,7 @@
     "NWSA": {
       "last_price": 30.86,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:37+00:00",
+      "last_price_time": "2026-09-03T11:44:00+00:00",
       "date": "2026-09-03",
       "today_open": 30.83,
       "today_high": 30.89,
@@ -4904,7 +4924,7 @@
     "NYT": {
       "last_price": 68.07,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:08:00+00:00",
+      "last_price_time": "2026-09-03T11:42:00+00:00",
       "date": "2026-09-03",
       "today_open": 67.68,
       "today_high": 68.07,
@@ -4912,19 +4932,19 @@
       "today_close": 68.07
     },
     "O": {
-      "last_price": 61.63,
+      "last_price": 61.62,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:44+00:00",
+      "last_price_time": "2026-09-03T11:57:21+00:00",
       "date": "2026-09-03",
       "today_open": 61.53,
       "today_high": 61.8997,
       "today_low": 61.4012,
-      "today_close": 61.63
+      "today_close": 61.62
     },
     "OC": {
       "last_price": 133.55,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:17:30+00:00",
+      "last_price_time": "2026-09-03T11:17:00+00:00",
       "date": "2026-09-03",
       "today_open": 136.2,
       "today_high": 136.2,
@@ -4944,7 +4964,7 @@
     "OGE": {
       "last_price": 46.46,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:08:59+00:00",
+      "last_price_time": "2026-09-03T11:08:00+00:00",
       "date": "2026-09-03",
       "today_open": 46.46,
       "today_high": 46.46,
@@ -4952,19 +4972,19 @@
       "today_close": 46.46
     },
     "OHI": {
-      "last_price": 47.13,
+      "last_price": 47.02,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:00:00+00:00",
+      "last_price_time": "2026-09-03T11:32:00+00:00",
       "date": "2026-09-03",
       "today_open": 47.32,
       "today_high": 47.32,
-      "today_low": 47.1311,
-      "today_close": 47.1311
+      "today_low": 47.02,
+      "today_close": 47.02
     },
     "OII": {
       "last_price": 52.99,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:04:06+00:00",
+      "last_price_time": "2026-09-03T11:04:00+00:00",
       "date": "2026-09-03",
       "today_open": 51.63,
       "today_high": 52.99,
@@ -4972,49 +4992,49 @@
       "today_close": 52.99
     },
     "OKE": {
-      "last_price": 96.98,
+      "last_price": 97.59,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:40:53+00:00",
+      "last_price_time": "2026-09-03T11:56:58+00:00",
       "date": "2026-09-03",
       "today_open": 96.03,
       "today_high": 97.84,
       "today_low": 96.01,
-      "today_close": 96.98
+      "today_close": 97.59
     },
     "OKLO": {
-      "last_price": 39.64,
+      "last_price": 39.43,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:45+00:00",
+      "last_price_time": "2026-09-03T11:56:24+00:00",
       "date": "2026-09-03",
       "today_open": 39.53,
       "today_high": 39.85,
       "today_low": 39.13,
-      "today_close": 39.6437
+      "today_close": 39.43
     },
     "OKTA": {
-      "last_price": 166.41,
+      "last_price": 165.95,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:37+00:00",
+      "last_price_time": "2026-09-03T11:56:46+00:00",
       "date": "2026-09-03",
       "today_open": 164.03,
-      "today_high": 167.5381,
+      "today_high": 168.0,
       "today_low": 162.2384,
-      "today_close": 166.41
+      "today_close": 165.95
     },
     "OLLI": {
-      "last_price": 73.95,
+      "last_price": 74.47,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:00:00+00:00",
+      "last_price_time": "2026-09-03T11:56:14+00:00",
       "date": "2026-09-03",
       "today_open": 74.0,
-      "today_high": 74.0,
+      "today_high": 75.0,
       "today_low": 73.95,
-      "today_close": 73.95
+      "today_close": 74.475
     },
     "OMC": {
       "last_price": 82.33,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:03:00+00:00",
+      "last_price_time": "2026-09-03T11:34:00+00:00",
       "date": "2026-09-03",
       "today_open": 82.2,
       "today_high": 82.33,
@@ -5024,7 +5044,7 @@
     "OMF": {
       "last_price": 63.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:14:34+00:00",
+      "last_price_time": "2026-09-03T11:14:00+00:00",
       "date": "2026-09-03",
       "today_open": 63.14,
       "today_high": 63.5537,
@@ -5032,29 +5052,29 @@
       "today_close": 63.0
     },
     "ON": {
-      "last_price": 72.01,
+      "last_price": 71.56,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:42:22+00:00",
+      "last_price_time": "2026-09-03T11:49:46+00:00",
       "date": "2026-09-03",
       "today_open": 72.13,
       "today_high": 72.66,
       "today_low": 71.42,
-      "today_close": 72.01
+      "today_close": 71.56
     },
     "ONTO": {
-      "last_price": 253.38,
+      "last_price": 252.49,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:04:00+00:00",
+      "last_price_time": "2026-09-03T11:37:00+00:00",
       "date": "2026-09-03",
       "today_open": 257.95,
       "today_high": 257.95,
       "today_low": 251.69,
-      "today_close": 253.38
+      "today_close": 252.49
     },
     "OPLN": {
       "last_price": 34.63,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:14:34+00:00",
+      "last_price_time": "2026-09-03T11:14:00+00:00",
       "date": "2026-09-03",
       "today_open": 34.63,
       "today_high": 34.63,
@@ -5062,14 +5082,14 @@
       "today_close": 34.63
     },
     "ORCL": {
-      "last_price": 146.75,
+      "last_price": 146.25,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:45:01+00:00",
+      "last_price_time": "2026-09-03T11:57:10+00:00",
       "date": "2026-09-03",
       "today_open": 146.47,
       "today_high": 147.73,
       "today_low": 145.16,
-      "today_close": 146.75
+      "today_close": 146.25
     },
     "ORI": {
       "last_price": 42.4,
@@ -5102,14 +5122,14 @@
       "today_close": 86.99
     },
     "OSCR": {
-      "last_price": 30.51,
+      "last_price": 30.3,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:36:09+00:00",
+      "last_price_time": "2026-09-03T11:57:14+00:00",
       "date": "2026-09-03",
       "today_open": 30.1413,
       "today_high": 30.584,
       "today_low": 30.1413,
-      "today_close": 30.51
+      "today_close": 30.3
     },
     "OTIS": {
       "last_price": 70.83,
@@ -5124,7 +5144,7 @@
     "OUST": {
       "last_price": 34.7,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:42:40+00:00",
+      "last_price_time": "2026-09-03T11:56:22+00:00",
       "date": "2026-09-03",
       "today_open": 34.98,
       "today_high": 35.4016,
@@ -5142,34 +5162,44 @@
       "today_close": 66.91
     },
     "OXY": {
-      "last_price": 61.33,
+      "last_price": 61.4,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:32+00:00",
+      "last_price_time": "2026-09-03T11:54:37+00:00",
       "date": "2026-09-03",
       "today_open": 60.94,
-      "today_high": 61.4348,
+      "today_high": 61.4394,
       "today_low": 60.19,
-      "today_close": 61.33
+      "today_close": 61.4008
+    },
+    "OZK": {
+      "last_price": 49.32,
+      "last_price_session": "Pre-market",
+      "last_price_time": "2026-09-03T11:54:21+00:00",
+      "date": "2026-09-03",
+      "today_open": 49.32,
+      "today_high": 49.32,
+      "today_low": 49.32,
+      "today_close": 49.32
     },
     "P": {
-      "last_price": 93.72,
+      "last_price": 91.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:41:19+00:00",
+      "last_price_time": "2026-09-03T11:50:28+00:00",
       "date": "2026-09-03",
       "today_open": 93.46,
       "today_high": 94.02,
-      "today_low": 92.0,
-      "today_close": 93.72
+      "today_low": 91.0,
+      "today_close": 91.0
     },
     "PANW": {
-      "last_price": 331.1,
+      "last_price": 332.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:53+00:00",
+      "last_price_time": "2026-09-03T11:57:18+00:00",
       "date": "2026-09-03",
       "today_open": 329.95,
       "today_high": 333.0,
       "today_low": 328.0,
-      "today_close": 331.1
+      "today_close": 332.0
     },
     "PAY": {
       "last_price": 36.32,
@@ -5194,7 +5224,7 @@
     "PB": {
       "last_price": 72.09,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:06:25+00:00",
+      "last_price_time": "2026-09-03T11:06:00+00:00",
       "date": "2026-09-03",
       "today_open": 72.09,
       "today_high": 72.09,
@@ -5202,14 +5232,14 @@
       "today_close": 72.09
     },
     "PBF": {
-      "last_price": 76.66,
+      "last_price": 76.73,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:34+00:00",
+      "last_price_time": "2026-09-03T11:52:22+00:00",
       "date": "2026-09-03",
       "today_open": 75.48,
       "today_high": 76.79,
       "today_low": 75.0,
-      "today_close": 76.6603
+      "today_close": 76.7308
     },
     "PCAR": {
       "last_price": 122.41,
@@ -5244,7 +5274,7 @@
     "PEG": {
       "last_price": 73.32,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:09:05+00:00",
+      "last_price_time": "2026-09-03T11:09:00+00:00",
       "date": "2026-09-03",
       "today_open": 73.32,
       "today_high": 73.32,
@@ -5262,29 +5292,29 @@
       "today_close": 38.0
     },
     "PENG": {
-      "last_price": 47.39,
+      "last_price": 47.1,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:30+00:00",
+      "last_price_time": "2026-09-03T11:46:59+00:00",
       "date": "2026-09-03",
       "today_open": 48.0,
       "today_high": 48.1,
       "today_low": 46.8255,
-      "today_close": 47.3875
+      "today_close": 47.1
     },
     "PEP": {
-      "last_price": 140.52,
+      "last_price": 141.05,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:41:56+00:00",
+      "last_price_time": "2026-09-03T11:57:24+00:00",
       "date": "2026-09-03",
       "today_open": 141.2985,
       "today_high": 142.0288,
       "today_low": 140.1015,
-      "today_close": 140.52
+      "today_close": 141.05
     },
     "PFG": {
       "last_price": 115.02,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:37:56+00:00",
+      "last_price_time": "2026-09-03T11:37:00+00:00",
       "date": "2026-09-03",
       "today_open": 112.269,
       "today_high": 116.6112,
@@ -5302,14 +5332,14 @@
       "today_close": 99.32
     },
     "PG": {
-      "last_price": 147.5,
+      "last_price": 147.74,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:46+00:00",
+      "last_price_time": "2026-09-03T11:49:45+00:00",
       "date": "2026-09-03",
       "today_open": 147.67,
       "today_high": 148.7127,
       "today_low": 146.66,
-      "today_close": 147.496
+      "today_close": 147.74
     },
     "PGR": {
       "last_price": 221.4,
@@ -5322,24 +5352,24 @@
       "today_close": 221.4
     },
     "PHM": {
-      "last_price": 123.7,
+      "last_price": 123.51,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:02:00+00:00",
+      "last_price_time": "2026-09-03T11:31:19+00:00",
       "date": "2026-09-03",
       "today_open": 123.7,
       "today_high": 123.7,
-      "today_low": 123.7,
-      "today_close": 123.7
+      "today_low": 123.21,
+      "today_close": 123.51
     },
     "PLD": {
-      "last_price": 135.03,
+      "last_price": 135.62,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:36:26+00:00",
+      "last_price_time": "2026-09-03T11:57:15+00:00",
       "date": "2026-09-03",
       "today_open": 136.59,
       "today_high": 137.0,
       "today_low": 135.03,
-      "today_close": 135.03
+      "today_close": 135.62
     },
     "PLNT": {
       "last_price": 51.69,
@@ -5352,29 +5382,29 @@
       "today_close": 51.69
     },
     "PLTR": {
-      "last_price": 171.0,
+      "last_price": 170.42,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:54+00:00",
+      "last_price_time": "2026-09-03T11:57:17+00:00",
       "date": "2026-09-03",
       "today_open": 170.1,
       "today_high": 171.8107,
       "today_low": 168.91,
-      "today_close": 171.0
+      "today_close": 170.419
     },
     "PM": {
-      "last_price": 188.12,
+      "last_price": 189.21,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:42:54+00:00",
+      "last_price_time": "2026-09-03T11:53:59+00:00",
       "date": "2026-09-03",
       "today_open": 188.66,
       "today_high": 189.6356,
       "today_low": 187.4072,
-      "today_close": 188.12
+      "today_close": 189.213
     },
     "PNC": {
       "last_price": 243.89,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:09:25+00:00",
+      "last_price_time": "2026-09-03T11:09:00+00:00",
       "date": "2026-09-03",
       "today_open": 242.46,
       "today_high": 243.8851,
@@ -5384,7 +5414,7 @@
     "PNFP": {
       "last_price": 100.1,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:06:25+00:00",
+      "last_price_time": "2026-09-03T11:06:00+00:00",
       "date": "2026-09-03",
       "today_open": 99.8,
       "today_high": 100.1,
@@ -5394,7 +5424,7 @@
     "PNW": {
       "last_price": 98.11,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:09:05+00:00",
+      "last_price_time": "2026-09-03T11:09:00+00:00",
       "date": "2026-09-03",
       "today_open": 98.11,
       "today_high": 98.11,
@@ -5402,14 +5432,14 @@
       "today_close": 98.11
     },
     "PODD": {
-      "last_price": 149.39,
+      "last_price": 149.45,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T10:51:00+00:00",
+      "last_price_time": "2026-09-03T11:23:00+00:00",
       "date": "2026-09-03",
       "today_open": 149.81,
       "today_high": 149.81,
       "today_low": 149.3859,
-      "today_close": 149.3859
+      "today_close": 149.45
     },
     "POR": {
       "last_price": 48.69,
@@ -5442,19 +5472,19 @@
       "today_close": 111.6
     },
     "PPL": {
-      "last_price": 34.24,
+      "last_price": 34.59,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:00:00+00:00",
+      "last_price_time": "2026-09-03T11:34:00+00:00",
       "date": "2026-09-03",
       "today_open": 34.24,
-      "today_high": 34.24,
+      "today_high": 34.59,
       "today_low": 34.24,
-      "today_close": 34.24
+      "today_close": 34.59
     },
     "PRIM": {
       "last_price": 74.5,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:05:16+00:00",
+      "last_price_time": "2026-09-03T11:05:00+00:00",
       "date": "2026-09-03",
       "today_open": 74.61,
       "today_high": 76.0,
@@ -5474,7 +5504,7 @@
     "PRU": {
       "last_price": 119.55,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:16:04+00:00",
+      "last_price_time": "2026-09-03T11:16:00+00:00",
       "date": "2026-09-03",
       "today_open": 119.55,
       "today_high": 121.94,
@@ -5484,7 +5514,7 @@
     "PSA": {
       "last_price": 301.02,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:17:38+00:00",
+      "last_price_time": "2026-09-03T11:17:00+00:00",
       "date": "2026-09-03",
       "today_open": 301.35,
       "today_high": 301.35,
@@ -5502,39 +5532,39 @@
       "today_close": 45.42
     },
     "PSX": {
-      "last_price": 258.25,
+      "last_price": 256.5,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:16+00:00",
+      "last_price_time": "2026-09-03T11:51:29+00:00",
       "date": "2026-09-03",
       "today_open": 256.89,
       "today_high": 261.86,
       "today_low": 254.8,
-      "today_close": 258.2501
+      "today_close": 256.5
     },
     "PTC": {
-      "last_price": 148.84,
+      "last_price": 150.0,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:12:00+00:00",
+      "last_price_time": "2026-09-03T11:31:00+00:00",
       "date": "2026-09-03",
       "today_open": 149.83,
-      "today_high": 149.83,
+      "today_high": 150.0,
       "today_low": 148.0,
-      "today_close": 148.84
+      "today_close": 150.0
     },
     "PVH": {
-      "last_price": 74.77,
+      "last_price": 74.7,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:42:36+00:00",
+      "last_price_time": "2026-09-03T11:55:52+00:00",
       "date": "2026-09-03",
       "today_open": 72.8,
       "today_high": 75.4051,
       "today_low": 72.8,
-      "today_close": 74.7664
+      "today_close": 74.7
     },
     "PWR": {
       "last_price": 610.78,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:36:46+00:00",
+      "last_price_time": "2026-09-03T11:38:37+00:00",
       "date": "2026-09-03",
       "today_open": 613.83,
       "today_high": 628.92,
@@ -5542,44 +5572,44 @@
       "today_close": 610.78
     },
     "PYPL": {
-      "last_price": 54.8,
+      "last_price": 54.74,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:24+00:00",
+      "last_price_time": "2026-09-03T11:55:46+00:00",
       "date": "2026-09-03",
       "today_open": 54.74,
       "today_high": 54.92,
       "today_low": 54.5147,
-      "today_close": 54.8
+      "today_close": 54.74
     },
     "Q": {
-      "last_price": 116.52,
+      "last_price": 117.67,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:40:09+00:00",
+      "last_price_time": "2026-09-03T11:40:00+00:00",
       "date": "2026-09-03",
       "today_open": 118.35,
-      "today_high": 118.35,
+      "today_high": 118.442,
       "today_low": 116.52,
-      "today_close": 116.52
+      "today_close": 117.67
     },
     "QCOM": {
-      "last_price": 168.48,
+      "last_price": 167.8,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:48+00:00",
+      "last_price_time": "2026-09-03T11:57:22+00:00",
       "date": "2026-09-03",
       "today_open": 169.6407,
       "today_high": 170.1,
-      "today_low": 167.7379,
-      "today_close": 168.48
+      "today_low": 167.5,
+      "today_close": 167.8
     },
     "QNT": {
-      "last_price": 48.51,
+      "last_price": 48.26,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:38+00:00",
+      "last_price_time": "2026-09-03T11:56:53+00:00",
       "date": "2026-09-03",
       "today_open": 48.1267,
       "today_high": 49.27,
       "today_low": 48.1267,
-      "today_close": 48.512
+      "today_close": 48.2601
     },
     "QRVO": {
       "last_price": 100.0,
@@ -5632,49 +5662,49 @@
       "today_close": 82.9
     },
     "RBLX": {
-      "last_price": 41.38,
+      "last_price": 41.32,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:42:48+00:00",
+      "last_price_time": "2026-09-03T11:52:50+00:00",
       "date": "2026-09-03",
       "today_open": 41.2,
       "today_high": 41.5,
       "today_low": 41.02,
-      "today_close": 41.38
+      "today_close": 41.32
     },
     "RBRK": {
-      "last_price": 88.49,
+      "last_price": 88.5,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:43:41+00:00",
+      "last_price_time": "2026-09-03T11:49:41+00:00",
       "date": "2026-09-03",
       "today_open": 88.01,
       "today_high": 89.05,
       "today_low": 86.5785,
-      "today_close": 88.49
+      "today_close": 88.5
     },
     "RCL": {
-      "last_price": 265.5,
+      "last_price": 264.97,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:28:00+00:00",
+      "last_price_time": "2026-09-03T11:48:14+00:00",
       "date": "2026-09-03",
       "today_open": 267.0,
       "today_high": 269.99,
       "today_low": 264.2548,
-      "today_close": 265.5
+      "today_close": 264.97
     },
     "RDDT": {
-      "last_price": 157.4,
+      "last_price": 156.65,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:26+00:00",
+      "last_price_time": "2026-09-03T11:57:08+00:00",
       "date": "2026-09-03",
       "today_open": 157.0,
       "today_high": 158.3662,
       "today_low": 155.5082,
-      "today_close": 157.4
+      "today_close": 156.65
     },
     "RDN": {
       "last_price": 36.49,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:14:48+00:00",
+      "last_price_time": "2026-09-03T11:14:00+00:00",
       "date": "2026-09-03",
       "today_open": 36.49,
       "today_high": 36.49,
@@ -5704,7 +5734,7 @@
     "RHI": {
       "last_price": 43.08,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:18:00+00:00",
+      "last_price_time": "2026-09-03T11:31:24+00:00",
       "date": "2026-09-03",
       "today_open": 42.9,
       "today_high": 43.49,
@@ -5714,7 +5744,7 @@
     "RJF": {
       "last_price": 176.82,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:14:48+00:00",
+      "last_price_time": "2026-09-03T11:14:00+00:00",
       "date": "2026-09-03",
       "today_open": 175.95,
       "today_high": 176.8182,
@@ -5722,14 +5752,14 @@
       "today_close": 176.8182
     },
     "RKLB": {
-      "last_price": 64.06,
+      "last_price": 63.87,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:56+00:00",
+      "last_price_time": "2026-09-03T11:57:23+00:00",
       "date": "2026-09-03",
       "today_open": 64.25,
       "today_high": 64.63,
       "today_low": 63.35,
-      "today_close": 64.06
+      "today_close": 63.87
     },
     "RMBS": {
       "last_price": 84.72,
@@ -5742,34 +5772,34 @@
       "today_close": 84.72
     },
     "RMD": {
-      "last_price": 230.2,
+      "last_price": 230.19,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:15:00+00:00",
+      "last_price_time": "2026-09-03T11:19:00+00:00",
       "date": "2026-09-03",
       "today_open": 230.87,
       "today_high": 230.97,
-      "today_low": 230.2,
-      "today_close": 230.2
+      "today_low": 230.19,
+      "today_close": 230.19
     },
     "RNG": {
-      "last_price": 73.6,
+      "last_price": 73.9,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:21:00+00:00",
+      "last_price_time": "2026-09-03T11:48:56+00:00",
       "date": "2026-09-03",
       "today_open": 72.99,
       "today_high": 74.0,
       "today_low": 72.99,
-      "today_close": 73.6
+      "today_close": 73.9
     },
     "ROKU": {
-      "last_price": 157.69,
+      "last_price": 157.7,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:00:00+00:00",
+      "last_price_time": "2026-09-03T11:27:00+00:00",
       "date": "2026-09-03",
       "today_open": 159.2367,
       "today_high": 159.2367,
       "today_low": 157.0,
-      "today_close": 157.69
+      "today_close": 157.7
     },
     "ROL": {
       "last_price": 35.95,
@@ -5822,49 +5852,49 @@
       "today_close": 42.48
     },
     "XLK": {
-      "last_price": 183.27,
+      "last_price": 182.85,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:42:38+00:00",
+      "last_price_time": "2026-09-03T11:52:14+00:00",
       "date": "2026-09-03",
       "today_open": 182.86,
       "today_high": 184.21,
       "today_low": 181.5,
-      "today_close": 183.27
+      "today_close": 182.85
     },
     "XLE": {
-      "last_price": 65.42,
+      "last_price": 65.54,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:40:17+00:00",
+      "last_price_time": "2026-09-03T11:57:14+00:00",
       "date": "2026-09-03",
       "today_open": 65.04,
-      "today_high": 65.48,
+      "today_high": 65.55,
       "today_low": 64.724,
-      "today_close": 65.42
+      "today_close": 65.5395
     },
     "XLF": {
-      "last_price": 57.75,
+      "last_price": 57.77,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:33:00+00:00",
+      "last_price_time": "2026-09-03T11:57:05+00:00",
       "date": "2026-09-03",
       "today_open": 57.77,
-      "today_high": 57.77,
+      "today_high": 57.7748,
       "today_low": 57.65,
-      "today_close": 57.75
+      "today_close": 57.7748
     },
     "XLV": {
-      "last_price": 173.23,
+      "last_price": 173.24,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:35:01+00:00",
+      "last_price_time": "2026-09-03T11:48:19+00:00",
       "date": "2026-09-03",
       "today_open": 173.09,
       "today_high": 173.6452,
       "today_low": 172.81,
-      "today_close": 173.2288
+      "today_close": 173.2388
     },
     "XLY": {
       "last_price": 115.23,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:22:36+00:00",
+      "last_price_time": "2026-09-03T11:22:00+00:00",
       "date": "2026-09-03",
       "today_open": 114.86,
       "today_high": 115.35,
@@ -5872,44 +5902,44 @@
       "today_close": 115.23
     },
     "XLP": {
-      "last_price": 85.44,
+      "last_price": 85.43,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:34:01+00:00",
+      "last_price_time": "2026-09-03T11:34:00+00:00",
       "date": "2026-09-03",
       "today_open": 85.53,
       "today_high": 85.95,
       "today_low": 85.3,
-      "today_close": 85.4448
+      "today_close": 85.43
     },
     "XLI": {
-      "last_price": 173.31,
+      "last_price": 173.04,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:44:54+00:00",
+      "last_price_time": "2026-09-03T11:56:38+00:00",
       "date": "2026-09-03",
       "today_open": 172.617,
       "today_high": 173.91,
       "today_low": 172.617,
-      "today_close": 173.31
+      "today_close": 173.04
     },
     "XLB": {
-      "last_price": 53.22,
+      "last_price": 53.14,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:07:00+00:00",
+      "last_price_time": "2026-09-03T11:31:00+00:00",
       "date": "2026-09-03",
       "today_open": 52.95,
       "today_high": 53.4897,
       "today_low": 52.95,
-      "today_close": 53.22
+      "today_close": 53.14
     },
     "XLU": {
-      "last_price": 42.67,
+      "last_price": 42.63,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:41:57+00:00",
+      "last_price_time": "2026-09-03T11:56:05+00:00",
       "date": "2026-09-03",
       "today_open": 42.69,
       "today_high": 42.75,
       "today_low": 42.61,
-      "today_close": 42.67
+      "today_close": 42.6288
     },
     "XLRE": {
       "last_price": 43.75,
@@ -5922,54 +5952,54 @@
       "today_close": 43.75
     },
     "XLC": {
-      "last_price": 113.86,
+      "last_price": 112.83,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:04:00+00:00",
+      "last_price_time": "2026-09-03T11:36:00+00:00",
       "date": "2026-09-03",
       "today_open": 112.42,
       "today_high": 115.8088,
       "today_low": 112.42,
-      "today_close": 113.86
+      "today_close": 112.831
     },
     "SPY": {
-      "last_price": 765.28,
+      "last_price": 764.81,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:45:07+00:00",
+      "last_price_time": "2026-09-03T11:57:27+00:00",
       "date": "2026-09-03",
       "today_open": 765.75,
       "today_high": 766.86,
       "today_low": 763.59,
-      "today_close": 765.2777
+      "today_close": 764.8113
     },
     "QQQ": {
-      "last_price": 708.16,
+      "last_price": 707.39,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:45:10+00:00",
+      "last_price_time": "2026-09-03T11:57:32+00:00",
       "date": "2026-09-03",
       "today_open": 710.08,
       "today_high": 711.86,
       "today_low": 706.5884,
-      "today_close": 708.16
+      "today_close": 707.39
     },
     "DIA": {
-      "last_price": 531.67,
+      "last_price": 531.54,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:41:23+00:00",
+      "last_price_time": "2026-09-03T11:52:19+00:00",
       "date": "2026-09-03",
       "today_open": 531.24,
       "today_high": 532.15,
       "today_low": 530.53,
-      "today_close": 531.67
+      "today_close": 531.5374
     },
     "IWM": {
-      "last_price": 293.7,
+      "last_price": 293.83,
       "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-03T11:42:16+00:00",
+      "last_price_time": "2026-09-03T11:56:31+00:00",
       "date": "2026-09-03",
       "today_open": 294.01,
       "today_high": 294.33,
       "today_low": 293.1432,
-      "today_close": 293.7
+      "today_close": 293.8299
     },
     "DAX": {
       "last_price": 46.7,
