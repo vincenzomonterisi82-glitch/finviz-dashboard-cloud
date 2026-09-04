@@ -5,7 +5,8 @@ import yfinance as yf
 with open('data.json', encoding='utf-8') as f:
     payload = json.load(f)
 
-tickers = [row['ticker'] for row in payload.get('results', [])]
+symbol_map = {row['ticker']: row.get('yahoo_symbol', row['ticker']) for row in payload.get('results', [])}
+tickers = list(symbol_map.keys())
 
 CHUNK = 150
 
@@ -17,9 +18,10 @@ prices = {}
 run_started = datetime.now(timezone.utc)
 
 for group in chunks(tickers, CHUNK):
+    symbols = [symbol_map[t] for t in group]
     try:
         df = yf.download(
-            tickers=' '.join(group),
+            tickers=' '.join(symbols),
             period='1d',
             interval='1m',
             prepost=True,
@@ -32,8 +34,9 @@ for group in chunks(tickers, CHUNK):
         continue
 
     for t in group:
+        symbol = symbol_map[t]
         try:
-            sub = df[t] if len(group) > 1 else df
+            sub = df[symbol] if len(group) > 1 else df
             sub = sub.dropna(subset=['Close'])
             if sub.empty:
                 continue
@@ -55,14 +58,14 @@ for group in chunks(tickers, CHUNK):
             last_close = float(sub.iloc[-1]['Close'])
 
             prices[t] = {
-                'last_price': round(last_close, 2),
+                'last_price': round(last_close, 6),
                 'last_price_session': session,
                 'last_price_time': last_time_utc.isoformat(),
                 'date': eastern.strftime('%Y-%m-%d'),
-                'today_open': round(float(sub.iloc[0]['Open']), 4),
-                'today_high': round(float(sub['High'].max()), 4),
-                'today_low': round(float(sub['Low'].min()), 4),
-                'today_close': round(last_close, 4),
+                'today_open': round(float(sub.iloc[0]['Open']), 6),
+                'today_high': round(float(sub['High'].max()), 6),
+                'today_low': round(float(sub['Low'].min()), 6),
+                'today_close': round(last_close, 6),
             }
         except Exception:
             continue
