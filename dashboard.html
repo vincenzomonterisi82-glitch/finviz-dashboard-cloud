@@ -389,7 +389,7 @@
           </div>
           ${previews(r.ticker)}
           <div class="fields">
-            <div><span class="label">Prezzo</span><span class="value">${esc(r.price)}</span></div>
+            <div><span class="label">Prezzo</span><span class="value">${Number(r.price).toFixed(6)}</span></div>
             <div><span class="label">Change</span><span class="value ${ch.startsWith("-") ? "negative" : "positive"}">${esc(r.change)}</span></div>
             <div><span class="label">Market Cap</span><span class="value">${esc(r.market_cap)}</span></div>
             <div><span class="label">Volume</span><span class="value">${esc(r.volume)}</span></div>
