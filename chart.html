@@ -27,9 +27,23 @@
 const ticker=new URLSearchParams(location.search).get('ticker');
 document.querySelector('#title').textContent=`${ticker||''} · Daily`;
 const root=document.querySelector('#chart');
-const chart=LightweightCharts.createChart(root,{layout:{background:{color:'#fff'},textColor:'#374151'},grid:{vertLines:{color:'#e5e7eb'},horzLines:{color:'#e5e7eb'}},rightPriceScale:{borderColor:'#d1d5db'},timeScale:{borderColor:'#d1d5db',timeVisible:false}});
-const candles=chart.addSeries(LightweightCharts.CandlestickSeries,{upColor:'#16a34a',downColor:'#dc2626',borderUpColor:'#16a34a',borderDownColor:'#dc2626',wickUpColor:'#16a34a',wickDownColor:'#dc2626'});
-const line=(color)=>chart.addSeries(LightweightCharts.LineSeries,{color,lineWidth:2,crosshairMarkerVisible:false});
+const chart=LightweightCharts.createChart(root,{layout:{background:{color:'#fff'},textColor:'#374151'},grid:{vertLines:{color:'#e5e7eb'},horzLines:{color:'#e5e7eb'}},rightPriceScale:{borderColor:'#d1d5db',scaleMargins:{top:0,top:0.2,bottom:0},formatter:{format:(price)=>price.toFixed(6)}},timeScale:{borderColor:'#d1d5db',timeVisible:false}});
+const candles=chart.addSeries(LightweightCharts.CandlestickSeries,{
+  upColor:'#16a34a',
+  downColor:'#dc2626',
+  borderUpColor:'#16a34a',
+  borderDownColor:'#dc2626',
+  wickUpColor:'#16a34a',
+  wickDownColor:'#dc2626',
+  priceFormat: { type: 'price', precision: 6, minMove: 0.000001 } // <-- AGGIUNTO QUI
+});
+
+const line=(color)=>chart.addSeries(LightweightCharts.LineSeries,{
+  color,
+  lineWidth: 2,
+  crosshairMarkerVisible: false,
+  priceFormat: { type: 'price', precision: 6, minMove: 0.000001 } // <-- AGGIUNTO QUI
+});
 let all=[], todayBar=null;
 function render(){
   let n=document.querySelector('#period').value==='6'?126:all.length;
@@ -46,7 +60,7 @@ document.querySelector('#period').onchange=render;
 new ResizeObserver(()=>chart.applyOptions({width:root.clientWidth,height:root.clientHeight})).observe(root);
 
 function paintPricebox(price,session,timeIso){
-  document.querySelector('#priceVal').textContent = price!=null ? `$${Number(price).toFixed(2)}` : '--';
+  document.querySelector('#priceVal').textContent = price!=null ? `$${Number(price).toFixed(6)}` : '--';
   const sessEl=document.querySelector('#priceSess');
   sessEl.textContent=session||'N/D';
   sessEl.className='sess '+(session==='Regular'?'sess-regular':session==='Pre-market'?'sess-pre':session==='After-hours'?'sess-after':'sess-nd');
