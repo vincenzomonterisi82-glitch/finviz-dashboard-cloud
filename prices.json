@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T08:16:46.481571+00:00",
+  "updated_at": "2026-09-07T14:23:55.142901+00:00",
   "prices": {
     "A": {
       "last_price": 152.53,
@@ -6132,14 +6132,14 @@
       "today_close": 295.01
     },
     "DAX": {
-      "last_price": 25987.570312,
-      "last_price_session": "Pre-market",
-      "last_price_time": "2026-09-07T08:02:00+00:00",
+      "last_price": 25990.359375,
+      "last_price_session": "Regular",
+      "last_price_time": "2026-09-07T14:09:00+00:00",
       "date": "2026-09-07",
       "today_open": 26039.539062,
       "today_high": 26069.990234,
-      "today_low": 25931.439453,
-      "today_close": 25987.570312
+      "today_low": 25919.609375,
+      "today_close": 25990.359375
     }
   }
 }
