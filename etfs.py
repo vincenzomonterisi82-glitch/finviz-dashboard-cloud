@@ -13,13 +13,19 @@ ETF_LIST = {
     'XLU': ('XLU', 'Utilities'),
     'XLRE': ('XLRE', 'Real Estate'),
     'XLC': ('XLC', 'Communication Services'),
+    
     # Non settoriali (ampio mercato)
     'SPY': ('SPY', 'Broad Market'),
     'QQQ': ('QQQ', 'Broad Market'),
     'DIA': ('DIA', 'Broad Market'),
     'IWM': ('IWM', 'Broad Market'),
-    # Indici esteri (usato l'indice cash, nessun ticker future continuous confermato su Yahoo Finance)
-   'DAX': ('^GDAXI', 'Indice'),
+    
+    # Bond/Treasury
+    'TLT': ('TLT', 'Bond/Treasury'),
+    
+    # Indici esteri
+    'EWZ': ('EWZ', 'Brazil'),
+    'DAX': ('^GDAXI', 'Indice'),
 }
 
 
