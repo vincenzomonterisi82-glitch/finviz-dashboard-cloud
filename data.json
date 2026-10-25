@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-10-24T10:06:30.053658Z"
+    "updated_at": "2026-10-25T10:32:02.042645Z"
   },
   "results": [
     {
@@ -353,8 +353,8 @@
       "pe": "N/D",
       "logo_url": "https://assets.finviz.com/images/stocks/GBPUSD.png",
       "asset_class": "valute",
-      "price": 1.3375,
-      "change": "-0.16%",
+      "price": 1.3374,
+      "change": "-0.22%",
       "sma_status": "ATTIVO",
       "trend_6m": "LOW",
       "last_earnings_date": "01/01/2025",
@@ -438,8 +438,8 @@
       "pe": "N/D",
       "logo_url": "https://assets.finviz.com/images/stocks/SI.png",
       "asset_class": "commodity",
-      "price": 53.711,
-      "change": "-1.92%",
+      "price": 53.949,
+      "change": "-1.49%",
       "sma_status": "ATTIVO",
       "trend_6m": "LOW",
       "last_earnings_date": "01/01/2025",
@@ -472,8 +472,8 @@
       "pe": "N/D",
       "logo_url": "https://assets.finviz.com/images/stocks/NG.png",
       "asset_class": "commodity",
-      "price": 2.64,
-      "change": "-5.58%",
+      "price": 3.05,
+      "change": "+9.08%",
       "sma_status": "ATTIVO",
       "trend_6m": "HIGH",
       "last_earnings_date": "01/01/2025",
@@ -492,7 +492,7 @@
       "price": 456.0,
       "change": "-0.98%",
       "sma_status": "ATTIVO",
-      "trend_6m": "HIGH",
+      "trend_6m": "LOW",
       "last_earnings_date": "01/01/2025",
       "next_earnings_date": "31/12/2026"
     },
