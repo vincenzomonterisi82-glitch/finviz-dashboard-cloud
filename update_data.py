@@ -5,7 +5,6 @@ import json
 import pandas as pd
 import yfinance as yf
 
-# Paniere mirato ed esteso di asset ad alta liquidità (Azioni, ETF, Valute, Commodity)
 ASSETS_LIST = [
     # Grandi Azioni USA
     {"ticker": "AAPL", "company": "Apple Inc.", "sector": "Technology", "industry": "Consumer Electronics", "asset_class": "azioni"},
@@ -88,7 +87,7 @@ def main():
     results = []
     history = {}
     
-    print("\n🔍 Analisi tecnica e generazione storico per i grafici...")
+    print("\n🔍 Analisi tecnica e calcolo delle Medie Mobili...")
     
     for idx, s in enumerate(ASSETS_LIST, 1):
         ticker = s["ticker"]
@@ -135,6 +134,9 @@ def main():
                     "asset_class": asset_cls,
                     "price": round(current_price, 4),
                     "change": f"{change_pct:+.2f}%",
+                    "sma20": round(sma20, 2),
+                    "sma50": round(sma50, 2),
+                    "sma100": round(sma100, 2),
                     "sma_status": f"SOPRA {conditions_met}/3 SMA" if asset_cls in ["azioni", "etf"] else "ATTIVO",
                     "trend_6m": "HIGH" if current_price >= prev_price else "LOW",
                     "last_earnings_date": last_e,
@@ -143,7 +145,6 @@ def main():
                 
                 results.append(item)
                 
-                # Formattazione precisa dello storico attesa da chart.html e dai mini-grafici
                 history_list = []
                 for index, row in hist.iterrows():
                     history_list.append({
@@ -156,7 +157,7 @@ def main():
                     })
                 history[ticker] = history_list
                 
-                print(f"[{idx}/{len(ASSETS_LIST)}] ✔️ [{asset_cls.upper()}] {ticker} aggiunto con storico grafici.")
+                print(f"[{idx}/{len(ASSETS_LIST)}] ✔️ [{asset_cls.upper()}] {ticker} aggiunto con SMA e grafici.")
             else:
                 print(f"[{idx}/{len(ASSETS_LIST)}] ❌ {ticker} escluso.")
         except Exception as e:
@@ -177,7 +178,7 @@ def main():
     with open("history.json", "w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False)
         
-    print(f"\n🎉 Generati data.json ({len(results)} elementi) e history.json con successo!")
+    print(f"\n🎉 Generati data.json ({len(results)} elementi) con le Medie Mobili incluse!")
 
 if __name__ == "__main__":
     main()
