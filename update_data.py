@@ -5,10 +5,9 @@ import json
 import pandas as pd
 import yfinance as yf
 
-# Paniere mirato ed esteso di titoli ad alta liquidità (Azioni, ETF, Valute, Commodity)
-# Invece di scansionare 500+ azioni a rischio timeout, usiamo un elenco selezionato di 60-70 asset top.
+# Paniere mirato ed esteso di asset ad alta liquidità (Azioni, ETF, Valute, Commodity)
 ASSETS_LIST = [
-    # Grandi Azioni USA (Tech, Finance, Energy, Consumer, Healthcare)
+    # Grandi Azioni USA
     {"ticker": "AAPL", "company": "Apple Inc.", "sector": "Technology", "industry": "Consumer Electronics", "asset_class": "azioni"},
     {"ticker": "MSFT", "company": "Microsoft Corp.", "sector": "Technology", "industry": "Software", "asset_class": "azioni"},
     {"ticker": "NVDA", "company": "NVIDIA Corp.", "sector": "Technology", "industry": "Semiconductors", "asset_class": "azioni"},
@@ -89,7 +88,7 @@ def main():
     results = []
     history = {}
     
-    print("\n🔍 Analisi tecnica in corso...")
+    print("\n🔍 Analisi tecnica e generazione storico per i grafici...")
     
     for idx, s in enumerate(ASSETS_LIST, 1):
         ticker = s["ticker"]
@@ -97,7 +96,7 @@ def main():
         try:
             t_obj = yf.Ticker(ticker)
             hist = t_obj.history(period="6mo")
-            if hist is None or len(hist) < 30:
+            if hist is None or len(hist) < 10:
                 continue
                 
             prices = hist['Close'].tolist()
@@ -118,7 +117,6 @@ def main():
                 current_price > sma100
             ])
             
-            # Filtro SMA applicato per azioni ed ETF, diretto per valute e commodity
             passa_filtro = (conditions_met >= 2) if asset_cls in ["azioni", "etf"] else True
             
             if passa_filtro:
@@ -144,8 +142,21 @@ def main():
                 }
                 
                 results.append(item)
-                history[ticker] = [{"date": str(index.date()), "close": float(row['Close'])} for index, row in hist.iterrows()]
-                print(f"[{idx}/{len(ASSETS_LIST)}] ✔️ [{asset_cls.upper()}] {ticker} aggiunto.")
+                
+                # Formattazione precisa dello storico attesa da chart.html e dai mini-grafici
+                history_list = []
+                for index, row in hist.iterrows():
+                    history_list.append({
+                        "date": index.strftime('%Y-%m-%d'),
+                        "open": float(row.get('Open', row['Close'])),
+                        "high": float(row.get('High', row['Close'])),
+                        "low": float(row.get('Low', row['Close'])),
+                        "close": float(row['Close']),
+                        "volume": int(row.get('Volume', 0))
+                    })
+                history[ticker] = history_list
+                
+                print(f"[{idx}/{len(ASSETS_LIST)}] ✔️ [{asset_cls.upper()}] {ticker} aggiunto con storico grafici.")
             else:
                 print(f"[{idx}/{len(ASSETS_LIST)}] ❌ {ticker} escluso.")
         except Exception as e:
@@ -166,7 +177,7 @@ def main():
     with open("history.json", "w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False)
         
-    print(f"\n🎉 Generati data.json ({len(results)} elementi) e history.json senza timeout!")
+    print(f"\n🎉 Generati data.json ({len(results)} elementi) e history.json con successo!")
 
 if __name__ == "__main__":
     main()
