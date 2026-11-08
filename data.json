@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated_at": "2026-11-07T12:16:39.921358Z"
+    "updated_at": "2026-11-08T12:36:49.625512Z"
   },
   "results": [
     {
@@ -453,9 +453,9 @@
       "pe": "N/D",
       "logo_url": "https://assets.finviz.com/images/stocks/SI.png",
       "asset_class": "commodity",
-      "price": 51.803,
-      "change": "-0.82%",
-      "sma20": 54.44,
+      "price": 51.942,
+      "change": "-0.56%",
+      "sma20": 54.45,
       "sma50": 59.98,
       "sma100": 60.84,
       "sma_status": "ATTIVO",
@@ -533,13 +533,13 @@
       "pe": "N/D",
       "logo_url": "https://assets.finviz.com/images/stocks/ZS.png",
       "asset_class": "commodity",
-      "price": 1189.0,
-      "change": "+0.68%",
-      "sma20": 1236.88,
-      "sma50": 1274.98,
-      "sma100": 1227.81,
+      "price": 1193.75,
+      "change": "+1.08%",
+      "sma20": 1237.11,
+      "sma50": 1275.08,
+      "sma100": 1227.86,
       "sma_status": "ATTIVO",
-      "trend_6m": "HIGH",
+      "trend_6m": "LOW",
       "last_earnings_date": "01/01/2025",
       "next_earnings_date": "31/12/2026"
     }
