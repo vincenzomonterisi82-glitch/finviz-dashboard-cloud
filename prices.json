@@ -1,295 +1,305 @@
 {
-  "updated_at": "2026-11-11T15:58:05.327507+00:00",
+  "updated_at": "2026-11-11T22:37:20.127662+00:00",
   "prices": {
     "AAPL": {
-      "last_price": 353.460114,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:58:00+00:00",
+      "last_price": 356.39,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:37:03+00:00",
       "date": "2026-11-11",
       "today_open": 346.12,
-      "today_high": 354.440002,
+      "today_high": 357.7,
       "today_low": 345.65,
-      "today_close": 353.460114
+      "today_close": 356.39
     },
     "MSFT": {
-      "last_price": 522.320007,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:58:00+00:00",
+      "last_price": 519.85,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:37:14+00:00",
       "date": "2026-11-11",
       "today_open": 533.56,
       "today_high": 537.7925,
       "today_low": 518.450012,
-      "today_close": 522.320007
+      "today_close": 519.85
     },
     "AMZN": {
-      "last_price": 266.799988,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:58:00+00:00",
+      "last_price": 265.05,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:37:18+00:00",
       "date": "2026-11-11",
       "today_open": 271.24,
       "today_high": 274.869995,
-      "today_low": 266.279999,
-      "today_close": 266.799988
+      "today_low": 265.05,
+      "today_close": 265.05
     },
     "TSLA": {
-      "last_price": 394.820007,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:58:00+00:00",
+      "last_price": 388.81,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:36:55+00:00",
       "date": "2026-11-11",
       "today_open": 387.0,
       "today_high": 395.429993,
-      "today_low": 384.71,
-      "today_close": 394.820007
+      "today_low": 379.78,
+      "today_close": 388.81
     },
     "PYPL": {
-      "last_price": 58.955002,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:57:00+00:00",
+      "last_price": 59.43,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:29:38+00:00",
       "date": "2026-11-11",
       "today_open": 58.47,
-      "today_high": 59.080002,
+      "today_high": 59.490002,
       "today_low": 57.849998,
-      "today_close": 58.955002
+      "today_close": 59.43
     },
     "JPM": {
-      "last_price": 341.899994,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:58:00+00:00",
+      "last_price": 343.6,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:20:36+00:00",
       "date": "2026-11-11",
       "today_open": 342.5,
-      "today_high": 344.0,
+      "today_high": 345.0,
       "today_low": 340.820007,
-      "today_close": 341.899994
+      "today_close": 343.6
     },
     "WFC": {
-      "last_price": 85.357002,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:58:00+00:00",
+      "last_price": 86.04,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:28:22+00:00",
       "date": "2026-11-11",
       "today_open": 85.59,
-      "today_high": 85.989998,
+      "today_high": 90.0261,
       "today_low": 85.279999,
-      "today_close": 85.357002
+      "today_close": 86.04
     },
     "DIS": {
-      "last_price": 118.925003,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:57:00+00:00",
+      "last_price": 120.0,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:32:09+00:00",
       "date": "2026-11-11",
       "today_open": 118.5,
-      "today_high": 119.239998,
+      "today_high": 120.0,
       "today_low": 118.0,
-      "today_close": 118.925003
+      "today_close": 120.0
+    },
+    "JNJ": {
+      "last_price": 281.25,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:28:24+00:00",
+      "date": "2026-11-11",
+      "today_open": 279.02,
+      "today_high": 281.25,
+      "today_low": 276.589996,
+      "today_close": 281.25
     },
     "PFE": {
-      "last_price": 29.165001,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:58:00+00:00",
+      "last_price": 29.4908,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:37:06+00:00",
       "date": "2026-11-11",
       "today_open": 29.25,
-      "today_high": 29.36,
+      "today_high": 29.57,
       "today_low": 28.950001,
-      "today_close": 29.165001
+      "today_close": 29.4908
     },
     "UNH": {
-      "last_price": 397.345001,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:58:00+00:00",
+      "last_price": 403.5,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:30:40+00:00",
       "date": "2026-11-11",
       "today_open": 404.0,
       "today_high": 404.73999,
       "today_low": 396.910004,
-      "today_close": 397.345001
+      "today_close": 403.5
     },
     "KO": {
-      "last_price": 96.32,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:58:00+00:00",
+      "last_price": 98.0,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:32:30+00:00",
       "date": "2026-11-11",
       "today_open": 96.02,
-      "today_high": 96.730003,
+      "today_high": 98.0,
       "today_low": 95.6479,
-      "today_close": 96.32
+      "today_close": 98.0
     },
     "PEP": {
-      "last_price": 140.889999,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:57:00+00:00",
+      "last_price": 144.1,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:33:50+00:00",
       "date": "2026-11-11",
       "today_open": 142.01,
-      "today_high": 142.279999,
+      "today_high": 144.43,
       "today_low": 140.529999,
-      "today_close": 140.889999
+      "today_close": 144.1
     },
     "WMT": {
-      "last_price": 124.048103,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:58:00+00:00",
+      "last_price": 126.0513,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:37:11+00:00",
       "date": "2026-11-11",
       "today_open": 123.92,
-      "today_high": 126.07,
+      "today_high": 126.2582,
       "today_low": 123.8077,
-      "today_close": 124.048103
+      "today_close": 126.0513
     },
     "COST": {
-      "last_price": 1077.670044,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:58:00+00:00",
+      "last_price": 1089.0,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:34:00+00:00",
       "date": "2026-11-11",
       "today_open": 1065.0,
       "today_high": 1091.920044,
       "today_low": 1065.0,
-      "today_close": 1077.670044
+      "today_close": 1089.0
     },
     "MCD": {
-      "last_price": 274.579987,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:58:00+00:00",
+      "last_price": 274.86,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:01:00+00:00",
       "date": "2026-11-11",
       "today_open": 280.5,
       "today_high": 280.78,
       "today_low": 274.450012,
-      "today_close": 274.579987
+      "today_close": 274.86
     },
     "NKE": {
-      "last_price": 38.02,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:57:00+00:00",
+      "last_price": 38.32,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:37:04+00:00",
       "date": "2026-11-11",
       "today_open": 38.75,
       "today_high": 38.8,
-      "today_low": 37.98,
-      "today_close": 38.02
+      "today_low": 37.740002,
+      "today_close": 38.32
     },
     "DIA": {
-      "last_price": 520.97998,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:58:00+00:00",
+      "last_price": 524.46,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:10:09+00:00",
       "date": "2026-11-11",
       "today_open": 522.95,
-      "today_high": 523.53,
+      "today_high": 524.84,
       "today_low": 520.049988,
-      "today_close": 520.97998
+      "today_close": 524.46
     },
     "XLF": {
-      "last_price": 58.16,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:58:00+00:00",
+      "last_price": 58.84,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:29:00+00:00",
       "date": "2026-11-11",
       "today_open": 58.2179,
-      "today_high": 58.339901,
+      "today_high": 58.84,
       "today_low": 58.01,
-      "today_close": 58.16
+      "today_close": 58.84
     },
     "EURUSD=X": {
-      "last_price": 1.110001,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:57:00+00:00",
+      "last_price": 1.109385,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:36:00+00:00",
       "date": "2026-11-11",
       "today_open": 1.117069,
       "today_high": 1.117319,
       "today_low": 1.108647,
-      "today_close": 1.110001
+      "today_close": 1.109385
     },
     "GBPUSD=X": {
-      "last_price": 1.328215,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:57:00+00:00",
+      "last_price": 1.32758,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:36:00+00:00",
       "date": "2026-11-11",
       "today_open": 1.33481,
       "today_high": 1.335595,
       "today_low": 1.326753,
-      "today_close": 1.328215
+      "today_close": 1.32758
     },
     "USDJPY=X": {
-      "last_price": 159.843002,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:58:00+00:00",
+      "last_price": 159.707993,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:37:00+00:00",
       "date": "2026-11-11",
       "today_open": 158.709,
-      "today_high": 159.895004,
+      "today_high": 159.938004,
       "today_low": 158.658997,
-      "today_close": 159.843002
+      "today_close": 159.707993
     },
     "AUDUSD=X": {
-      "last_price": 0.685495,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:57:00+00:00",
+      "last_price": 0.684932,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:35:00+00:00",
       "date": "2026-11-11",
       "today_open": 0.687049,
       "today_high": 0.688705,
       "today_low": 0.684697,
-      "today_close": 0.685495
+      "today_close": 0.684932
     },
     "USDCAD=X": {
-      "last_price": 1.42393,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:58:00+00:00",
+      "last_price": 1.42437,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T22:37:00+00:00",
       "date": "2026-11-11",
       "today_open": 1.4186,
-      "today_high": 1.425,
+      "today_high": 1.43,
       "today_low": 1.4182,
-      "today_close": 1.42393
+      "today_close": 1.42437
     },
     "GC=F": {
-      "last_price": 4012.300049,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:48:00+00:00",
+      "last_price": 3994.300049,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T21:59:00+00:00",
       "date": "2026-11-11",
       "today_open": 4054.5,
       "today_high": 4074.699951,
-      "today_low": 4008.399902,
-      "today_close": 4012.300049
+      "today_low": 3989.600098,
+      "today_close": 3994.300049
     },
     "SI=F": {
-      "last_price": 52.314999,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:47:00+00:00",
+      "last_price": 51.68,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T21:59:00+00:00",
       "date": "2026-11-11",
       "today_open": 52.535,
       "today_high": 53.18,
-      "today_low": 52.174999,
-      "today_close": 52.314999
+      "today_low": 51.639999,
+      "today_close": 51.68
     },
     "CL=F": {
-      "last_price": 88.150002,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:48:00+00:00",
+      "last_price": 86.419998,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T21:59:00+00:00",
       "date": "2026-11-11",
       "today_open": 86.629997,
       "today_high": 88.739998,
       "today_low": 85.809998,
-      "today_close": 88.150002
+      "today_close": 86.419998
     },
     "NG=F": {
-      "last_price": 3.348,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:48:00+00:00",
+      "last_price": 3.245,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-11T21:59:00+00:00",
       "date": "2026-11-11",
       "today_open": 3.292,
       "today_high": 3.397,
-      "today_low": 3.281,
-      "today_close": 3.348
+      "today_low": 3.177,
+      "today_close": 3.245
     },
     "ZC=F": {
-      "last_price": 444.5,
+      "last_price": 448.75,
       "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:48:00+00:00",
+      "last_price_time": "2026-11-11T19:19:00+00:00",
       "date": "2026-11-11",
       "today_open": 448.5,
       "today_high": 449.75,
       "today_low": 443.25,
-      "today_close": 444.5
+      "today_close": 448.75
     },
     "ZS=F": {
-      "last_price": 1224.75,
+      "last_price": 1230.5,
       "last_price_session": "Regular",
-      "last_price_time": "2026-11-11T15:48:00+00:00",
+      "last_price_time": "2026-11-11T19:19:00+00:00",
       "date": "2026-11-11",
       "today_open": 1224.0,
-      "today_high": 1228.25,
+      "today_high": 1236.0,
       "today_low": 1218.75,
-      "today_close": 1224.75
+      "today_close": 1230.5
     }
   }
 }
