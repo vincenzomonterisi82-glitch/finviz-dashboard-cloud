@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T18:15:30.515158+00:00",
+  "updated_at": "2026-11-27T01:52:35.604781+00:00",
   "prices": {
     "AAPL": {
       "last_price": 355.1,
@@ -122,74 +122,64 @@
       "today_close": 56.7499
     },
     "EURUSD=X": {
-      "last_price": 1.097333,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-26T18:14:00+00:00",
+      "last_price": 1.097213,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-27T01:51:00+00:00",
       "date": "2026-11-26",
       "today_open": 1.097333,
-      "today_high": 1.099143,
-      "today_low": 1.096011,
-      "today_close": 1.097333
+      "today_high": 1.097333,
+      "today_low": 1.096371,
+      "today_close": 1.097213
     },
     "GBPUSD=X": {
-      "last_price": 1.310702,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-26T18:14:00+00:00",
+      "last_price": 1.31108,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-27T01:51:00+00:00",
       "date": "2026-11-26",
-      "today_open": 1.31108,
-      "today_high": 1.312336,
-      "today_low": 1.309638,
-      "today_close": 1.310702
+      "today_open": 1.310771,
+      "today_high": 1.31108,
+      "today_low": 1.309415,
+      "today_close": 1.31108
     },
     "USDJPY=X": {
-      "last_price": 159.289993,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-26T18:15:00+00:00",
+      "last_price": 159.212006,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-27T01:52:00+00:00",
       "date": "2026-11-26",
-      "today_open": 159.197998,
-      "today_high": 159.337997,
-      "today_low": 158.945999,
-      "today_close": 159.289993
+      "today_open": 159.281006,
+      "today_high": 159.378998,
+      "today_low": 159.205002,
+      "today_close": 159.212006
     },
     "AUDUSD=X": {
-      "last_price": 0.663394,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-26T18:13:00+00:00",
+      "last_price": 0.665159,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-27T01:51:00+00:00",
       "date": "2026-11-26",
-      "today_open": 0.662866,
-      "today_high": 0.66507,
-      "today_low": 0.662778,
-      "today_close": 0.663394
+      "today_open": 0.663834,
+      "today_high": 0.665159,
+      "today_low": 0.663174,
+      "today_close": 0.665159
     },
     "USDCAD=X": {
-      "last_price": 1.42442,
-      "last_price_session": "Regular",
-      "last_price_time": "2026-11-26T18:15:00+00:00",
+      "last_price": 1.42423,
+      "last_price_session": "After-hours",
+      "last_price_time": "2026-11-27T01:52:00+00:00",
       "date": "2026-11-26",
-      "today_open": 1.42153,
-      "today_high": 1.42516,
-      "today_low": 1.4206,
-      "today_close": 1.42442
+      "today_open": 1.42458,
+      "today_high": 1.42551,
+      "today_low": 1.4239,
+      "today_close": 1.42423
     },
     "GC=F": {
       "last_price": 3620.399902,
       "last_price_session": "After-hours",
       "last_price_time": "2026-11-26T04:58:00+00:00",
       "date": "2026-11-25",
-      "today_open": 3548.100098,
+      "today_open": 3548.0,
       "today_high": 3634.699951,
       "today_low": 3453.800049,
       "today_close": 3620.399902
-    },
-    "SI=F": {
-      "last_price": 42.084999,
-      "last_price_session": "After-hours",
-      "last_price_time": "2026-11-26T04:58:00+00:00",
-      "date": "2026-11-25",
-      "today_open": 40.619999,
-      "today_high": 42.435001,
-      "today_low": 38.419998,
-      "today_close": 42.084999
     },
     "CL=F": {
       "last_price": 84.419998,
